@@ -13,3 +13,41 @@ h1{font-size:clamp(2.2rem,5vw,4.3rem);margin:.1em 0}.eyebrow{color:var(--gold);t
 table{width:100%;border-collapse:collapse;background:#17120f}th,td{padding:12px;border-bottom:1px solid #403022;text-align:left;vertical-align:top}th{color:var(--gold);background:#251c15}td{color:var(--muted)}
 code{font-family:Consolas,monospace;background:#0d0b09;border:1px solid #433220;padding:2px 6px;border-radius:4px;color:#f0d29c}.status{display:inline-block;padding:3px 8px;border:1px solid var(--line);border-radius:999px;font-size:.75rem}.footer{border-top:1px solid var(--line);color:#8d7d68;margin-top:40px;padding-top:20px}
 @media(max-width:800px){.layout{grid-template-columns:1fr}.side{display:none}main{padding:18px}}
+
+/* Mobile wiki navigation */
+@media (max-width: 800px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .side,
+    .sidebar {
+        display: block !important;
+        position: static;
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+        background: #17120f;
+    }
+
+    .side h4,
+    .sidebar h3 {
+        display: none;
+    }
+
+    .side a,
+    .sidebar .nav a {
+        display: inline-block;
+        padding: 9px 12px;
+        margin: 2px;
+        border: 1px solid var(--line);
+        border-radius: 5px;
+    }
+
+    main {
+        padding: 18px;
+    }
+}
