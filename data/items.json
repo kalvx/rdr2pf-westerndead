@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Lumber Axe",
+    "console_id": "lumberaxe",
+    "category": "Tool",
+    "status": "Tested",
+    "purpose": "Used by the lumberjack resource to cut trees.",
+    "notes": "The working item ID is not axe or hatchet."
+  },
+  {
+    "name": "Pickaxe",
+    "console_id": "pickaxe",
+    "category": "Tool",
+    "status": "Tested",
+    "purpose": "Used by the mining resource.",
+    "notes": "Confirmed usable on the current server."
+  },
+  {
+    "name": "Rifle Ammo Normal",
+    "console_id": "ammoriflenormal",
+    "category": "Ammunition",
+    "status": "Tested",
+    "purpose": "Normal ammunition for rifle-class weapons, including the Bolt Action Rifle.",
+    "notes": "Database item limit currently observed as 10."
+  },
+  {
+    "name": "Bolt Action Rifle",
+    "console_id": "WEAPON_RIFLE_BOLTACTION",
+    "category": "Weapon",
+    "status": "Tested",
+    "purpose": "Long-range rifle.",
+    "notes": "Purchased, equipped, and fired successfully."
+  },
+  {
+    "name": "Knife",
+    "console_id": "WEAPON_MELEE_KNIFE",
+    "category": "Weapon",
+    "status": "Tested",
+    "purpose": "Melee weapon and skinning tool.",
+    "notes": "Confirmed in the loadout table and usable in game."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Cook",
+    "earned_by": "Preparing meals repeatedly.",
+    "perk_direction": "Food restores more and lasts longer, allowing longer trips without eating again."
+  },
+  {
+    "title": "Hunter",
+    "earned_by": "Killing, skinning and harvesting more animals than other activities.",
+    "perk_direction": "Improved harvests, tracking and hunting progression."
+  },
+  {
+    "title": "Peddler",
+    "earned_by": "Selling pelts, wagons and goods; completing trade activity.",
+    "perk_direction": "Improved trade reputation and commerce benefits."
+  },
+  {
+    "title": "Exterminator",
+    "earned_by": "Eliminating infected and containing outbreaks.",
+    "perk_direction": "Infected-related rewards and recognition as a frontier protector."
+  },
+  {
+    "title": "Crook",
+    "earned_by": "Theft, burglary, stolen goods and lockpicking.",
+    "perk_direction": "Crime-focused benefits balanced by distrust."
+  },
+  {
+    "title": "Murderer",
+    "earned_by": "Excessive innocent NPC and player kills.",
+    "perk_direction": "Primarily a reputation consequence; the frontier remembers."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "vorp_core",
+    "purpose": "Characters, sessions, coordinates, health, core framework.",
+    "status": "Working"
+  },
+  {
+    "name": "vorp_character",
+    "purpose": "Character creation, selection, skin, clothing and spawn.",
+    "status": "Working"
+  },
+  {
+    "name": "vorp_stables",
+    "purpose": "Owned horses, carts, stable purchases and horse recall.",
+    "status": "Working"
+  },
+  {
+    "name": "vorp_weaponsv2",
+    "purpose": "Weapons, ammunition, gunsmith customization and crafting.",
+    "status": "Working / Validation"
+  },
+  {
+    "name": "vorp_hunting",
+    "purpose": "Animal rewards, butcher sales, skinning and plucking integration.",
+    "status": "Working / Investigating animals"
+  },
+  {
+    "name": "vorp_inventory",
+    "purpose": "Items, weapons, ammunition boxes and inventory UI.",
+    "status": "Working"
+  },
+  {
+    "name": "vorp_metabolism",
+    "purpose": "Hunger, thirst and usable food effects.",
+    "status": "Needs gameplay validation"
+  },
+  {
+    "name": "vorp_crafting",
+    "purpose": "Crafting recipes and material removal.",
+    "status": "Needs gameplay validation"
+  },
+  {
+    "name": "vorp_banking",
+    "purpose": "Deposit, withdrawal and account persistence.",
+    "status": "Needs gameplay validation"
+  },
+  {
+    "name": "vorp_admin",
+    "purpose": "Developer tools, teleporting, item/weapon spawning and testing.",
+    "status": "Working"
+  }
+]

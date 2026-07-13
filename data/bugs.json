@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Waypoint teleport appeared to freeze",
+    "status": "Resolved / Launch-path related",
+    "details": "Server was sometimes started with plain FXServer +exec server.cfg instead of the txAdmin profile. The corrected BAT now launches +set serverProfile default."
+  },
+  {
+    "title": "Horse invisible or failed to recall",
+    "status": "Resolved",
+    "details": "OneSync was enabled and the horse model name is converted with GetHashKey before CreatePed. Horse recall now works reliably when the correct server profile is launched."
+  },
+  {
+    "title": "Player loaded at random towns",
+    "status": "Resolved / Monitoring",
+    "details": "Coordinate saving was added to vorp_core and the save interval was reduced to 10 seconds. Continue testing disconnect versus full quit behavior."
+  },
+  {
+    "title": "Bow occasionally refuses to reload arrows",
+    "status": "Known issue",
+    "details": "Bow and arrows work, but reload behavior has been intermittent."
+  },
+  {
+    "title": "Some animals cannot be skinned or plucked",
+    "status": "Investigating",
+    "details": "Bison, Whitetail Buck, and some Wild Turkey carcasses did not produce the interaction despite model entries existing in vorp_hunting."
+  }
+]
