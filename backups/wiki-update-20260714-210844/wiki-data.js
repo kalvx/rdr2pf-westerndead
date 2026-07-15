@@ -176,35 +176,3 @@ window.WIKI_DATA = {
     }
   ]
 };
-
-/* RDR2PF_PAUSE_MENU_BUGS_20260714 */
-WIKI_DATA.bugs = WIKI_DATA.bugs || [];
-
-[
-    {
-        name: "Inventory money drop callback",
-        status: "Investigating",
-        notes: "Dropping money can trigger a DropItemMoney callback error. Reproduced with decimal and whole-dollar amounts. A failed callback may leave the inventory NUI unusable until reconnect."
-    },
-    {
-        name: "Weapon visibility after resource restart",
-        status: "Monitoring",
-        notes: "Restarting vorp_core or related resources may temporarily remove equipped bow and gun models from the character's back. Reconnecting restored the weapons."
-    },
-    {
-        name: "Custom menu blocked by stuck NUI",
-        status: "Investigating",
-        notes: "When another NUI such as inventory becomes stuck, custom pause-menu interactions may fail. The Open Rockstar Menu fallback remains available as an emergency recovery path."
-    },
-    {
-        name: "One-time ten dollar balance adjustment",
-        status: "Monitoring",
-        notes: "After one reconnect, a saved $4200.00 balance appeared as $4210.00. A later reconnect remained at $4210.00, so this does not currently appear to repeat every login."
-    }
-].forEach(function (bug) {
-    if (!WIKI_DATA.bugs.some(function (existing) {
-        return existing.name === bug.name;
-    })) {
-        WIKI_DATA.bugs.push(bug);
-    }
-});
