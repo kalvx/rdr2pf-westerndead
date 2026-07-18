@@ -1,0 +1,103 @@
+[
+    {
+        "value":  [
+                      {
+                          "location":  "Heartlands — Central Test Area",
+                          "x":  432.0,
+                          "y":  642.0,
+                          "z":  116.0,
+                          "status":  "Tested",
+                          "notes":  "Open terrain suitable for hunting tests."
+                      },
+                      {
+                          "location":  "Heartland Overflow",
+                          "x":  702.0,
+                          "y":  365.0,
+                          "z":  111.0,
+                          "status":  "Reference",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Emerald Ranch",
+                          "x":  1417.0,
+                          "y":  320.0,
+                          "z":  89.0,
+                          "status":  "Reference",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Horseshoe Overlook",
+                          "x":  -140.0,
+                          "y":  640.0,
+                          "z":  113.0,
+                          "status":  "Reference",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Valentine",
+                          "x":  -283.0,
+                          "y":  804.0,
+                          "z":  119.0,
+                          "status":  "Reference",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Rhodes Gunsmith",
+                          "x":  1323.7,
+                          "y":  -1323.6,
+                          "z":  77.89,
+                          "status":  "Tested",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Saint Denis Gunsmith",
+                          "x":  2716.87,
+                          "y":  -1285.44,
+                          "z":  49.63,
+                          "status":  "Tested",
+                          "notes":  ""
+                      },
+                      {
+                          "location":  "Blackwater",
+                          "x":  -875.35,
+                          "y":  -1336.72,
+                          "z":  43.97,
+                          "status":  "Reference",
+                          "notes":  ""
+                      }
+                  ],
+        "Count":  8
+    },
+    {
+        "location":  "Los Cuervos — Main Camp",
+        "x":  -5450,
+        "y":  -3650,
+        "z":  -15,
+        "status":  "Active",
+        "notes":  "Primary ten-member Los Cuervos camp."
+    },
+    {
+        "location":  "Los Cuervos — Surface Position",
+        "x":  -5415.88,
+        "y":  -3643.23,
+        "z":  -22.17,
+        "status":  "Active",
+        "notes":  "Five-member surface group."
+    },
+    {
+        "location":  "Los Cuervos — Bunker Position",
+        "x":  -5395.77,
+        "y":  -3666.9,
+        "z":  -25.01,
+        "status":  "Active",
+        "notes":  "Three bunker guards."
+    },
+    {
+        "location":  "Zombie Horde Alpha",
+        "x":  2464.84,
+        "y":  112.36,
+        "z":  72.54,
+        "status":  "Active Test",
+        "notes":  "Twenty-zombie roaming test horde."
+    }
+]

@@ -1,0 +1,25 @@
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Testing Log | Western Dead Wiki - RDR2PF Release</title><link rel="stylesheet" href="../assets/style.css"></head><body><a class="mobile-home-button" href="../index.html">Home</a><header class="topbar"><div class="brand"><div class="brand-mark">PF</div><div><div class="brand-title">Western Dead Wiki</div><div class="brand-sub">RDR2PF Release · Private Frontier</div></div></div><input id="globalSearch" class="search" placeholder="Search this page..."></header><div class="layout"><aside class="sidebar"><h3>Main</h3><div class="nav"><a href="../index.html">Home</a><a href="../player/getting-started.html">Getting Started</a><a href="../player/mastery.html">Living Mastery</a><a href="../player/hunting.html">Hunting</a></div><h3>Admin Wiki</h3><div class="nav"><a href="items.html">Item Database</a><a href="coordinates.html">Coordinates</a><a href="commands.html">Commands</a><a href="sql.html">SQL Queries</a><a href="resources.html">Resources</a><a href="bugs.html">Known Bugs</a><a href="testing-log.html">Testing Log</a><a href="devlog.html">Development Log</a><a href="roadmap.html">Roadmap</a></div></aside><main><section class="hero"><div class="eyebrow">Development Journal</div><h1>Testing Log</h1><p class="lede">A concise record of validated systems and discoveries.</p></section><section class="section"><div class="card" data-searchable><h3>Foundation Milestone</h3><p>Character creation, appearance saving, coordinate persistence, OneSync, stable ownership, horse recall, weapon purchase, weapon use, and txAdmin-profile startup have been validated.</p></div><div class="card" data-searchable><h3>Weapons</h3><p>Knife, Bolt Action Rifle, rifle ammunition, bow, and arrows have been used successfully. Bow reload can be intermittent.</p></div><div class="card" data-searchable><h3>Hunting</h3><p>At least one animal was skinned successfully. Bison, Whitetail Buck, and Wild Turkey variants require further testing.</p></div><div class="card" data-searchable><h3>Tools</h3><p><code>pickaxe</code> and <code>lumberaxe</code> are confirmed tool item IDs.</p></div><!-- RDR2PF-SAVE-QUIT-TESTING -->
+<div class="card" data-searchable>
+<h3>Custom Pause Menu and Save & Quit</h3>
+<p><strong>Validated:</strong> The custom pause menu opens successfully, Resume works, Map opens correctly, and the Rockstar pause menu can be opened through the emergency fallback button.</p>
+<p><strong>Save verification:</strong> Save & Quit sends current coordinates to the server, performs the full VORP character save, waits for the MariaDB update to complete, confirms success, and then disconnects only the requesting player.</p>
+<p><strong>Persistence verification:</strong> Character location and money were preserved after reconnect. A one-time increase from $4200.00 to $4210.00 was observed, but the balance remained $4210.00 on the following reconnect and does not currently appear to be a repeating login reward.</p>
+<p><strong>Multiplayer design:</strong> The server resolves the active character from the player's server source and license rather than trusting client-supplied character identifiers.</p>
+</div>
+
+<div class="card" data-searchable>
+<h3>Character Journal Development</h3>
+<p>The Character button is enabled, a dedicated Character Journal panel exists, and the Back navigation is wired. VORP already exposes live character information through <code>LocalPlayer.state.Character</code>, so the journal can be populated without performing a new database query each time it opens.</p>
+</div>
+
+<div class="card" data-searchable>
+<h3>Inventory and Weapon Observations</h3>
+<p>The inventory money Drop action intermittently throws a <code>DropItemMoney</code> callback error. A failed inventory callback may leave the inventory or NUI state unusable until reconnect.</p>
+<p>After restarting VORP resources, equipped weapons may temporarily disappear from the character's back. A full reconnect or reboot restored the bow and gun.</p>
+</div>
+</section><div class="footer">Western Dead Wiki — RDR2PF Release · Local static edition</div></main></div><script src="../assets/app.js"></script></body></html>
+
+
+
+
+
