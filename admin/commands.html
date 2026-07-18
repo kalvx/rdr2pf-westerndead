@@ -1,6 +1,200 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Server Commands | Western Dead Wiki</title><link rel="stylesheet" href="../assets/style.css"></head><body><a class="mobile-home-button" href="../index.html">Home</a><div class="top"><div class="brand">WESTERN DEAD WIKI</div><div class="sub">RDR2PF Release · Private Frontier</div></div><div class="layout"><aside class="side"><h4>Main</h4><a href="../index.html">Home</a><h4>Player Wiki</h4><a href="../player/mastery.html">Living Mastery</a><a href="../player/hunting.html">Hunting</a><h4>Admin Wiki</h4><a href="items.html">Item Database</a><a href="commands.html">Server Commands</a><a href="binds.html">Bind Command Reference</a><a href="coordinates.html">Coordinates</a><a href="bugs.html">Known Bugs</a><a href="encounters.html">Encounters</a><a href="factions.html">Factions</a><a href="devlog.html">Development Log</a></aside><main><section class="hero"><div class="eyebrow">Admin Wiki</div><h1>Server Commands</h1><p class="lede">Short commands and startup references already confirmed during server testing.</p></section>
-<input id="filter" class="search" placeholder="Search..." oninput="filterTable('filter','tbl')"><table id="tbl"><thead><tr><th>Name</th><th>Command</th><th>Where</th><th>Notes</th></tr></thead><tbody></tbody></table>
-<script>document.addEventListener("DOMContentLoaded",()=>{document.querySelector("#tbl tbody").innerHTML=WIKI_DATA.commands.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td><code>${esc(x.command)}</code></td><td>${esc(x.where)}</td><td>${esc(x.notes)}</td></tr>`).join("")})</script><div class="footer">Western Dead Wiki — RDR2PF Release · Offline Edition</div></main></div><script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Server Commands | Western Dead Wiki</title><link rel="stylesheet" href="../assets/style.css"></head><body><a class="mobile-home-button" href="../index.html">Home</a><div class="top"><div class="brand">WESTERN DEAD WIKI</div><div class="sub">RDR2PF Release Ã‚Â· Private Frontier</div></div><div class="layout"><aside class="side"><h4>Main</h4><a href="../index.html">Home</a><h4>Player Wiki</h4><a href="../player/mastery.html">Living Mastery</a><a href="../player/hunting.html">Hunting</a><h4>Admin Wiki</h4><a href="items.html">Item Database</a><a href="commands.html">Server Commands</a><a href="binds.html">Bind Command Reference</a><a href="coordinates.html">Coordinates</a><a href="bugs.html">Known Bugs</a><a href="encounters.html">Encounters</a><a href="factions.html">Factions</a><a href="devlog.html">Development Log</a></aside><main><section class="hero"><div class="eyebrow">Admin Wiki</div><h1>Server Commands</h1>
+
+<p>
+    Confirmed administrative, development, encounter, AI, zombie,
+    and FXServer resource commands used while developing Western Dead.
+</p>
+
+<section class="wiki-section">
+    <h2>AI and Encounter Commands</h2>
+
+    <p>
+        Run these commands from the in-game chat or F8 console while
+        testing custom encounters and spawned AI.
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Command</th>
+                    <th>Where</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spawn Encounter Camp</td>
+                    <td><code>spawncamp</code></td>
+                    <td>In-game / F8</td>
+                    <td>Spawns the custom AI encounter camp for testing.</td>
+                </tr>
+                <tr>
+                    <td>Clear Encounter AI</td>
+                    <td><code>clearai</code></td>
+                    <td>In-game / F8</td>
+                    <td>Deletes AI spawned by the primary RDR2PF AI encounter system.</td>
+                </tr>
+                <tr>
+                    <td>Clear Secondary AI</td>
+                    <td><code>clearai2</code></td>
+                    <td>In-game / F8</td>
+                    <td>Deletes AI spawned by the secondary encounter or faction system.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="wiki-section">
+    <h2>RDR2PF Resource Commands</h2>
+
+    <p>
+        Run these from the FXServer console or txAdmin console.
+        Do not place a slash before server-console commands.
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Resource</th>
+                    <th>Command</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AI and Encounters</td>
+                    <td><code>restart rdr2pf_ai</code></td>
+                    <td>Reloads the custom AI and encounter resource after script changes.</td>
+                </tr>
+                <tr>
+                    <td>Zombies</td>
+                    <td><code>restart rdr2pf_zombies</code></td>
+                    <td>Reloads zombie models, spawning, management, and AI behavior.</td>
+                </tr>
+                <tr>
+                    <td>Pause Menu</td>
+                    <td><code>restart rdr2pf_pausemenu</code></td>
+                    <td>Reloads the custom Western Dead pause menu.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="callout warning">
+        <strong>Unconfirmed crowd command:</strong>
+        <code>restart rdr2pf_crowd</code> is not documented because no confirmed
+        resource named <code>rdr2pf_crowd</code> has been found.
+        The crowd restart may instead be a registered command inside another resource.
+    </div>
+</section>
+
+<section class="wiki-section">
+    <h2>FXServer Resource Management</h2>
+
+    <p>
+        General commands used to discover, start, reload, and stop server resources.
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Purpose</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>refresh</code></td>
+                    <td>
+                        Rescans the resources directories and discovers newly added
+                        or changed resource manifests. It does not restart resources.
+                    </td>
+                    <td><code>refresh</code></td>
+                </tr>
+                <tr>
+                    <td><code>ensure &lt;resource&gt;</code></td>
+                    <td>
+                        Starts a stopped resource. If it is already running,
+                        FXServer reloads it.
+                    </td>
+                    <td><code>ensure rdr2pf_zombies</code></td>
+                </tr>
+                <tr>
+                    <td><code>restart &lt;resource&gt;</code></td>
+                    <td>Stops and starts an existing running resource.</td>
+                    <td><code>restart rdr2pf_ai</code></td>
+                </tr>
+                <tr>
+                    <td><code>stop &lt;resource&gt;</code></td>
+                    <td>Stops a running resource without starting it again.</td>
+                    <td><code>stop rdr2pf_zombies</code></td>
+                </tr>
+                <tr>
+                    <td><code>start &lt;resource&gt;</code></td>
+                    <td>Starts a resource that is currently stopped.</td>
+                    <td><code>start rdr2pf_zombies</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="wiki-section">
+    <h2>Common Development Sequences</h2>
+
+    <h3>Reload an Existing Resource</h3>
+    <pre><code>restart rdr2pf_ai</code></pre>
+
+    <h3>Discover and Start a Newly Added Resource</h3>
+    <pre><code>refresh
+ensure resource_name</code></pre>
+
+    <h3>Reload Zombie Development Changes</h3>
+    <pre><code>restart rdr2pf_zombies</code></pre>
+
+    <h3>Clear Encounter AI Before Reloading</h3>
+    <pre><code>clearai
+clearai2</code></pre>
+</section>
+
+<section class="wiki-section">
+    <h2>Command Location Notes</h2>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Command Format</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>In-game chat</td>
+                    <td>May require a leading slash, such as <code>/clearai</code>.</td>
+                </tr>
+                <tr>
+                    <td>RedM F8 console</td>
+                    <td>Usually entered without the slash, such as <code>clearai</code>.</td>
+                </tr>
+                <tr>
+                    <td>FXServer or txAdmin console</td>
+                    <td>
+                        Resource commands are entered without a slash,
+                        such as <code>restart rdr2pf_zombies</code>.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+</main></div><script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
 
 
 
