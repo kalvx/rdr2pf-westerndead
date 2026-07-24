@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Item Database &amp; Crafting Validation | Western Dead Wiki</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="mobile-home-button" href="../index.html">Home</a>
+<div class="top"><div class="brand">WESTERN DEAD WIKI</div><div class="sub">RDR2PF Release &middot; Private Frontier</div></div>
+<div class="layout">
+<aside class="side">
+  <h4>Main</h4>
+  <a href="../index.html">Home</a>
+
+  <h4>Player Guide</h4>
+  <a href="../player/getting-started.html">Getting Started</a>
+  <a href="../player/mastery.html">Living Mastery</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
+
+  <h4>World</h4>
+  <a href="../admin/encounters.html">Encounters</a>
+  <a href="../admin/factions.html">Factions</a>
+
+  <h4>Admin</h4>
+  <a href="../admin/items.html">Item Database</a>
+  <a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
+  <a href="../admin/commands.html">Server Commands</a>
+  <a href="../admin/binds.html">Bind Command Reference</a>
+  <a href="../admin/coordinates.html">Coordinates</a>
+  <a href="../admin/bugs.html">Known Bugs</a>
+  <a href="../admin/testing-log.html">Testing Log</a>
+  <a href="../admin/devlog.html">Development Log</a>
+  <a href="../admin/roadmap.html">Roadmap</a>
+</aside>
+<main>
+<section class="hero">
+<div class="eyebrow">Developer Standard</div>
+<h1>Item Database &amp; Crafting Validation</h1>
+<p class="lede">The MariaDB <code>items</code> table is the authoritative registry for inventory item IDs used by RDR2PF.</p>
+</section>
+
+<section class="wiki-section">
+<h2>Source of Truth</h2>
+<p>Every crafting ingredient, crafted output, shop entry, loot reward, profession reward, farming product, and scripted inventory item must use the exact value stored in <code>items.item</code>.</p>
+<p>The <code>label</code> column is display text only. Do not use a label in Lua or configuration files unless it is also the exact internal item ID.</p>
+<pre><code>SELECT item, label, `desc`
+FROM items
+ORDER BY item;</code></pre>
+</section>
+
+<section class="wiki-section">
+<h2>Confirmed Current Examples</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Internal ID</th><th>Use</th><th>Important Note</th></tr></thead>
+<tbody>
+<tr><td><code>consumable_breakfast</code></td><td>Crafted breakfast output</td><td>Confirmed present in MariaDB.</td></tr>
+<tr><td><code>egg</code></td><td>Ingredient ID</td><td>Both <code>egg</code> and <code>eggs</code> currently exist. A recipe must match the item actually held by the player.</td></tr>
+<tr><td><code>eggs</code></td><td>Ingredient ID</td><td>Separate database item from <code>egg</code>.</td></tr>
+<tr><td><code>pork</code></td><td>Ingredient ID</td><td>Lowercase internal ID.</td></tr>
+<tr><td><code>fibers</code></td><td>Crafting material</td><td>Plural internal ID.</td></tr>
+<tr><td><code>hemp</code></td><td>Plant/material</td><td>Lowercase internal ID.</td></tr>
+<tr><td><code>Indian_Tobbaco</code></td><td>Plant item</td><td>Preserve the database spelling and capitalization exactly.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="wiki-section">
+<h2>Required Validation Workflow</h2>
+<ol>
+<li>Identify every ingredient and output referenced by the recipe.</li>
+<li>Query the MariaDB <code>items</code> table for those exact IDs.</li>
+<li>Confirm the player inventory contains the same internal ID, not merely a similar display label.</li>
+<li>Check capitalization, singular/plural differences, underscores, and spelling.</li>
+<li>Restart the affected crafting resource after approved changes.</li>
+<li>Test the recipe in game with the required quantities present.</li>
+<li>Record only confirmed working behavior in the wiki.</li>
+</ol>
+</section>
+
+<section class="wiki-section">
+<h2>Useful SQL</h2>
+<h3>Check specific recipe items</h3>
+<pre><code>SELECT item, label, usable, `limit`, `desc`
+FROM items
+WHERE item IN ('consumable_breakfast', 'egg', 'eggs', 'pork')
+ORDER BY item;</code></pre>
+
+<h3>Search when the exact ID is unknown</h3>
+<pre><code>SELECT item, label, `desc`
+FROM items
+WHERE item LIKE '%search%'
+   OR label LIKE '%search%'
+ORDER BY item;</code></pre>
+
+<h3>Export the complete registry</h3>
+<pre><code>SELECT item
+FROM items
+ORDER BY item;</code></pre>
+</section>
+
+<section class="wiki-section">
+<h2>Current Database Snapshot</h2>
+<p>The repository contains a preserved plain-text snapshot at <code>data/item-ids.txt</code>. It contains 997 item IDs captured from the current <code>redm_vorp.items</code> table.</p>
+<p>The database remains authoritative. Regenerate the snapshot after adding, deleting, or renaming database items.</p>
+</section>
+
+<section class="wiki-section">
+<h2>Common Failure Causes</h2>
+<ul>
+<li>The recipe uses a display label instead of the internal ID.</li>
+<li>The recipe uses different capitalization.</li>
+<li>The player owns <code>egg</code> while the recipe requires <code>eggs</code>, or the reverse.</li>
+<li>The ingredient exists but the recipe expects a different quantity or metadata.</li>
+<li>The output exists in the database but the crafting resource was not restarted after editing.</li>
+<li>The recipe is registered in a different configuration file than expected.</li>
+</ul>
+</section>
+
+<div class="footer">Western Dead Wiki &mdash; RDR2PF Release &middot; Local static edition</div>
+</main>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

@@ -2,11 +2,11 @@ window.WIKI_DATA = {
   "items": [
     {
       "name": "Lumber Axe",
-      "console_id": "lumberaxe",
+      "console_id": "hatchet",
       "category": "Tool",
       "status": "Tested",
-      "purpose": "Cuts trees through the lumberjack resource.",
-      "notes": "Search under Axe; the server ID is lumberaxe."
+      "purpose": "Required inventory tool for the lumberjack resource.",
+      "notes": "Confirmed in the current lumberjack config: Config.Axe = hatchet."
     },
     {
       "name": "Pickaxe",

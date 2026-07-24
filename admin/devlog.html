@@ -28,12 +28,13 @@
 <a href="../index.html">Home</a>
 <a href="../player/getting-started.html">Getting Started</a>
 <a href="../player/mastery.html">Living Mastery</a>
-<a href="../player/hunting.html">Hunting</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
 </div>
 
 <h3>Admin Wiki</h3>
 <div class="nav">
 <a href="items.html">Item Database</a>
+<a href="item-validation.html">Item &amp; Crafting Validation</a>
 <a href="coordinates.html">Coordinates</a>
 <a href="commands.html">Commands</a>
 <a href="binds.html">Bind Reference</a>
@@ -54,6 +55,28 @@
 </section>
 
 <section class="section">
+
+<div class="card" data-searchable>
+<h3>July 23, 2026 - Jobs and Profession Systems Documented</h3>
+<p>Added a permanent Jobs &amp; Professions page covering the systems currently enabled, configured, tested, or under repair.</p>
+<ul>
+<li>Documented hunting/butcher, fishing, herbs/farming, crafting/cooking, lumberjack, mining, doctor, outlaw, and NPC-looting systems.</li>
+<li>Corrected the lumberjack tool reference from <code>lumberaxe</code> to the configured database item <code>hatchet</code>.</li>
+<li>Recorded the mining mismatch between configured <code>goldnugget</code> and database item <code>gold_nugget</code> for later repair and testing.</li>
+<li>Separated configured resources from fully tested gameplay loops so the wiki does not claim unfinished behavior is working.</li>
+</ul>
+</div>
+
+<div class="card" data-searchable>
+<h3>July 23, 2026 - 997-Item Database Registry Preserved</h3>
+<p>The MariaDB <code>items</code> table was confirmed as the authoritative inventory registry. A 997-item ID snapshot was preserved in <code>data/item-ids.txt</code>, and a permanent crafting-validation procedure was added before repairing broken recipes.</p>
+<ul>
+<li>Recipes must use the exact value from <code>items.item</code>.</li>
+<li><code>egg</code> and <code>eggs</code> were confirmed as separate existing item IDs.</li>
+<li><code>pork</code> and <code>consumable_breakfast</code> were confirmed present.</li>
+<li>Future recipe repairs will be compared against the database rather than guessed from labels.</li>
+</ul>
+</div>
 
 <div class="card" data-searchable>
 <h3>July 14, 2026 - Database-Confirmed Save & Quit</h3>

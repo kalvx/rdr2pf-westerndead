@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Development Log | Western Dead Wiki - RDR2PF Release</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<a class="mobile-home-button" href="../index.html">Home</a>
+
+<header class="topbar">
+<div class="brand">
+<div class="brand-mark">PF</div>
+<div>
+<div class="brand-title">Western Dead Wiki</div>
+<div class="brand-sub">RDR2PF Release - Private Frontier</div>
+</div>
+</div>
+<input id="globalSearch" class="search" placeholder="Search this page...">
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+<h3>Main</h3>
+<div class="nav">
+<a href="../index.html">Home</a>
+<a href="../player/getting-started.html">Getting Started</a>
+<a href="../player/mastery.html">Living Mastery</a>
+<a href="../player/hunting.html">Hunting</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
+</div>
+
+<h3>Admin Wiki</h3>
+<div class="nav">
+<a href="items.html">Item Database</a>
+<a href="item-validation.html">Item &amp; Crafting Validation</a>
+<a href="coordinates.html">Coordinates</a>
+<a href="commands.html">Commands</a>
+<a href="binds.html">Bind Reference</a>
+<a href="sql.html">SQL Queries</a>
+<a href="resources.html">Resources</a>
+<a href="bugs.html">Known Bugs</a><a href="encounters.html">Encounters</a><a href="factions.html">Factions</a>
+<a href="testing-log.html">Testing Log</a>
+<a href="devlog.html">Development Log</a>
+<a href="roadmap.html">Roadmap</a>
+</div>
+</aside>
+
+<main>
+<section class="hero">
+<div class="eyebrow">Development Journal</div>
+<h1>Development Log</h1>
+<p class="lede">Implementation history, design decisions, discoveries, and follow-up work.</p>
+</section>
+
+<section class="section">
+
+<div class="card" data-searchable>
+<h3>July 23, 2026 - Jobs and Profession Systems Documented</h3>
+<p>Added a permanent Jobs &amp; Professions page covering the systems currently enabled, configured, tested, or under repair.</p>
+<ul>
+<li>Documented hunting/butcher, fishing, herbs/farming, crafting/cooking, lumberjack, mining, doctor, outlaw, and NPC-looting systems.</li>
+<li>Corrected the lumberjack tool reference from <code>lumberaxe</code> to the configured database item <code>hatchet</code>.</li>
+<li>Recorded the mining mismatch between configured <code>goldnugget</code> and database item <code>gold_nugget</code> for later repair and testing.</li>
+<li>Separated configured resources from fully tested gameplay loops so the wiki does not claim unfinished behavior is working.</li>
+</ul>
+</div>
+
+<div class="card" data-searchable>
+<h3>July 23, 2026 - 997-Item Database Registry Preserved</h3>
+<p>The MariaDB <code>items</code> table was confirmed as the authoritative inventory registry. A 997-item ID snapshot was preserved in <code>data/item-ids.txt</code>, and a permanent crafting-validation procedure was added before repairing broken recipes.</p>
+<ul>
+<li>Recipes must use the exact value from <code>items.item</code>.</li>
+<li><code>egg</code> and <code>eggs</code> were confirmed as separate existing item IDs.</li>
+<li><code>pork</code> and <code>consumable_breakfast</code> were confirmed present.</li>
+<li>Future recipe repairs will be compared against the database rather than guessed from labels.</li>
+</ul>
+</div>
+
+<div class="card" data-searchable>
+<h3>July 14, 2026 - Database-Confirmed Save & Quit</h3>
+<p>A custom Save & Quit flow was completed for the RDR2PF pause menu.</p>
+<ul>
+<li>The client sends current coordinates and heading to the server.</li>
+<li>The server resolves the requesting player's active VORP character.</li>
+<li>The full character record is saved through <code>SaveUser()</code> and <code>SaveCharacterInDb()</code>.</li>
+<li>The MariaDB update is awaited directly.</li>
+<li>The player is disconnected only after the database reports success.</li>
+<li>The system operates independently for every connected player.</li>
+</ul>
+</div>
+
+<div class="card" data-searchable>
+<h3>July 14, 2026 - Rockstar Menu Emergency Fallback</h3>
+<p>The Open Rockstar Menu button now closes the custom NUI, releases focus, and triggers the alternate frontend pause control. This provides a recovery path if the custom menu or another NUI becomes unusable.</p>
+</div>
+
+<div class="card" data-searchable>
+<h3>July 14, 2026 - Character Journal Framework</h3>
+<p>The Character button was enabled and a separate Character Journal panel was added. Back navigation is working. Live character values will be read from <code>LocalPlayer.state.Character</code> rather than queried from MariaDB whenever the page is opened.</p>
+</div>
+
+<div class="card" data-searchable>
+<h3>Design Direction</h3>
+<p>The finished pause menu is intended to replace the normal Rockstar pause flow after it reaches feature parity. Planned presentation includes subtle smoke, ash, lantern flicker, journal styling, smoother transitions, character information, horse information, hometown, playtime, infection status, reputation, skills, statistics, and achievements.</p>
+</div>
+
+<div class="card" data-searchable>
+<h3>Open Investigations</h3>
+<ul>
+<li>Inventory <code>DropItemMoney</code> callback failure.</li>
+<li>Stuck inventory NUI interfering with other menu interactions.</li>
+<li>Equipped weapon models disappearing after resource restarts.</li>
+<li>One-time unexplained ten-dollar balance adjustment.</li>
+</ul>
+</div>
+
+</section>
+
+<div class="footer">Western Dead Wiki - RDR2PF Release - Local static edition</div>
+</main>
+</div>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>

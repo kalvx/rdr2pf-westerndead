@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Item Database | Western Dead Wiki</title><link rel="stylesheet" href="../assets/style.css"></head><body><a class="mobile-home-button" href="../index.html">Home</a><div class="top"><div class="brand">WESTERN DEAD WIKI</div><div class="sub">RDR2PF Release Â· Private Frontier</div></div><div class="layout"><aside class="side">
+<h4>Main</h4>
+<a href="../index.html">Home</a>
+
+<h4>Player Guide</h4>
+<a href="../player/getting-started.html">Getting Started</a>
+<a href="../player/mastery.html">Living Mastery</a>
+<a href="../player/hunting.html">Hunting</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
+
+<h4>World</h4>
+<a href="../admin/encounters.html">Encounters</a>
+<a href="../admin/factions.html">Factions</a>
+
+<h4>Admin</h4>
+<a href="../admin/items.html">Item Database</a>
+<a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
+<a href="../admin/commands.html">Server Commands</a>
+<a href="../admin/binds.html">Bind Command Reference</a>
+<a href="../admin/coordinates.html">Coordinates</a>
+<a href="../admin/bugs.html">Known Bugs</a>
+<a href="../admin/testing-log.html">Testing Log</a>
+<a href="../admin/devlog.html">Development Log</a>
+<a href="../admin/roadmap.html">Roadmap</a>
+</aside><main><section class="hero"><div class="eyebrow">Admin Wiki</div><h1>Item Database</h1><p class="lede">Search by ordinary name or exact console ID. This is the admin-facing ID reference.</p></section>
+<input id="filter" class="search" placeholder="Search..." oninput="filterTable('filter','tbl')"><table id="tbl"><thead><tr><th>Name</th><th>Console ID</th><th>Category</th><th>Status</th><th>Purpose / Notes</th></tr></thead><tbody></tbody></table>
+<script>document.addEventListener("DOMContentLoaded",()=>{document.querySelector("#tbl tbody").innerHTML=WIKI_DATA.items.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td><code>${esc(x.console_id)}</code></td><td>${esc(x.category)}</td><td><span class='status'>${esc(x.status)}</span></td><td>${esc(x.purpose)}<br><small>${esc(x.notes)}</small></td></tr>`).join("")})</script><div class="footer">Western Dead Wiki â€” RDR2PF Release Â· Offline Edition</div></main></div><script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
+
+
+
+

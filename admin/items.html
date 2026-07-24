@@ -5,7 +5,7 @@
   <h4>Player Guide</h4>
   <a href="../player/getting-started.html">Getting Started</a>
   <a href="../player/mastery.html">Living Mastery</a>
-  <a href="../player/hunting.html">Hunting</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
 
   <h4>World</h4>
   <a href="../admin/encounters.html">Encounters</a>
@@ -13,6 +13,7 @@
 
   <h4>Admin</h4>
   <a href="../admin/items.html">Item Database</a>
+<a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
   <a href="../admin/commands.html">Server Commands</a>
   <a href="../admin/binds.html">Bind Command Reference</a>
   <a href="../admin/coordinates.html">Coordinates</a>
@@ -21,8 +22,24 @@
   <a href="../admin/devlog.html">Development Log</a>
   <a href="../admin/roadmap.html">Roadmap</a>
 </aside><main><section class="hero"><div class="eyebrow">Admin Wiki</div><h1>Item Database</h1><p class="lede">Search by ordinary name or exact console ID. This is the admin-facing ID reference.</p></section>
+<!-- RDR2PF-ITEM-VALIDATION-CALLOUT -->
+<section class="wiki-section">
+<h2>MariaDB Is the Source of Truth</h2>
+<p>Scripts and recipes must use the exact internal value from <code>items.item</code>. Labels are display text and are not a substitute for an item ID.</p>
+<p><a href="item-validation.html">Open the Item Database &amp; Crafting Validation standard</a></p>
+</section>
 <input id="filter" class="search" placeholder="Search..." oninput="filterTable('filter','tbl')"><table id="tbl"><thead><tr><th>Name</th><th>Console ID</th><th>Category</th><th>Status</th><th>Purpose / Notes</th></tr></thead><tbody></tbody></table>
-<script>document.addEventListener("DOMContentLoaded",()=>{document.querySelector("#tbl tbody").innerHTML=WIKI_DATA.items.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td><code>${esc(x.console_id)}</code></td><td>${esc(x.category)}</td><td><span class='status'>${esc(x.status)}</span></td><td>${esc(x.purpose)}<br><small>${esc(x.notes)}</small></td></tr>`).join("")})</script><div class="footer">Western Dead Wiki Ã¢â‚¬â€ RDR2PF Release Ã‚Â· Offline Edition</div></main></div><script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
+<script>document.addEventListener("DOMContentLoaded",()=>{document.querySelector("#tbl tbody").innerHTML=WIKI_DATA.items.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td><code>${esc(x.console_id)}</code></td><td>${esc(x.category)}</td><td><span class='status'>${esc(x.status)}</span></td><td>${esc(x.purpose)}<br><small>${esc(x.notes)}</small></td></tr>`).join("")})</script><div class="footer">Western Dead Wiki ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â RDR2PF Release ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Offline Edition</div><!-- RDR2PF-GENERATOR: -->
+        <section class="content-card" id="complete-item-registry">
+            <h2>Complete item registry</h2>
+            <p>
+                Browse the full exported item database by internal item name,
+                label, description, and numeric ID where available.
+            </p>
+            <p><a href="item-registry.html">Open the complete item registry</a></p>
+        </section>
+<!-- RDR2PF-GENERATOR: -->
+    </main></div><script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
 
 
 

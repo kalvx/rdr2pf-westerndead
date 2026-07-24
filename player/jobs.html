@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jobs &amp; Professions | Western Dead Wiki</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="mobile-home-button" href="../index.html">Home</a>
+<div class="top"><div class="brand">WESTERN DEAD WIKI</div><div class="sub">RDR2PF Release &middot; Private Frontier</div></div>
+<div class="layout">
+<aside class="side">
+  <h4>Main</h4>
+  <a href="../index.html">Home</a>
+
+  <h4>Player Guide</h4>
+  <a href="../player/getting-started.html">Getting Started</a>
+  <a href="../player/mastery.html">Living Mastery</a>
+  <a href="../player/jobs.html">Jobs &amp; Professions</a>
+
+  <h4>World</h4>
+  <a href="../admin/encounters.html">Encounters</a>
+  <a href="../admin/factions.html">Factions</a>
+
+  <h4>Admin</h4>
+  <a href="../admin/items.html">Item Database</a>
+  <a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
+  <a href="../admin/commands.html">Server Commands</a>
+  <a href="../admin/binds.html">Bind Command Reference</a>
+  <a href="../admin/coordinates.html">Coordinates</a>
+  <a href="../admin/bugs.html">Known Bugs</a>
+  <a href="../admin/testing-log.html">Testing Log</a>
+  <a href="../admin/devlog.html">Development Log</a>
+  <a href="../admin/roadmap.html">Roadmap</a>
+</aside>
+<main>
+<section class="hero">
+<div class="eyebrow">Player Systems</div>
+<h1>Jobs &amp; Professions</h1>
+<p class="lede">The working and currently configured ways a character gathers materials, earns money, produces goods, treats players, or develops a reputation in RDR2PF.</p>
+</section>
+
+<section class="wiki-section">
+<h2>How Jobs Connect to the Server</h2>
+<p>RDR2PF does not treat every activity the same way. Some systems are formal jobs with job names and ranks, while others are open-world professions that any character can perform. Living Mastery records repeated behavior separately from the VORP job field.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>System</th><th>Current Role</th><th>Access</th><th>Current Status</th></tr></thead>
+<tbody>
+<tr><td>Hunting &amp; Butcher</td><td>Harvest animals and sell carcasses or animal goods.</td><td>Open-world; butcher job lock is currently disabled.</td><td>Active, with some animal skinning cases still under investigation.</td></tr>
+<tr><td>Fishing</td><td>Catch fish using bait and lures that resolve to inventory items.</td><td>Open-world.</td><td>Enabled resource; item IDs must match MariaDB.</td></tr>
+<tr><td>Herbalism &amp; Farming</td><td>Gather plants, use seeds, and produce agricultural materials.</td><td>Open-world through the herbs/farming item ecosystem.</td><td>Enabled item ecosystem; individual plant loops should be documented as tested.</td></tr>
+<tr><td>Crafting &amp; Cooking</td><td>Turn ingredients into food, tools, medicine, and other goods.</td><td>Location, category, or job restrictions may apply per recipe.</td><td>Enabled, but recipes are currently being audited because some fail despite ingredients being present.</td></tr>
+<tr><td>Lumberjack</td><td>Chop valid trees for wood and supporting materials.</td><td>Open-world outside restricted towns.</td><td>Resource configured; exact required tool is <code>hatchet</code>.</td></tr>
+<tr><td>Mining</td><td>Mine valid rocks for ore and raw materials.</td><td>Configured for Annesburg; other listed towns are restricted.</td><td>Resource configured; reward IDs require database validation.</td></tr>
+<tr><td>Doctor / Medic</td><td>Answer alerts, heal, revive, use stations, storage, and duty tools.</td><td>Formal <code>doctor</code> job with Doctor and Nurse ranks.</td><td>Enabled resource.</td></tr>
+<tr><td>Outlaw / Crook</td><td>Crime, stolen goods, lockpicking, and outlaw behavior.</td><td>Behavior-driven and resource-driven.</td><td>Enabled resource and connected to Crook/Murderer progression.</td></tr>
+<tr><td>NPC Looting</td><td>Recover configured items from defeated NPCs.</td><td>Open-world support system rather than a formal job.</td><td>Enabled resource; rewards must exist in the item registry.</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="wiki-section">
+<h2>Hunting &amp; Butcher</h2>
+<p>The hunting resource can grant configured animal products when animals are skinned, plucked, picked up, or sold. The butcher system is enabled and its job lock is currently disabled, so butcher NPCs are not restricted to characters holding the <code>butcher</code> job.</p>
+<p>Configured butcher locations include Valentine, Strawberry, Blackwater, Annesburg, Van Horn, Rhodes, Armadillo, Tumbleweed, Landing, and Saint Denis.</p>
+<p>Every <code>givenItem</code> entry must exist in MariaDB. Current examples include <code>venison</code>, <code>pork</code>, <code>porkfat</code>, <code>biggame</code>, pelts, antlers, claws, teeth, feathers, and animal-specific carcass items.</p>
+<div class="card"><h3>Known limitation</h3><p>Some Bison, Whitetail Buck, and Wild Turkey interactions have been inconsistent even though the animal hashes are configured. Keep those cases marked as investigating until they are retested successfully.</p></div>
+</section>
+
+<section class="wiki-section">
+<h2>Fishing</h2>
+<p>The fishing resource is enabled. Fish, bait, and lure rewards are inventory items, so their exact IDs must exist in <code>items.item</code>. Confirmed database examples include fish IDs such as <code>a_c_fishbluegil_01_ms</code>, <code>a_c_fishperch_01_sm</code>, and <code>a_c_fishsalmonsockeye_01_ms</code>, plus bait or lure IDs such as <code>p_baitBread01x</code>, <code>p_baitCheese01x</code>, <code>p_baitCorn01x</code>, <code>p_baitWorm01x</code>, and <code>p_FinisdFishlure01x</code>.</p>
+<p>Do not replace these internal IDs with their display names.</p>
+</section>
+
+<section class="wiki-section">
+<h2>Herbalism &amp; Farming</h2>
+<p>The database contains a large plant-and-seed ecosystem used by herb gathering and farming systems. Many plants have a matching seed item.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Plant</th><th>Seed</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td><code>hemp</code></td><td><code>hemp_seed</code></td><td>Supports fiber and hemp product chains.</td></tr>
+<tr><td><code>Indian_Tobbaco</code></td><td><code>Indian_Tobbaco_Seed</code></td><td>Keep the current database spelling and capitalization exactly.</td></tr>
+<tr><td><code>Wild_Mint</code></td><td><code>Wild_Mint_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
+<tr><td><code>Oregano</code></td><td><code>Oregano_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
+<tr><td><code>Yarrow</code></td><td><code>Yarrow_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
+<tr><td><code>wheat</code></td><td><code>wheatseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
+<tr><td><code>corn</code></td><td><code>cornseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
+<tr><td><code>potato</code></td><td><code>potatoseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
+</tbody></table></div>
+<p>The inconsistent naming patterns are why recipes and farming configuration must be checked against MariaDB instead of inferred.</p>
+</section>
+
+<section class="wiki-section">
+<h2>Crafting &amp; Cooking</h2>
+<p>Crafting is the conversion layer between job materials and usable goods. Recipes can require ingredients, produce one or more rewards, belong to a category, use a location restriction, require a job, or charge currency.</p>
+<p>The current breakfast investigation confirms that <code>consumable_breakfast</code>, <code>egg</code>, <code>eggs</code>, and <code>pork</code> all exist as database entries. That does not by itself prove the recipe is correct because <code>egg</code> and <code>eggs</code> are separate internal items.</p>
+<p>Use the <a href="../admin/item-validation.html">Item &amp; Crafting Validation</a> page before changing any recipe.</p>
+</section>
+
+<section class="wiki-section">
+<h2>Lumberjack</h2>
+<p>The lumberjack configuration requires the inventory item <code>hatchet</code>. This corrects the older wiki note that identified <code>lumberaxe</code> as the required tool.</p>
+<p>Tree chopping is blocked in Annesburg, Armadillo, Blackwater, Lagras, Rhodes, Saint Denis, Strawberry, Tumbleweed, Valentine, and Van Horn. The configured cooldown is 60 seconds.</p>
+<p>Configured rewards are:</p>
+<div class="table-wrap"><table><thead><tr><th>Item ID</th><th>Display Purpose</th></tr></thead><tbody>
+<tr><td><code>sap</code></td><td>Sap</td></tr>
+<tr><td><code>honey</code></td><td>Honey</td></tr>
+<tr><td><code>wood</code></td><td>Soft wood</td></tr>
+<tr><td><code>hwood</code></td><td>Hard wood</td></tr>
+<tr><td><code>rubber</code></td><td>Rubber</td></tr>
+<tr><td><code>fibers</code></td><td>Fibers</td></tr>
+<tr><td><code>pulp</code></td><td>Pulp</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="wiki-section">
+<h2>Mining</h2>
+<p>The mining configuration requires <code>pickaxe</code>. Annesburg is currently the only listed town with mining allowed; Armadillo, Blackwater, Lagras, Rhodes, Saint Denis, Strawberry, Tumbleweed, Valentine, and Van Horn are restricted.</p>
+<p>Configured rewards include <code>clay</code>, <code>coal</code>, <code>copper</code>, <code>iron</code>, <code>nitrite</code>, <code>rock</code>, and <code>salt</code>.</p>
+<div class="card"><h3>Database mismatch found</h3><p>The mining configuration references <code>goldnugget</code>, but the current MariaDB registry contains <code>gold_nugget</code>. Do not silently change it in the wiki or resource until the mining repair is approved and tested. This is a confirmed example of why the item validator is necessary.</p></div>
+</section>
+
+<section class="wiki-section">
+<h2>Doctor / Medic</h2>
+<p>The formal job name is <code>doctor</code>. Rank 0 is Doctor and rank 1 is Nurse. Configured doctor stations and shared medical storage exist in Valentine, Strawberry, and Saint Denis.</p>
+<p>Configured commands include <code>/calldoctor</code>, <code>/cancelDoctorAlert</code>, <code>/finishDoctorAlert</code>, and <code>/doctormenu</code>.</p>
+<div class="table-wrap"><table><thead><tr><th>Item ID</th><th>Configured Effect</th><th>Duty Requirement</th></tr></thead><tbody>
+<tr><td><code>bandage</code></td><td>Restores health and stamina.</td><td>No</td></tr>
+<tr><td><code>potion</code></td><td>Restores health.</td><td>No</td></tr>
+<tr><td><code>syringe</code></td><td>Revives a player.</td><td>Yes</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="wiki-section">
+<h2>Living Mastery Connections</h2>
+<p>Formal jobs and open-world professions are not the same thing as Living Mastery. The implemented progression system can record repeated behavior and calculate titles independently of a character's VORP job.</p>
+<ul>
+            </ul>
+        </section>
+<!-- RDR2PF-GENERATOR: -->
+    </main>
+</div>
+<script src="../data/wiki-data.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>
