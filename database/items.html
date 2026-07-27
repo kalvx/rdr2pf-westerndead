@@ -95,7 +95,164 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Game Database</div><h1>Every Item A–Z</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+<section class="hero compact-hero">
+    <div class="eyebrow">Game Database</div>
+    <h1>Every Item A–Z</h1>
+    <p class="lede">
+        Live item records gathered directly from the RDR2PF server database.
+    </p>
+</section>
+
+<section>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
+        <input
+            id="item-search"
+            type="search"
+            placeholder="Search item name, ID, or description..."
+            style="flex:1;min-width:260px;padding:12px 14px;"
+        >
+
+        <select id="item-usable" style="padding:12px 14px;">
+            <option value="all">All items</option>
+            <option value="1">Usable items</option>
+            <option value="0">Non-usable items</option>
+        </select>
+    </div>
+
+    <p id="item-status">Loading item database...</p>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th style="text-align:left;padding:10px;">Item</th>
+                    <th style="text-align:left;padding:10px;">Internal ID</th>
+                    <th style="text-align:left;padding:10px;">Description</th>
+                    <th style="text-align:left;padding:10px;">Limit</th>
+                    <th style="text-align:left;padding:10px;">Weight</th>
+                    <th style="text-align:left;padding:10px;">Usable</th>
+                </tr>
+            </thead>
+            <tbody id="item-results"></tbody>
+        </table>
+    </div>
+</section>
+
+<div class="footer">RDR2PF: Western Dead Compendium</div>
+
+<script>
+(function () {
+    const searchInput = document.getElementById("item-search");
+    const usableSelect = document.getElementById("item-usable");
+    const status = document.getElementById("item-status");
+    const results = document.getElementById("item-results");
+
+    let allItems = [];
+
+    function text(value) {
+        if (value === null || value === undefined || value === "NULL") {
+            return "";
+        }
+
+        return String(value);
+    }
+
+    function createCell(value) {
+        const cell = document.createElement("td");
+        cell.style.padding = "10px";
+        cell.style.verticalAlign = "top";
+        cell.style.borderTop = "1px solid rgba(255,255,255,0.12)";
+        cell.textContent = text(value);
+        return cell;
+    }
+
+    function renderItems() {
+        const search = searchInput.value.trim().toLowerCase();
+        const usable = usableSelect.value;
+
+        const filtered = allItems.filter(function (item) {
+            const source = item.source_record || {};
+
+            const searchable = [
+                item.label,
+                item.id,
+                item.description,
+                source.type
+            ].map(text).join(" ").toLowerCase();
+
+            const matchesSearch =
+                !search || searchable.includes(search);
+
+            const matchesUsable =
+                usable === "all" || text(source.usable) === usable;
+
+            return matchesSearch && matchesUsable;
+        });
+
+        results.replaceChildren();
+
+        const fragment = document.createDocumentFragment();
+
+        filtered.forEach(function (item) {
+            const source = item.source_record || {};
+            const row = document.createElement("tr");
+
+            row.appendChild(createCell(item.label || item.id));
+            row.appendChild(createCell(item.id));
+            row.appendChild(createCell(item.description));
+            row.appendChild(createCell(source.limit));
+            row.appendChild(createCell(source.weight));
+            row.appendChild(
+                createCell(text(source.usable) === "1" ? "Yes" : "No")
+            );
+
+            fragment.appendChild(row);
+        });
+
+        results.appendChild(fragment);
+
+        status.textContent =
+            "Showing " +
+            filtered.length.toLocaleString() +
+            " of " +
+            allItems.length.toLocaleString() +
+            " gathered items.";
+    }
+
+    fetch("items.json", { cache: "no-store" })
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error(
+                    "HTTP " + response.status + " while loading items.json"
+                );
+            }
+
+            return response.json();
+        })
+        .then(function (items) {
+            if (!Array.isArray(items)) {
+                throw new Error("items.json does not contain an item array.");
+            }
+
+            allItems = items.slice().sort(function (a, b) {
+                return text(a.label || a.id).localeCompare(
+                    text(b.label || b.id)
+                );
+            });
+
+            renderItems();
+        })
+        .catch(function (error) {
+            status.textContent =
+                "Item database failed to load: " + error.message;
+
+            console.error(error);
+        });
+
+    searchInput.addEventListener("input", renderItems);
+    usableSelect.addEventListener("change", renderItems);
+})();
+</script>
+</main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
