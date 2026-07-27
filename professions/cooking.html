@@ -54,7 +54,7 @@
 <a href="../professions/herbalist.html">Herbalist</a>
 <h4>Game Database</h4>
 <a href="../database/index.html">Database Home</a>
-<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/items.html">Every Item Aâ€“Z</a>
 <a href="../database/recipes.html">Recipes</a>
 <a href="../database/consumables.html">Consumables</a>
 <a href="../database/food.html">Food</a>
@@ -100,7 +100,7 @@
     <div class="eyebrow">Professions</div>
     <h1>Cooking</h1>
     <p class="lede">
-        Verified cooking and crafting recipes gathered directly from the RDR2PF server configuration.
+        Verified cooking recipes gathered directly from the RDR2PF server configuration.
     </p>
 </section>
 
@@ -109,7 +109,7 @@
         <input
             id="recipe-search"
             type="search"
-            placeholder="Search recipes, ingredients, or rewards..."
+            placeholder="Search meals, ingredients, or rewards..."
             style="flex:1;min-width:260px;padding:12px 14px;"
         >
 
@@ -268,7 +268,9 @@
                 );
             }
 
-            allRecipes = recipes.slice().sort(function (a, b) {
+            allRecipes = recipes.filter(function (recipe) {
+                return clean(recipe.category).toLowerCase() === "food";
+            }).sort(function (a, b) {
                 return clean(a.name || a.id).localeCompare(
                     clean(b.name || b.id)
                 );
