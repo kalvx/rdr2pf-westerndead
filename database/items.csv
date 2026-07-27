@@ -1,0 +1,1003 @@
+﻿"id","label","description","icon_found","icon_match","icon_filename","icon_path"
+"provision_coin_1700_ny_tkn","1700 New Yorke Token","A rare 1700 New Yorke Token","False","none",,
+"provision_coin_1787_cent_tkn","1787 One cent Token","A rare 1787 One cent Token","False","none",,
+"provision_coin_1789_pny","1789 Penny","A rare 1789 Penny","False","none",,
+"provision_coin_1792_lib_qtr","1792 Liberty Quarter","A rare 1792 Liberty Quarter","False","none",,
+"provision_coin_1792_nickel","1792 Nickel","A rare 1792 Nickel","False","none",,
+"provision_coin_1792_qtr","1792 Quarter","A rare 1792 Quarter","False","none",,
+"provision_coin_1794_slv_dlr","1794 Silver Dollar","A rare 1794 Silver Dollar","False","none",,
+"provision_coin_1795_hlf_eag","1795 Half Eagle","A rare 1795 Half Eagle","False","none",,
+"provision_coin_1796_hlf_pny","1796 Half Penny","A rare 1796 Half Penny","False","none",,
+"provision_coin_1797_gld_eag","1797 Gold Eagle","A rare 1797 Gold Eagle","False","none",,
+"provision_coin_1798_slv_dlr","1798 Silver Dollar","A rare 1798 Silver Dollar","False","none",,
+"provision_coin_1800_five_dlr","1800 Five Dollar","A rare 1800 Five Dollar","False","none",,
+"provision_coin_1800_gld_dlr","1800 Gold Dollar","A rare 1800 Gold Dollar","False","none",,
+"provision_coin_1800_gld_qtr","1800 Gold Quarter","A rare 1800 Gold Quarter","False","none",,
+"provision_coin_1800_hlf_dime","1800 Half Dime","A rare 1800 Half Dime","False","none",,
+"provision_jewelry_dmnd_bngle_bracelet","Abell├│ Ruby Bangle Bracelet","A hinged gold bangle with a series of claw set rubies.","False","none",,
+"absinthe","Absinthe","An anise-flavoured spirit derived from several plants, including the flowers and leaves of Artemisia absinthium","True","item-id","absinthe.png","assets/items/absinthe.png"
+"acid","Acid","A corrosive substance used for various purposes.","True","item-id","acid.png","assets/items/acid.png"
+"provision_ro_flower_acunas_star","Acunas Star Orchid","The Acunas Star Orchid an be identified by the branching of the stems, alternate leaves, and cream colored petals. The trailing plant is often found on the ground or growing around trees in swampland areas.","False","none",,
+"Agarita","Agarita","A flowering plant found in the wild, known for its medicinal properties.","True","item-id","Agarita.png","assets/items/Agarita.png"
+"Agarita_Seed","Agarita Seed","A seed that can be planted to grow Agarita plants.","True","item-id","Agarita_Seed.png","assets/items/Agarita_Seed.png"
+"provision_arrowhead_agate","Agate Arrowhead","A rare arrowhead fashioned from sharp, colorful agate.","False","none",,
+"collector_fossil_coral","Agatized Coral Fossil","A common piece of agatized coral, weather-beaten but still striking.","False","none",,
+"provision_jewelry_gld_cross_necklace","Ainsworth Cross Necklace","A solid gold chain necklace with an etched gold cross.","False","none",,
+"mashalaskan","Alaskan Gin Mash","A mixture of ingredients used in the production of Alaskan gin","True","item-id","mashalaskan.png","assets/items/mashalaskan.png"
+"mashamerican","Alaskan Gin Mash","A blend of ingredients used in the production of Alaskan gin","True","item-id","mashamerican.png","assets/items/mashamerican.png"
+"Alaskan_Ginseng","Alaskan Ginseng","A type of ginseng native to the Alaskan region, prized for its healing properties.","True","item-id","Alaskan_Ginseng.png","assets/items/Alaskan_Ginseng.png"
+"Alaskan_Ginseng_Seed","Alaskan Ginseng Seed","A seed that can be planted to grow Alaskan Ginseng.","True","item-id","Alaskan_Ginseng_Seed.png","assets/items/Alaskan_Ginseng_Seed.png"
+"alcohol","Alcohol","An intoxicating beverage consumed for recreational purposes.","True","item-id","alcohol.png","assets/items/alcohol.png"
+"Gator_Egg_3","Aligator Egg 3","The third stage of an alligator egg.","True","item-id","Gator_Egg_3.png","assets/items/Gator_Egg_3.png"
+"Gator_Egg_4","Aligator Egg 4","The fourth stage of an alligator egg.","True","item-id","Gator_Egg_4.png","assets/items/Gator_Egg_4.png"
+"Gator_Egg_5","Aligator Egg 5","The final stage of an alligator egg.","True","item-id","Gator_Egg_5.png","assets/items/Gator_Egg_5.png"
+"aligatormeat","Alligator Meat","Raw meat obtained from hunting alligators, suitable for cooking.","True","item-id","aligatormeat.png","assets/items/aligatormeat.png"
+"aligators","Alligator Pelt","The skin of an alligator, commonly used for crafting and trading.","False","none",,
+"aligatorto","Alligator Tooth","A tooth extracted from an alligator, sometimes used for decorative purposes.","False","none",,
+"American_Ginseng","American Ginseng","A species of ginseng native to North America, valued for its medicinal properties.","True","item-id","American_Ginseng.png","assets/items/American_Ginseng.png"
+"American_Ginseng_Seed","American Ginseng Seed","A seed that can be planted to grow American Ginseng.","True","item-id","American_Ginseng_Seed.png","assets/items/American_Ginseng_Seed.png"
+"provision_disco_ammolite","Ammolite","Fossilized shell of an ammonite.","False","none",,
+"provision_disco_ancient_eagle","Ancient Eagle","An ancient eagle statue.","False","none",,
+"provision_disco_ancient_necklace","Ancient Necklace","An ancient necklace.","False","none",,
+"oxhorn","Angus Bull horn","A sturdy horn from an Angus Bull.","True","item-id","oxhorn.png","assets/items/oxhorn.png"
+"oxs","Angus Bull pelt","The thick fur and skin of an Angus Bull.","False","none",,
+"Fat","Animal Fat","Rendered fat obtained from animals, commonly used in cooking and crafting.","True","item-id","Fat.png","assets/items/Fat.png"
+"antipoison2","Anti Snake Poison","A poison used to fend off snakes","True","item-id","antipoison2.png","assets/items/antipoison2.png"
+"antipoison","Antipoison","A medicine used to counteract the effects of poison","True","item-id","antipoison.png","assets/items/antipoison.png"
+"apple","Apple","A juicy and delicious fruit","True","item-id","apple.png","assets/items/apple.png"
+"apple_barrel","Apple Barrel","A barrel filled with fresh apples","False","none",,
+"applebarrel","Apple Barrel","A barrel filled with fresh apples","False","none",,
+"apple_basket","Apple Basket","A basket filled with fresh apples","False","none",,
+"applebasket","Apple Basket","A basket filled with fresh apples","False","none",,
+"mashapple","Apple Mash","A mashed mixture of apples used for various recipes","True","item-id","mashapple.png","assets/items/mashapple.png"
+"consumable_applepie","Apple Pie","A freshly baked apple pie.","True","item-id","consumable_applepie.png","assets/items/consumable_applepie.png"
+"Apple_Seed","Apple Seed","A seed used for growing apple trees","True","item-id","Apple_Seed.png","assets/items/Apple_Seed.png"
+"armadilloc","Armadillo Claws","Sharp claws harvested from an Armadillo","False","none",,
+"armadillos","Armadillo Pelt","A pelt taken from an Armadillo","False","none",,
+"ammoarrowdynamite","Arrow Dynamite","An explosive arrow designed to cause significant damage upon impact.","True","item-id","ammo_arrow_dynamite.png","assets/items/ammo_arrow_dynamite.png"
+"ammoarrowfire","Arrow Fire","An arrow equipped with a flaming tip, capable of setting targets on fire.","True","item-id","ammo_arrow_fire.png","assets/items/ammo_arrow_fire.png"
+"ammoarrowimproved","Arrow Improved","An upgraded arrow with improved accuracy and damage.","True","item-id","ammo_arrow_improved.png","assets/items/ammo_arrow_improved.png"
+"ammoarrownormal","Arrow Normal","A standard arrow used with bows for hunting and combat.","True","item-id","ammoarrownormal.png","assets/items/ammoarrownormal.png"
+"ammoarrowpoison","Arrow Poison","An arrow coated with a poisonous substance, capable of inflicting additional damage over time.","True","item-id","ammo_arrow_poison.png","assets/items/ammo_arrow_poison.png"
+"ammoarrowsmallgame","Arrow Small Game","A specialized arrow designed for hunting small game without damaging their pelts.","True","item-id","ammo_arrow_small_game.png","assets/items/ammo_arrow_small_game.png"
+"provision_jewelry_onyx_ring","Aubrey Onyx Ring","A rare white gold ring with a bezel set diamond surrounded by polished onyx.","False","none",,
+"bacon","Bacon","Bacon what else do you need to know?","True","item-id","bacon.png","assets/items/bacon.png"
+"badgers","Badger skin","Skin obtained from a badger.","False","none",,
+"bait","Bait","Used as bait to attract fish while fishing.","True","item-id","bait.png","assets/items/bait.png"
+"provision_jewelry_topaz_ring","Banais Topaz Ring","A neat silver wedding ring with brilliant cut topaz.","False","none",,
+"banana","Banana","A delicious and nutritious tropical fruit.","True","item-id","banana.png","assets/items/banana.png"
+"bandage","Bandage","A medical item used to dress wounds.","True","item-id","bandage.png","assets/items/bandage.png"
+"bandage_2","Bandage","A medical item used to dress wounds.","True","item-id","bandage_2.png","assets/items/bandage_2.png"
+"kit_bandana","Bandana","A versatile and stylish piece of cloth that can be worn around the neck or head for various purposes. It adds a touch of fashion to any outfit.","True","item-id","kit_bandana.png","assets/items/kit_bandana.png"
+"barrel","Barrel","A container made of wood or metal used for storing or transporting goods.","False","none",,
+"p_barrelmoonshine","Barrel","A container, typically made of wood, used for storing and aging moonshine.","False","none",,
+"bat_c","Bat","A flying mammal known for its nocturnal habits.","False","none",,
+"Bay_Bolete","Bay Bolete","An edible mushroom with a brown cap and yellow pores.","True","item-id","Bay_Bolete.png","assets/items/Bay_Bolete.png"
+"Bay_Bolete_Seed","Bay Bolete Seed","A seed that can be planted to grow Bay Bolete mushrooms.","True","item-id","Bay_Bolete_Seed.png","assets/items/Bay_Bolete_Seed.png"
+"bear_bench","Bear Bench","A bench made from the hide and bones of a bear.","False","none",,
+"bearbench","Bear Bench","A bench made from the hide and bones of a bear.","False","none",,
+"bearc","Bear claws","Sharp claws obtained from a bear.","False","none",,
+"beart","Bear tooth","A tooth obtained from a bear.","False","none",,
+"beartrap","Beartrap","A sturdy beartrap used for catching animals or stopping trespassers","False","none",,
+"provision_jewelry_rudy_dngl_earring","Beauch├¬ne Ruby Earrings","Elaborate gold hook earrings with vivid rubies.","False","none",,
+"provision_jewelry_french_dmnd_ring","Beaulieux Diamond Ring","A number of old mine cut diamonds claw set in a silver ring from France.","False","none",,
+"beawers","Beaver pelt","A pelt obtained from a beaver.","True","item-id","beawers.png","assets/items/beawers.png"
+"beavertail","Beaver tail","A flat and scaly tail obtained from a beaver.","True","item-id","beavertail.png","assets/items/beavertail.png"
+"beef","Beef","Fresh and tender beef meat.","True","item-id","beef.png","assets/items/beef.png"
+"beefjerky","Beef Jerky","Dried and seasoned beef meat.","True","item-id","beefjerky.png","assets/items/beefjerky.png"
+"beer","Beer","An alcoholic beverage brewed from grains.","True","item-id","beer.png","assets/items/beer.png"
+"beerbox","Beer Box","A container holding multiple bottles of beer.","False","none",,
+"consumable_raspberrywater","Berry Water","Refreshing water infused with berries.","True","item-id","consumable_raspberrywater.png","assets/items/consumable_raspberrywater.png"
+"bigchest","Big Chest","A large chest for storing items.","False","none",,
+"biggame","Big Game Meat","Meat obtained from a large game animal.","True","item-id","biggame.png","assets/items/biggame.png"
+"Big_Leather","Big Leather","Large piece of leather.","True","item-id","big_leather.png","assets/items/big_leather.png"
+"fishmeat","Bigfish Meat","Meat obtained from large fish species, known for its tender texture and rich flavor.","True","item-id","fishmeat.png","assets/items/fishmeat.png"
+"bird","Bird Meat","Meat obtained from a bird.","True","item-id","bird.png","assets/items/bird.png"
+"biscuitbox","Biscuitbox","A box of assorted biscuits.","False","none",,
+"bisonhorn","Bison horn","A horn obtained from a bison.","True","item-id","bisonhorn.png","assets/items/bisonhorn.png"
+"bisons","Bison pelt","A pelt obtained from a bison.","False","none",,
+"Bitter_Weed","Bitter Weed","A type of bitter herb.","True","item-id","Bitter_Weed.png","assets/items/Bitter_Weed.png"
+"Bitter_Weed_Seed","Bitter Weed Seed","A seed that can be planted to grow bitter weed.","True","item-id","Bitter_Weed_Seed.png","assets/items/Bitter_Weed_Seed.png"
+"collector_fossil_bivalve","Bivalve Fossil","A common fossilized mollusc, badly worn.","False","none",,
+"bbears","Black Bear skin","Skin obtained from a black bear.","False","none",,
+"Black_Berry","Black Berry","A small and sweet black-colored berry.","True","item-id","Black_Berry.png","assets/items/Black_Berry.png"
+"blackberryale","Black Berry Ale","An ale made from blackberries.","True","item-id","blackberryale.png","assets/items/blackberryale.png"
+"wildCiderMash","Black Berry Mash","Mashed blackberries used for making cider.","True","item-id","wildCiderMash.png","assets/items/wildCiderMash.png"
+"wildCiderMoonshine","Black Berry Moonshine","Homemade moonshine crafted from blackberries.","True","item-id","wildCiderMoonshine.png","assets/items/wildCiderMoonshine.png"
+"Black_Berry_Seed","Black Berry Seed","A seed that can be planted to grow blackberries.","True","item-id","Black_Berry_Seed.png","assets/items/Black_Berry_Seed.png"
+"Black_Currant","Black Currant","A small dark purple berry with a tart flavor.","True","item-id","Black_Currant.png","assets/items/Black_Currant.png"
+"Black_Currant_Seed","Black Currant Seed","A seed that can be planted to grow black currants.","True","item-id","Black_Currant_Seed.png","assets/items/Black_Currant_Seed.png"
+"squirrel_black_c","Black Squirrel","A black squirrel","False","none",,
+"mashblackberry","Blackberry Mash","A mashed mixture of blackberries used in cooking and beverages","True","item-id","mashblackberry.png","assets/items/mashblackberry.png"
+"mashblackberry90p","Blackberry Mash 90p","A concentrated blackberry mash used for crafting high-quality beverages","True","item-id","mashblackberry90p.png","assets/items/mashblackberry90p.png"
+"fsnakes","Blacktail rattlesnake pelt","The skin of a blacktail rattlesnake.","False","none",,
+"blanket_box","Blanket Box","A box used for storing blankets.","False","none",,
+"blanketbox","Blanket Box","A box used for storing blankets.","False","none",,
+"fertilizerbless","Blessed Fertilizer","Sacred fertilizer imbued with spiritual blessings, known to enhance crop yield.","True","item-id","fertilizerbless.png","assets/items/fertilizerbless.png"
+"Blood_Flower","Blood Flower","A type of flower with red petals.","True","item-id","Blood_Flower.png","assets/items/Blood_Flower.png"
+"Blood_Flower_Seed","Blood Flower Seed","A seed that can be planted to grow blood flowers.","True","item-id","Blood_Flower_Seed.png","assets/items/Blood_Flower_Seed.png"
+"bluejay_c","Blue jay","A colorful bird known as blue jay.","False","none",,
+"blueberry","Blueberry","A small sweet fruit with a bluish color.","True","item-id","blueberry.png","assets/items/blueberry.png"
+"consumable_blueberrypie","Blueberry Pie","A delicious pie made with blueberries.","True","item-id","consumable_blueberrypie.png","assets/items/consumable_blueberrypie.png"
+"boaskin","Boa Snake pelt","A snake skin obtained from a boa.","True","item-id","boaskin.png","assets/items/boaskin.png"
+"provision_hrlm_brush_boar","Boar bristle Brush","A beautifully made boar bristle brush.","False","none",,
+"boars","Boar pelt","A pelt obtained from a boar.","False","none",,
+"boarmusk","Boar tusk","A large tusk obtained from a boar.","True","item-id","boarmusk.png","assets/items/boarmusk.png"
+"boiledegg","Boiled Egg","An egg cooked by boiling.","True","item-id","boiledegg.png","assets/items/boiledegg.png"
+"ammobolahawk","Bola Ammo Hawk","A projectile consisting of weights attached to ropes, used to immobilize targets.","True","item-id","ammobolahawk.png","assets/items/ammobolahawk.png"
+"ammobolainterwired","Bola Ammo Interwired","A reinforced bola ammunition with interwoven materials, providing enhanced durability.","True","item-id","ammobolainterwired.png","assets/items/ammobolainterwired.png"
+"ammobolaironspiked","Bola Ammo Ironspiked","A bola ammunition featuring iron spikes, inflicting additional damage to immobilized targets.","True","item-id","ammobolaironspiked.png","assets/items/ammobolaironspiked.png"
+"ammobolla","Bolla Ammo","A weighted throwing weapon used to ensnare and immobilize targets.","True","item-id","ammobolla.png","assets/items/ammobolla.png"
+"bolts","Bolts","Metal bolts often used in construction.","True","item-id","bolts.png","assets/items/bolts.png"
+"provision_db_finger_bone","Bone","A small bone possibly from a finger.","False","none",,
+"provision_arrowhead_bone","Bone Arrowhead","A serrated arrowhead made from animal bone.","False","none",,
+"provision_jewelry_pearl_ring","Bonnard Pearl Ring","A valuable pearl set into a white gold band.","False","none",,
+"book","Book","A written or printed work consisting of pages.","True","item-id","book.png","assets/items/book.png"
+"provision_jewelry_emerald_ring","Bosque Emerald Ring","A gold band with an extravagant bezel set Columbian emerald.","False","none",,
+"bcandle","Bottle Candle","A candle made from a glass bottle.","False","none",,
+"bountylicns","Bounty Hunter License","A license granting permission to be a bounty hunter.","True","item-id","bountylicns.png","assets/items/bountylicns.png"
+"bouquet","Bouquet","A collection of flowers arranged in an artistic way.","False","none",,
+"cordbow","Bow Cord","Cord used for making a bow.","True","item-id","cordbow.png","assets/items/cordbow.png"
+"provision_hrlm_comb_boxwood","Boxwood Comb","A finley made boxwood comb.","False","none",,
+"collector_fossil_brachiopod","Brachiopod Fossil","A common Brachiopod fossil with some chips and scrapes.","False","none",,
+"unique_brad_horsesugar","Brad Horse Sugar","Sugar used for horses owned by Brad.","True","item-id","unique_brad_horsesugar.png","assets/items/unique_brad_horsesugar.png"
+"provision_bra_shield","Brass Shield","An old brass shield. Probably valuable.","False","none",,
+"provision_jewelry_porcelain_necklace","Braxton Amethyst Necklace","A fashionable necklace with a porcelain hand painted miniature.","False","none",,
+"p_baitBread01x","Bread Bait","A piece of bread used as bait for fishing.","True","item-id","p_baitBread01x.png","assets/items/p_baitBread01x.png"
+"consumable_breakfast","Breakfast","A hearty breakfast meal.","True","item-id","consumable_breakfast.png","assets/items/consumable_breakfast.png"
+"mp001_p_mp_still02x","Brennerei","A large still used for distilling alcoholic beverages","False","none",,
+"brokenpearlnecklace","Broken Pearl Necklace","A broken pearl necklace.","True","item-id","brokenpearlnecklace.png","assets/items/brokenpearlnecklace.png"
+"collector_fossil_brow_horn","Brow Horn Fossil","A rare fossilized brow horn, believed to have belonged to a Triceratops.","False","none",,
+"bmdresser","brown mirror dresser","A dresser with a brown mirror.","False","none",,
+"bwdresser","brown wood dresser","A dresser made of brown wood.","False","none",,
+"buckantler","Buck Antlers","Antlers obtained from a buck.","True","item-id","buckantler.png","assets/items/buckantler.png"
+"bucks","Buck skin","A pelt obtained from a buck.","False","none",,
+"bullhorn","Bull horn","A horn obtained from a bull.","True","item-id","bullhorn.png","assets/items/bullhorn.png"
+"bulls","Bull pelt","A pelt obtained from a bull.","False","none",,
+"Bulrush","Bulrush","A type of tall wetland plant.","True","item-id","Bulrush.png","assets/items/Bulrush.png"
+"Bulrush_Seed","Bulrush Seed","A seed that can be planted to grow bulrushes.","True","item-id","Bulrush_Seed.png","assets/items/Bulrush_Seed.png"
+"bunkbed","bunk bed","A bed with two tiers, designed for multiple occupants.","False","none",,
+"Burdock_Root","Burdock Root","The root of a burdock plant, often used for medicinal purposes.","True","item-id","Burdock_Root.png","assets/items/Burdock_Root.png"
+"Burdock_Root_Seed","Burdock Root Seed","A seed that can be planted to grow burdock roots.","True","item-id","Burdock_Root_Seed.png","assets/items/Burdock_Root_Seed.png"
+"provision_jewelry_turq_stud_earring","Calumet Turquoise Earrings","Lavish gold studs with claw set turquoise stones.","False","none",,
+"camera","Camera","A device used to capture photographs.","False","none",,
+"flag","Camp Flag","A colorful and distinctive flag used to mark and identify a campsite or specific location.","True","item-id","flag.png","assets/items/flag.png"
+"token","Camp License","A license for setting up a camp.","True","item-id","token.png","assets/items/token.png"
+"campfire","Campfire","A fire pit used for cooking and warmth during camping.","True","item-id","campfire.png","assets/items/campfire.png"
+"candlea","Candle","A wax candle that provides light.","False","none",,
+"cane","Cane","A walking stick for support and stability.","False","none",,
+"tent4","Canvas Shade","A canvas shade for shelter.","False","none",,
+"provision_capitale","Capitale","Capitale. very valuable.","False","none",,
+"consumable_caramel","Caramel","Sweet and sticky caramel.","True","item-id","consumable_caramel.png","assets/items/consumable_caramel.png"
+"cardinal_c","Cardinal bird","A small, colorful bird known for its distinctive crest.","False","none",,
+"Cardinal_Flower","Cardinal Flower","A vibrant red flower often found near water.","True","item-id","Cardinal_Flower.png","assets/items/Cardinal_Flower.png"
+"Cardinal_Flower_Seed","Cardinal Flower Seed","A seed that can be planted to grow Cardinal Flowers.","True","item-id","Cardinal_Flower_Seed.png","assets/items/Cardinal_Flower_Seed.png"
+"carrots","Carrot","An orange root vegetable commonly used in cooking.","True","item-id","carrots.png","assets/items/carrots.png"
+"cedarwaxwing_c","Cedar waxwing","A medium-sized bird with a distinctive crest and red tips on its wings.","False","none",,
+"collector_fossil_cephalopod","Cephalopod Fossil","A common cephalopod fossil. Slightly damaged and brittle.","False","none",,
+"Chanterelles","Chanterelles","A type of edible mushroom with a fruity aroma.","True","item-id","Chanterelles.png","assets/items/Chanterelles.png"
+"consumable_herb_chanterelles","Chanterelles","A bundle of Chanterelle mushrooms.","True","item-id","consumable_herb_chanterelles.png","assets/items/consumable_herb_chanterelles.png"
+"Chanterelles_Seed","Chanterelles Seed","A seed that can be planted to grow Chanterelles mushrooms.","True","item-id","Chanterelles_Seed.png","assets/items/Chanterelles_Seed.png"
+"char","Char","A type of fish commonly found in cold, deep lakes and rivers.","True","item-id","char.png","assets/items/char.png"
+"p_baitCheese01x","Cheese Bait","A soft cheese bait, favored by fish with a strong sense of smell like catfish.","True","item-id","p_baitCheese01x.png","assets/items/p_baitCheese01x.png"
+"cheesecake","Cheesecake","A tasty cheesecake.","True","item-id","cheesecake.png","assets/items/cheesecake.png"
+"provision_hrlm_comb_cherrywood","Cherrywood Comb","A exquisite cheerywood comb.","False","none",,
+"chestc","Chest C","A storage container used to store items securely.","False","none",,
+"chewingtobacco","Chewing Tobacco","A form of tobacco that is chewed rather than smoked.","True","item-id","chewingtobacco.png","assets/items/chewingtobacco.png"
+"chickenf","Chicken feather","A feather obtained from a chicken.","False","none",,
+"chickenheart","Chicken heart","The internal organ of a chicken.","True","item-id","chickenheart.png","assets/items/chickenheart.png"
+"consumable_chickenpie","Chicken Pie","A delicious pie made with chicken.","True","item-id","consumable_chickenpie.png","assets/items/consumable_chickenpie.png"
+"chipmunk_c","Chipmunk","A small, striped rodent known for its burrowing habits.","False","none",,
+"provision_arrowhead_chipped","Chipped Arrowhead","A hurriedly made arrowhead made from chiseled flint.","False","none",,
+"Choc_Daisy","Choc Daisy","A beautiful Choc Daisy.","True","item-id","Choc_Daisy.png","assets/items/Choc_Daisy.png"
+"Choc_Daisy_Seed","Choc Daisy Seed","A seed to grow Choc Daisies.","True","item-id","Choc_Daisy_Seed.png","assets/items/Choc_Daisy_Seed.png"
+"consumable_chocolate","Chocolate Bar","A delicious chocolate bar.","True","item-id","consumable_chocolate.png","assets/items/consumable_chocolate.png"
+"chococake","Chocolate Cake","A tasty chocolate cake.","True","item-id","chococake.png","assets/items/chococake.png"
+"consumable_chocolatecake","Chocolate Cake","A tasty chocolate cake.","True","item-id","consumable_chocolatecake.png","assets/items/consumable_chocolatecake.png"
+"consumable_chocolatecoffee","Chocolate Coffee","A chocolate flaverd coffee drink.","True","item-id","consumable_chocolatecoffee.png","assets/items/consumable_chocolatecoffee.png"
+"cigarettefilter","Cig Filter","A filter for cigarettes.","True","item-id","cigarettefilter.png","assets/items/cigarettefilter.png"
+"cigar","Cigar","A fine cigar for relaxing.","True","item-id","cigar.png","assets/items/cigar.png"
+"provision_ro_flower_cigar","Cigar Orchid","The Cigar Orchid can be identified by the inflorescence which can produce around five hundred bright yellow flowers with purple and brown markings.","False","none",,
+"cigarette","Cigarette","A cigarette for a quick smoke.","True","item-id","cigarette.png","assets/items/cigarette.png"
+"provision_ro_flower_clamshell","Clamshell Orchid","The Clamshell Orchid can be identified by the deep purple and white petals with yellow streaks, and thin leaves.","False","none",,
+"guitar","Classic Guitar","A traditional six-string guitar.","False","none",,
+"clay","Clay","A block of clay for crafting.","True","item-id","clay.png","assets/items/clay.png"
+"cleanser","Cleanser","A cleanser for various uses.","True","item-id","cleanser.png","assets/items/cleanser.png"
+"cloth","Cloth","Simple cloth with many uses.","True","item-id","cloth.png","assets/items/cloth.png"
+"cloth_bench","Cloth Bench","A bench made of cloth material.","False","none",,
+"clothbench","Cloth Bench","A bench made of cloth material.","False","none",,
+"clothes_line","Clothes Line","A line for hanging clothes.","True","item-id","clothes_line.png","assets/items/clothes_line.png"
+"clothesline","Clothes Line","A line for hanging clothes.","True","item-id","clothes_line.png","assets/items/clothes_line.png"
+"coal","Coal","A chunk of coal for fuel.","True","item-id","coal.png","assets/items/coal.png"
+"cocoa","Cocoa","Cocoa beans for making chocolate.","True","item-id","cocoa.png","assets/items/cocoa.png"
+"cocoaseeds","Cocoa Seeds","Seeds to grow cocoa plants.","True","item-id","cocoaseeds.png","assets/items/cocoaseeds.png"
+"consumable_coffee","Coffee","A warm cup of coffee.","True","item-id","consumable_coffee.png","assets/items/consumable_coffee.png"
+"coffeebeans","Coffee Beans","Coffee beans for making that beautiful brew.","True","item-id","coffeebeans.png","assets/items/coffeebeans.png"
+"consumable_coffeecake","Coffee Cake","A delicious coffee cake.","True","item-id","consumable_coffeecake.png","assets/items/consumable_coffeecake.png"
+"coffeefilter","Coffee Filter","A simple coffee filter.","True","item-id","coffeefilter.png","assets/items/coffeefilter.png"
+"undertaker1","Coffin","A wooden coffin.","False","none",,
+"coffindecor","Coffin Decor","Decorations for a coffin.","False","none",,
+"money_coin","Coin","A simple metal coin","False","none",,
+"money_coinpurse","Coin Purse","A small coin purse.","False","none",,
+"loonb","Common loon beak","The beak of a common loon bird","True","item-id","loonb.png","assets/items/loonb.png"
+"loonf","Common loon feather","A beautiful feather from a common loon bird","True","item-id","loonf.png","assets/items/loonf.png"
+"collector_fossil_pet_wood","Common Petrified Wood Fossil","A common chunk of wood turned to stone over the years.","False","none",,
+"sparrow0_c","Common Sparrow","A common sparrow","False","none",,
+"condenser","Condenser","A device used to condense substances.","False","none",,
+"condorb","Condor beak","A beak from a condor bird.","False","none",,
+"condorf","Condor feather","A beautiful feather from a condor.","False","none",,
+"CookedBigGameMeat","Cooked Big Game Meat","nice item","False","none",,
+"cookedbluegil","Cooked Bluegil with Veggies","A cooked Bluegil fish served with vegetables.","True","item-id","cookedbluegil.png","assets/items/cookedbluegil.png"
+"consumable_trout","Cooked Trout","A cooked and seasoned trout.","True","item-id","consumable_trout.png","assets/items/consumable_trout.png"
+"copper","Copper","A piece of copper.","True","item-id","copper.png","assets/items/copper.png"
+"pipecopper","Copper Pipe","A pipe made of copper.","True","item-id","pipecopper.png","assets/items/pipecopper.png"
+"asnakes","Copperhead Snake pelt","A valuable pelt from a Copperhead Snake.","False","none",,
+"bbirdb","Cormorant beak","Beak obtained from a cormorant bird.","False","none",,
+"bbirdf","Cormorant feather","Feather obtained from a cormorant bird.","False","none",,
+"corn","Corn","Fresh and juicy corn.","True","item-id","corn.png","assets/items/corn.png"
+"p_baitCorn01x","Corn Bait","A simple bait made from corn, commonly used to attract small freshwater fish.","True","item-id","p_baitCorn01x.png","assets/items/p_baitCorn01x.png"
+"cornseed","Corn seed","Seeds for growing corn.","True","item-id","cornseed.png","assets/items/cornseed.png"
+"cougars","Cougar skin","The thick and durable skin of a cougar.","False","none",,
+"cougar_taxidermy","Cougar Taxidermy","A taxidermy mount of a cougar.","False","none",,
+"cougartaxi","Cougar Taxidermy","A taxidermy mount of a cougar.","False","none",,
+"cougarf","Cougar tooth","A sharp tooth from a cougar.","False","none",,
+"cowh","Cow horn","A long and curved horn from a cow.","False","none",,
+"cows","Cow pelt","The soft and furry pelt of a cow.","False","none",,
+"coyote_pelt","Coyote Pelt","The fur pelt of a coyote.","True","item-id","coyote_pelt.png","assets/items/coyote_pelt.png"
+"coyotepelt","Coyote Pelt","The fur pelt of a coyote.","True","item-id","coyote_pelt.png","assets/items/coyote_pelt.png"
+"coyotes","Coyote skin","The rugged and weathered skin of a coyote.","False","none",,
+"coyote_taxidermy","Coyote Taxidermy","A taxidermy mount of a coyote.","False","none",,
+"coyotetaxi","Coyote Taxidermy","A taxidermy mount of a coyote.","False","none",,
+"coyotef","Coyote tooth","A sharp tooth from a coyote.","False","none",,
+"crab_c","Crab","A crab with a hard shell.","False","none",,
+"crabbutter","Crab Butter","Butter made from crab. Delicious on toast.","True","item-id","crabbutter.png","assets/items/crabbutter.png"
+"crablegs","Crab Legs","Legs from a crab.","True","item-id","crablegs.png","assets/items/crablegs.png"
+"crafting_fire","Crafting Fire","A fire used for crafting.","False","none",,
+"craftingfire","Crafting Fire","A fire used for crafting.","False","none",,
+"darub","Crane beak","A long and slender beak from a crane.","False","none",,
+"daruf","Crane feather","A beautiful feather from a crane.","False","none",,
+"animal_crawfish","Crawfish","A small freshwater crustacean.","True","item-id","animal_crawfish.png","assets/items/animal_crawfish.png"
+"crawfish_c","Crawfish","A small freshwater crustacean.","False","none",,
+"p_crawdad01x","Crawfish Bait","A freshwater bait made from crawfish, used to catch larger predatory fish.","True","item-id","p_crawdad01x.png","assets/items/p_crawdad01x.png"
+"p_finishdcrawd01x","Crawfish Lure","A lure that mimics the movement of a crawfish, enticing larger predatory fish.","True","item-id","p_finishdcrawd01x.png","assets/items/p_finishdcrawd01x.png"
+"Creekplum","Creekplum","A small and juicy creekplum.","True","item-id","Creekplum.png","assets/items/Creekplum.png"
+"Creekplum_Seed","Creekplum Seed","Seeds for growing creekplums.","True","item-id","Creekplum_Seed.png","assets/items/Creekplum_Seed.png"
+"Creeking_Thyme","Creeping Thyme","A fragrant herb with small purple flowers.","True","item-id","Creeking_Thyme.png","assets/items/Creeking_Thyme.png"
+"Creeking_Thyme_Seed","Creeping Thyme Seed","Seeds for growing creeping thyme.","True","item-id","Creeking_Thyme_Seed.png","assets/items/Creeking_Thyme_Seed.png"
+"p_baitCricket01x","Cricket Bait","A lively bait made from crickets, effective for attracting larger fish.","True","item-id","p_baitCricket01x.png","assets/items/p_baitCricket01x.png"
+"crow_c","Crow","A black-feathered bird with a sharp beak.","False","none",,
+"Crows_Garlic","Crows Garlic","A pungent garlic with black bulbs.","True","item-id","Crows_Garlic.png","assets/items/Crows_Garlic.png"
+"Crows_Garlic_Seed","Crows Garlic Seed","Seeds for growing crows garlic.","True","item-id","Crows_Garlic_Seed.png","assets/items/Crows_Garlic_Seed.png"
+"provision_arrowhead_crude","Crude Arrowhead","A clumsily made flint arrowhead, blunt from age.","False","none",,
+"consumable_crumbcake","Crumb Cake","A delicious crumb cake.","True","item-id","consumable_crumbcake.png","assets/items/consumable_crumbcake.png"
+"collector_fossil_trilobite_crypto","Cryptolithus Trilobite Fossil","A small, uncommon trilobite fossil. Good condition.","False","none",,
+"consumable_cupcake","Cupcake","A delicious cupcake.","True","item-id","consumable_cupcake.png","assets/items/consumable_cupcake.png"
+"provision_jewelry_topaz_necklace","Dane Topaz Necklace","A precious platinum chain necklace with a small drop of topaz.","False","none",,
+"dbcandle","Dbl Candle","A double-sided candle with two wicks.","False","none",,
+"decortent1","Decor Tent 1 Set","A decorative tent set with unique patterns.","False","none",,
+"decortent2","Decor Tent 2 Set","A decorative tent set with unique patterns.","False","none",,
+"decortent3","Decor Tent 3 Set","A decorative tent set with unique patterns.","False","none",,
+"deerheart","Deer heart","The heart of a deer.","True","item-id","deerheart.png","assets/items/deerheart.png"
+"deer_pelt","Deer Pelt","The soft and warm pelt of a deer.","True","item-id","deer_pelt.png","assets/items/deer_pelt.png"
+"deerpelt","Deer pelt","The soft and warm pelt of a deer.","True","item-id","deer_pelt.png","assets/items/deer_pelt.png"
+"deerskin","Deer skin","The skin of a deer.","True","item-id","deerskin.png","assets/items/deerskin.png"
+"deer_taxidermy","Deer Taxidermy","A taxidermy mount of a deer.","False","none",,
+"deertaxi","Deer Taxidermy","A taxidermy mount of a deer.","False","none",,
+"dleguans","Desert Iguana pelt","The skin of a Desert Iguana, commonly used for crafting and trading.","False","none",,
+"Desert_Sage","Desert Sage","A bundle of Desert Sage used for crafting and medicinal purposes.","True","item-id","Desert_Sage.png","assets/items/Desert_Sage.png"
+"Desert_Sage_Seed","Desert Sage Seed","A seed of Desert Sage that can be planted to grow Desert Sage plants.","True","item-id","Desert_Sage_Seed.png","assets/items/Desert_Sage_Seed.png"
+"toaddesert_c","Desert Toad","A toad found in the desert.","False","none",,
+"diamond","Diamond","A precious gemstone known for its brilliance and value.","True","item-id","diamond.png","assets/items/diamond.png"
+"provision_diamond_ring","Diamond Ring","A beautiful diamond ring.","False","none",,
+"wateringcan_dirtywater","Dirty Watering Jug","A watering jug filled with dirty water.","False","none",,
+"pot","Distillery Pot","A large pot used in the distillation process for making alcohol.","False","none",,
+"Feed_For_Dog","Dog Food","Nutritious food specifically formulated for dogs.","True","item-id","Feed_For_Dog.png","assets/items/Feed_For_Dog.png"
+"provision_dog_tag","Dog Tag","A dog tag. Possibly from a soldier.","False","none",,
+"consumable_donut","Donut","A tasty donut.","True","item-id","consumable_donut.png","assets/items/consumable_donut.png"
+"p_finishedragonfly01x","Dragonfly Lure","A realistic dragonfly lure designed to mimic flying insects, perfect for catching surface-feeding fish.","True","item-id","p_finishedragonfly01x.png","assets/items/p_finishedragonfly01x.png"
+"provision_ro_flower_dragons","Dragons Orchid","Dragons Mouth Orchids can be recognized by their wild purple flowers which are said to resemble a dragon. The general size of this type of orchid is around six inches.","False","none",,
+"dreamcatcher","Dream Catcher","A traditional Native American ornament believed to filter out bad dreams and let only good dreams pass through.","False","none",,
+"consumable_bluegil","Dried Bluegil","A dried Bluegil fish.","True","item-id","consumable_bluegil.png","assets/items/consumable_bluegil.png"
+"consumable_salmon","Dried Salmon","A dried and preserved salmon.","True","item-id","consumable_salmon.png","assets/items/consumable_salmon.png"
+"provision_jewelry_emerald_earring","Duchess Emerald Earrings","A famous set of oval cut emeralds fashioned into earrings.","False","none",,
+"Duck_Egg","Duck Egg","An egg laid by a duck, often used in various culinary preparations.","True","item-id","Duck_Egg.png","assets/items/Duck_Egg.png"
+"duckfat","Duck fat","The rendered fat from a duck, commonly used in cooking and baking.","True","item-id","duckfat.png","assets/items/duckfat.png"
+"provision_jewelry_pearl_bracelet","Durant Pearl Bracelet","An intricate link bracelet with natural pearls and gold filigree.","False","none",,
+"ammodynamite","Dynamite Ammo","An explosive device with a short fuse, capable of causing significant damage.","True","item-id","ammodynamite.png","assets/items/ammodynamite.png"
+"eaglet","Eagle claws","The sharp claws of an eagle, sometimes collected as a trophy or used in traditional medicine.","True","item-id","eaglet.png","assets/items/eaglet.png"
+"eaglef","Eagle feather","A feather obtained from an eagle, often used for decorative purposes and in crafting.","True","item-id","eaglef.png","assets/items/eaglef.png"
+"provision_hrlm_brush_ebony","Ebony Hairbrush","A delicate and finely crafted ebony brush.","False","none",,
+"provision_hrlm_hairpin_ebony","Ebony Hairpin","A exquisite ebony hairpin.","False","none",,
+"consumable_veggies","Edible Veggies","A mix of various edible vegetables.","True","item-id","consumable_veggies.png","assets/items/consumable_veggies.png"
+"egg","Egg","A small oval object laid by a female bird, reptile, or fish, containing a fertilized embryo and nutrients for development.","True","item-id","egg.png","assets/items/egg.png"
+"eggs","Egg","Various types of eggs collected from different animals, often used in cooking and crafting.","True","item-id","eggs.png","assets/items/eggs.png"
+"ammoelephant","Elephant Rifle Ammo","Ammunition specifically designed for powerful elephant rifles, providing superior stopping power.","True","item-id","ammoelephant.png","assets/items/ammoelephant.png"
+"elkantler","Elk antler","A large branched horn-like appendage grown by male elks.","True","item-id","elkantler.png","assets/items/elkantler.png"
+"elks","Elk pelt","A high-quality pelt obtained from an elk.","False","none",,
+"provision_jewelry_carved_bracelet","Elliston Carved Bracelet","A solid gold bracelet with elegant etching.","False","none",,
+"emerald","Emerald","A precious green gemstone with a sparkling appearance.","True","item-id","emerald.png","assets/items/emerald.png"
+"provision_jewelry_coral_dngl_earring","Emmeline Coral Earrings","Drop hook earrings of polished pink coral set in gold.","False","none",,
+"empty_bottle","Empty Bottle","Empty Bottle","True","item-id","empty_bottle.png","assets/items/empty_bottle.png"
+"wateringcan_empty","Empty Watering Jug","An empty watering jug.","False","none",,
+"provision_jewelry_wht_dmnd_earring","Endicott Diamond Earrings","Exquisite pendant earrings with old mine cut diamonds.","False","none",,
+"English_Mace","English Mace","A type of spice commonly used in cooking and herbal medicine.","True","item-id","English_Mace.png","assets/items/English_Mace.png"
+"English_Mace_Seed","English Mace Seed","Seeds that can be planted to grow English Mace plants.","True","item-id","English_Mace_Seed.png","assets/items/English_Mace_Seed.png"
+"consumable_herb_evergreen_huckleberry","Evergreen Huckleberry","Plump and juicy Evergreen Huckleberries.","True","item-id","consumable_herb_evergreen_huckleberry.png","assets/items/consumable_herb_evergreen_huckleberry.png"
+"Evergreen_Huckleberry","Evergreen Huckleberry","A small, dark purple berry known for its tart and sweet flavor.","True","item-id","Evergreen_Huckleberry.png","assets/items/Evergreen_Huckleberry.png"
+"Evergreen_Huckleberry_Seed","Evergreen Huckleberry Seed","Seeds that can be planted to grow Evergreen Huckleberry bushes.","True","item-id","Evergreen_Huckleberry_Seed.png","assets/items/Evergreen_Huckleberry_Seed.png"
+"rajahdysoljy","Explosive Oil","An explosive oil used for various purposes, such as creating dynamite and explosives.","False","none",,
+"fan","Fan","A handheld device with flat blades used to create a breeze or provide cooling.","True","item-id","fan.png","assets/items/fan.png"
+"fancydouble","Fancy Double","A stylish and well-crafted double-barreled firearm.","False","none",,
+"Feather","Feather","A lightweight and delicate feather, often used for decorative purposes.","True","item-id","feather.png","assets/items/feather.png"
+"provision_arrowhead_feldspar","Feldspar Arrowhead","A mysterious arrowhead made from some sort of feldspar.","False","none",,
+"provision_disco_fertility_statue","Fertility Statue","A statue that apparently possesses the power to grant fertility.","False","none",,
+"fertilizer","Fertilizer","A substance used to enrich soil and promote plant growth.","True","item-id","fertilizer.png","assets/items/fertilizer.png"
+"fertilizeregg","Fertilizer with Eggs","Fertilizer enriched with nutrients from various eggs, providing excellent nourishment for plants.","True","item-id","fertilizeregg.png","assets/items/fertilizeregg.png"
+"fertilizerpro","Fertilizer with Produce","Fertilizer containing organic matter from fresh produce, enhancing soil fertility and plant health.","True","item-id","fertilizerpro.png","assets/items/fertilizerpro.png"
+"fertilizerpulpsap","Fertilizer with Pulp/Sap","Fertilizer enriched with natural pulp or sap, promoting robust growth and vitality in plants.","True","item-id","fertilizerpulpsap.png","assets/items/fertilizerpulpsap.png"
+"fertilizersn","Fertilizer with Snake","Fertilizer enriched with beneficial nutrients extracted from snakes, promoting vigorous growth in plants.","True","item-id","fertilizersn.png","assets/items/fertilizersn.png"
+"fertilizersw","Fertilizer with Soft Wood","Fertilizer blended with fine particles of softwood, enriching the soil with organic matter and enhancing plant development.","True","item-id","fertilizersw.png","assets/items/fertilizersw.png"
+"fertilizersq","Fertilizer with Squirrel","Fertilizer infused with nutrients derived from squirrels, providing essential elements for plant nourishment and vitality.","True","item-id","fertilizersq.png","assets/items/fertilizersq.png"
+"fertilizerwoj","Fertilizer with Wojape","Fertilizer infused with the essence of Wojape, a rare and powerful herb known for its profound effects on plant growth.","True","item-id","fertilizerwoj.png","assets/items/fertilizerwoj.png"
+"fibers","Fibers","Fine threads or filaments extracted from plants or animals, often used for crafting or weaving.","True","item-id","fibers.png","assets/items/fibers.png"
+"fish","Fish","A aquatic creature with fins and scales, commonly caught for food or sport.","True","item-id","fish.png","assets/items/fish.png"
+"fishchips","Fish and Chips","A classic dish consisting of fried fish fillets and potato chips, often served with tartar sauce.","True","item-id","fishchips.png","assets/items/fishchips.png"
+"p_FinisdFishlure01x","Fish Lure","A versatile fish lure designed to attract a variety of freshwater species.","True","item-id","p_FinisdFishlure01x.png","assets/items/p_FinisdFishlure01x.png"
+"fishbait","Fishbait","A substance or lure used to attract fish, increasing the chances of a successful catch.","True","item-id","fishbait.png","assets/items/fishbait.png"
+"provision_arrowhead_granite","Flint Arrowhead","A strong arrowhead made of flint.","False","none",,
+"flour","Flour","Ground up wheat used for cooking and baking.","True","item-id","flour.png","assets/items/flour.png"
+"floursack","Flour Sack","A sack of flour.","True","item-id","floursack.png","assets/items/floursack.png"
+"flowerboxes","Flower Boxes","Containers or receptacles designed to hold and display blooming flowers, adding beauty and charm to any setting.","False","none",,
+"undertaker2","Flower Coffin","A coffin decorated with flowers.","False","none",,
+"provision_disco_fluorite","Fluorite","The mineral form of calcium fluoride.","False","none",,
+"food_barrel","Food Barrel","A large barrel specifically designed for storing and transporting food, ideal for provisioning during long journeys or expeditions.","False","none",,
+"foodbarrel","Food Barrel","A sturdy barrel used for storing and preserving food items, keeping them fresh and safe from pests.","False","none",,
+"foxt","Fox tooth","A tooth extracted from a fox.","True","item-id","foxt.png","assets/items/foxt.png"
+"foxskin","Foxskin","The skin of a fox.","True","item-id","foxskin.png","assets/items/foxskin.png"
+"salamelle","Fresh Pork ","Fresh pork salamelle","True","item-id","salamelle.png","assets/items/salamelle.png"
+"friedtater","Fried Taters","Crispy and delicious fried potatoes.","True","item-id","friedtater.png","assets/items/friedtater.png"
+"frogbull_c","Frogbull","A small creature found near water bodies.","False","none",,
+"collector_fossil_tooth_trex","Front Tooth Fossil","A rare fossilized front tooth, perhaps belonging to the recently discovered Manospondylus Gigas. Highly prized.","False","none",,
+"consumable_fruitsalad","Fruit Salad","A refreshing fruit salad.","True","item-id","consumable_fruitsalad.png","assets/items/consumable_fruitsalad.png"
+"game","Game Meat","Fresh meat obtained from hunting animals.","True","item-id","game.png","assets/items/game.png"
+"Gamey_Meat","Gamey Meat","A type of meat with a distinct gamey flavor.","True","item-id","Gamey_Meat.png","assets/items/Gamey_Meat.png"
+"hoe","Garden Hoe","A gardening tool with a thin metal blade.","True","item-id","hoe.png","assets/items/hoe.png"
+"provision_ro_flower_ghost","Ghost Orchid","The Ghost Orchid is named after the white to pale pink flowers that can be seen in shaded habitats. This small orchid grows in shaded areas, such as woodlands, and under leaves and soil, with only the flower appearing above ground.","False","none",,
+"tropicalPunchMash","Ginseng Mash","A mash made from ginseng.","True","item-id","tropicalPunchMash.png","assets/items/tropicalPunchMash.png"
+"tropicalPunchMoonshine","Ginseng Moonshine","Moonshine infused with ginseng.","True","item-id","tropicalPunchMoonshine.png","assets/items/tropicalPunchMoonshine.png"
+"ginsengtea","Ginseng Tea","A soothing tea made from ginseng roots.","True","item-id","ginsengtea.png","assets/items/ginsengtea.png"
+"glassbottle","Glass Bottle","A transparent bottle made of glass.","True","item-id","glassbottle.png","assets/items/glassbottle.png"
+"glasseye","Glass Eye","A glass eye. Probably lost in a bar fight.","True","item-id","glasseye.png","assets/items/glasseye.png"
+"provision_hrlm_brush_goathair","Goat Hair Brush","A exquisite hand crafted goat hair brush.","False","none",,
+"goathead","Goat head","The severed head of a goat.","True","item-id","goathead.png","assets/items/goathead.png"
+"goats","Goat pelt","The skin of a goat.","False","none",,
+"provision_bracelet_gold","Gold Bracelet","A gold bracelet.","False","none",,
+"provision_buckle_gold","Gold Buckle","A gold belt buckle.","False","none",,
+"provision_earring_gold","Gold Earring","A gold earring.","False","none",,
+"goldfish","Gold Fish","A shimmering gold-colored fish.","True","item-id","goldfish.png","assets/items/goldfish.png"
+"gold_nugget","Gold nugget","A nugget of pure gold.","True","item-id","gold_nugget.png","assets/items/gold_nugget.png"
+"goldpan","Gold pan","A shallow pan used for gold panning.","True","item-id","goldpan.png","assets/items/goldpan.png"
+"gold_panning_license","Gold Panning License","A license to pan gold.","False","none",,
+"goldring","Gold Ring","A ring made of solid gold.","True","item-id","goldring.png","assets/items/goldring.png"
+"goldbar","GoldBar","A bar made of solid gold.","True","item-id","goldbar.png","assets/items/goldbar.png"
+"Golden_Currant","Golden Currant","A type of golden-colored currant.","True","item-id","Golden_Currant.png","assets/items/Golden_Currant.png"
+"Golden_Currant_Seed","Golden Currant Seed","A seed that can be planted to grow golden currants.","True","item-id","Golden_Currant_Seed.png","assets/items/Golden_Currant_Seed.png"
+"sparrow2_c","Golden Sparrow","A golden sparrow","False","none",,
+"gooseb","Goose beak","The beak of a goose.","True","item-id","gooseb.png","assets/items/gooseb.png"
+"Goose_Egg_4","Goose Egg","An egg laid by a goose.","True","item-id","Goose_Egg_4.png","assets/items/Goose_Egg_4.png"
+"goosef","Goose feather","A feather obtained from a goose.","True","item-id","goosef.png","assets/items/goosef.png"
+"provision_jewelry_gld_pendt_necklace","Gosselin White Gold Necklace","A lavalier style white gold necklace with a series of small diamonds.","False","none",,
+"grainmill","Grain Mill","A hand-held Grain Mill for grinding grain.","False","none",,
+"consumable_grapejelly","Grape Jelly","Grape flavored jelly.","True","item-id","consumable_grapejelly.png","assets/items/consumable_grapejelly.png"
+"grapes","Grapes","A tasty fruit that grows in clusters. Often used to make wine.","True","item-id","grapes.png","assets/items/grapes.png"
+"squirrel_grey_c","Gray Squirrel","A gray squirrel","False","none",,
+"kbirdb","Great Blue Heron Beak","The beak of a Great Blue Heron, known for its long and slender shape.","True","item-id","kbirdb.png","assets/items/kbirdb.png"
+"kbirdf","Great Blue Heron Feather","A feather obtained from a Great Blue Heron, valued for its beauty and softness.","True","item-id","kbirdf.png","assets/items/kbirdf.png"
+"provision_jewelry_sphr_bngle_bracelet","Greco Sapphire Bracelet","A delicate gold bracelet with three small sapphires.","False","none",,
+"gleguans","Green Iguana pelt","The skin of a green iguana.","False","none",,
+"grinder","Grinder","Used to crush up and grind herbs and plants.","False","none",,
+"gbears","Grizzly Bear skin","The skin of a grizzly bear.","False","none",,
+"gbarrelx","Gun Barrel","A part used in firearm manufacturing.","False","none",,
+"gun_barrel","Gun Barrel","A cylindrical barrel used in firearm construction.","False","none",,
+"gypsywagon","Gypsys Wagon Set","A set of items related to a gypsy wagon.","False","none",,
+"hairpomade","Hair Pomade","A grooming product for styling hair.","True","item-id","hairpomade.png","assets/items/hairpomade.png"
+"provision_jewelry_grnet_bracelet","Hajnal Garnet Bangle Bracelet","A bohemian style silver bangle with numerous claw set garnets.","False","none",,
+"handcuffkey","Handcuff Key","A key used to unlock handcuffs.","False","none",,
+"handcuffs","Handcuffs","Metal restraints used for restraining someone.","True","item-id","handcuffs.png","assets/items/handcuffs.png"
+"handmixer","Handmixer","A hand-held mixing device","True","item-id","handmixer.png","assets/items/handmixer.png"
+"handsaw","Handsaw","A hand saw used to cut wood","True","item-id","handsaw.png","assets/items/handsaw.png"
+"hwood","Hard Wood","Durable and strong wood used in various applications.","True","item-id","hwood.png","assets/items/hwood.png"
+"provision_jewelry_grnet_post_earring","Harford Garnet Earrings","Clustered garnet studs with silver posts and scrolls.","False","none",,
+"provision_jewelry_coral_ring","Harland Coral Ring","A delicate gold ring featuring a large angel skin coral.","False","none",,
+"hatchet","Hatchet","A small axe with a short handle.","True","item-id","hatchet.png","assets/items/hatchet.png"
+"hawkt","Hawk claws","The sharp claws of a hawk.","True","item-id","hawkt.png","assets/items/hawkt.png"
+"hawkf","Hawk feather","A feather obtained from a hawk.","True","item-id","hawkf.png","assets/items/hawkf.png"
+"consumable_haycube","Haycube","A compact cube of hay.","True","item-id","consumable_haycube.png","assets/items/consumable_haycube.png"
+"provision_jewelry_sphr_bracelet","Helena Sapphire Bracelet","A fine silver bracelet with claw set sapphires.","False","none",,
+"hemp","Hemp","A plant commonly used for its fiber.","True","item-id","hemp.png","assets/items/hemp.png"
+"hemp_cig","Hemp Cigarette","A cigarette made from hemp leaves.","True","item-id","hemp_cig.png","assets/items/hemp_cig.png"
+"hemp_seed","Hemp Seed","A seed that can be planted to grow hemp plants.","True","item-id","hemp_seed.png","assets/items/hemp_seed.png"
+"herbal_medicine","Herbal Medicine","Medicine made from natural herbal ingredients.","True","item-id","herbal_medicine.png","assets/items/herbal_medicine.png"
+"herbmed","Herbal Remedy","A remedy made from various herbs.","True","item-id","herbmed.png","assets/items/herbmed.png"
+"herbal_tonic","Herbal Tonic","A tonic made from herbal extracts.","True","item-id","herbal_tonic.png","assets/items/herbal_tonic.png"
+"heroin","Heroin","A highly addictive and illegal drug.","True","item-id","heroin.png","assets/items/heroin.png"
+"herptile","Herptile meat","Meat obtained from reptiles and amphibians.","False","none",,
+"hitchingpost","Hitching Post","A post used for tying up horses.","False","none",,
+"honey","Honey","A sweet and sticky substance produced by bees.","True","item-id","honey.png","assets/items/honey.png"
+"oriole2_c","Hooded Oriole","Brightly colored feathers from a Hooded Oriole.","False","none",,
+"hop","Hop","A plant used in brewing beer.","True","item-id","hop.png","assets/items/hop.png"
+"hop_seed","Hop Seed","A seed that can be planted to grow hop plants.","True","item-id","hop_seed.png","assets/items/hop_seed.png"
+"horsebrush","Horse Brush","A brush used for grooming horses.","True","item-id","horsebrush.png","assets/items/horsebrush.png"
+"unique_horse_feed","Horse Feed","Feed for horses.","False","none",,
+"provision_hrlm_brush_horsehair","Horse Hair brush","A finley made horse hair brush.","False","none",,
+"horsehitches","Horse Hitches Set","A set of items used for hitching horses.","False","none",,
+"horsemeal","Horse ration","Food provided to horses for sustenance.","True","item-id","horsemeal.png","assets/items/horsemeal.png"
+"stim","Horse Stimulant","A stimulant to boost a horses performance.","True","item-id","stim.png","assets/items/stim.png"
+"hk_1","House Key","A standard house key.","False","none",,
+"hk_101","House Key","A specialized house key.","False","none",,
+"hk_102","House Key","A specialized house key.","False","none",,
+"hk_103","House Key","A specialized house key.","False","none",,
+"hk_104","House Key","A specialized house key.","False","none",,
+"hk_105","House Key","A specialized house key.","False","none",,
+"hk_106","House Key","A specialized house key.","False","none",,
+"hk_107","House Key","A specialized house key.","False","none",,
+"hk_108","House Key","A specialized house key.","False","none",,
+"hk_109","House Key","A specialized house key.","False","none",,
+"hk_110","House Key","A specialized house key.","False","none",,
+"hk_111","House Key","A specialized house key.","False","none",,
+"hk_112","House Key","A specialized house key.","False","none",,
+"hk_113","House Key","A specialized house key.","False","none",,
+"hk_114","House Key","A specialized house key.","False","none",,
+"hk_115","House Key","A specialized house key.","False","none",,
+"hk_116","House Key","A specialized house key.","False","none",,
+"hk_117","House Key","A specialized house key.","False","none",,
+"hk_118","House Key","A specialized house key.","False","none",,
+"hk_119","House Key","A specialized house key.","False","none",,
+"hk_120","House Key","A specialized house key.","False","none",,
+"hk_121","House Key","A specialized house key.","False","none",,
+"hk_122","House Key","A specialized house key.","False","none",,
+"hk_123","House Key","A specialized house key.","False","none",,
+"hk_124","House Key","A specialized house key.","False","none",,
+"hk_125","House Key","A specialized house key.","False","none",,
+"hk_126","House Key","A specialized house key.","False","none",,
+"hk_127","House Key","A specialized house key.","False","none",,
+"hk_128","House Key","A specialized house key.","False","none",,
+"hk_129","House Key","A specialized house key.","False","none",,
+"hk_130","House Key","A specialized house key.","False","none",,
+"hk_131","House Key","A specialized house key.","False","none",,
+"hk_132","House Key","A specialized house key.","False","none",,
+"hk_133","House Key","A specialized house key.","False","none",,
+"hk_134","House Key","A specialized house key.","False","none",,
+"hk_2","House Key","A standard house key.","False","none",,
+"hk_3","House Key","A standard house key.","False","none",,
+"pota","House Pot","A pot typically used for cooking and boiling ingredients.","False","none",,
+"Hummingbird_Sage","Hummingbird Sage","A type of sage plant favored by hummingbirds.","True","item-id","Hummingbird_Sage.png","assets/items/Hummingbird_Sage.png"
+"Hummingbird_Sage_Seed","Hummingbird Sage Seed","A seed that can be planted to grow hummingbird sage.","True","item-id","Hummingbird_Sage_Seed.png","assets/items/Hummingbird_Sage_Seed.png"
+"iguanabits","Iguana Bits","Tasy cooked Iguna pieces.","False","none",,
+"Indian_Tobbaco","Indian Tobbaco","A type of tobacco used by Native Americans.","True","item-id","Indian_Tobbaco.png","assets/items/Indian_Tobbaco.png"
+"Indian_Tobbaco_Seed","Indian Tobbaco Seed","A seed that can be planted to grow Indian tobbaco plants.","True","item-id","Indian_Tobbaco_Seed.png","assets/items/Indian_Tobbaco_Seed.png"
+"provision_jewelry_turquoise_bracelet","Infanta Turquoise Bracelet","A solid silver bracelet with a large turquoise stone.","False","none",,
+"ink","Ink","A small bottle of ink.","True","item-id","ink.png","assets/items/ink.png"
+"iron","Iron","A strong and durable metal.","True","item-id","iron.png","assets/items/iron.png"
+"ironbar","Iron Bar","A solid bar made of iron, known for its strength and durability.","True","item-id","ironbar.png","assets/items/ironbar.png"
+"ironextract","Iron Extract","A concentrated form of iron, extracted from natural sources.","True","item-id","ironextract.png","assets/items/ironextract.png"
+"ironhammer","Iron Hammer","A hammer with a head made of iron, used for various construction and crafting purposes.","True","item-id","ironhammer.png","assets/items/ironhammer.png"
+"collector_fossil_trilobite_iso","Isotelus Trilobite Fossil","An uncommon fossil of a huge trilobite. Fully intact.","False","none",,
+"provision_hrlm_comb_ivory","Ivory Comb","A delicate ivory comb.","False","none",,
+"provision_hrlm_hairpin_ivory","Ivory Hairpin","A delicate ivory hairpin.","False","none",,
+"provision_hrlm_hairpin_jade","Jade Hairpin","A exotic jade hairpin.","False","none",,
+"provision_jail_keys","Jail Keys","A set of keys used to unlock jail cells and gates.","True","item-id","provision_jail_keys.png","assets/items/provision_jail_keys.png"
+"consumable_game","Jerkied GameMeat","Dried and seasoned game meat.","True","item-id","consumable_game.png","assets/items/consumable_game.png"
+"provision_jewelry_box","Jewelry Box","A small jewlery box.","False","none",,
+"provision_jewelry_pearl_earring","Josephine Pearl Earrings","Fashionable pearl earrings with neat gold hooks.","False","none",,
+"provision_generic_key","Key","A simple key.","False","none",,
+"consumable_kidneybeans_can","Kidney Beans","Canned kidney beans.","True","item-id","consumable_kidneybeans_can.png","assets/items/consumable_kidneybeans_can.png"
+"kitchencounter","Kitchen Counter","A sturdy counter surface typically found in kitchens, providing space for food preparation and other tasks.","False","none",,
+"ammoknives","Knives Ammo","Ammunition for a throwing knife, used as a versatile and silent weapon.","True","item-id","ammoknives.png","assets/items/ammoknives.png"
+"provision_ro_flower_lady_of_night","Lady of Night Orchid","Lady of the Night Orchid takes its name from the sweet citrus fragrance it produces during nightfall. The orchid can be identified by the white heart shaped flowers and long leaves.","False","none",,
+"provision_ro_flower_lady_slipper","Lady Slipper Orchid","Lady Slipper Orchid can be identified by the large bulbous purple flower and speckled purple leaves. This type of orchid can be seen growing in the ground of forests, meadows and woodland areas.","False","none",,
+"lamppost1","Lamp Post 1 Set","A set of Lamp Post 1","False","none",,
+"lamppost2","Lamp Post 2 Set","A set of Lamp Post 2","False","none",,
+"lanterna","Lantern","A lantern","True","label","lantern.png","assets/items/lantern.png"
+"butchertable3","Large Butcher Table","A large table used for butchering animals.","False","none",,
+"a_c_fishlargemouthbass_01_ms","Largemouth Bass","A large Largemouth Bass fish.","True","item-id","a_c_fishlargemouthbass_01_ms.png","assets/items/a_c_fishlargemouthbass_01_ms.png"
+"consumable_lemondrops","Leamon Drops","Lemon flavored candy.","True","item-id","consumable_lemondrops.png","assets/items/consumable_lemondrops.png"
+"leather","Leather","Leather material","True","item-id","leather.png","assets/items/leather.png"
+"leather_chair","Leather Chair","A leather chair","False","none",,
+"leatherchair","Leather Chair","A leather chair","False","none",,
+"legalbook","Legal Book","A legal book","False","none",,
+"legalpaper","Legal Paper","Legal paper","False","none",,
+"legaligators","Legendary Alligator pelt","A legendary pelt from an alligator","False","none",,
+"legaligators3","Legendary Banded Alligator pelt","A legendary pelt from a Banded Alligator","False","none",,
+"leggbears","Legendary Bear skin","A formidable and sought-after skin from a legendary bear","False","none",,
+"legbeawers","Legendary Beaver pelt","A legendary pelt from a Beaver","False","none",,
+"legbisonhorn","Legendary Bison Horns","A pair of majestic horns from a legendary bison","True","item-id","legbisonhorn.png","assets/items/legbisonhorn.png"
+"legbisons","Legendary Bison pelt","A rare and valuable pelt from a legendary bison","False","none",,
+"legbeavers3","Legendary Black Beaver pelt","A legendary pelt from a Black Beaver","False","none",,
+"legcougars4","Legendary Black Cougar pelt","A rare pelt from a legendary Black Cougar","False","none",,
+"legendsnakes","Legendary Boa pelt","A rare and valuable pelt from a legendary boa","False","none",,
+"legboars","Legendary Boar pelt","A rare and sought-after pelt from a legendary boar","False","none",,
+"legendbuckantler","Legendary Buck Antlers","A pair of majestic antlers from a legendary buck","True","item-id","legendbuckantler.png","assets/items/legendbuckantler.png"
+"legbucks1","Legendary Buck pelt","A splendid pelt from a legendary buck","False","none",,
+"legbucks","Legendary Buck skin","A prized skin from a legendary buck","False","none",,
+"legrams2","Legendary Chalk Horn Ram pelt","An exceptional pelt from a legendary Chalk Horn Ram","False","none",,
+"legboars1","Legendary Cogi Boar pelt","A magnificent pelt from a legendary Cogi Boar","False","none",,
+"legcougars","Legendary Cougar skin","A rare and valuable skin from a legendary cougar","False","none",,
+"legcoyotes","Legendary Coyote skin","A prized skin from a legendary coyote","False","none",,
+"p_finishdcrawdlegendary01x","Legendary Crawfish Lure","A specialized crawfish lure made for catching rare legendary fish.","True","item-id","p_finishdcrawdlegendary01x.png","assets/items/p_finishdcrawdlegendary01x.png"
+"legfoxs3","Legendary Cross Fox pelt","An exquisite pelt from a legendary Cross Fox","False","none",,
+"legbears1","Legendary Deadly Bear pelt","A legendary pelt from a Deadly Bear","False","none",,
+"p_finishedragonflylegendary01x","Legendary Dragonfly Lure","A high-quality dragonfly lure crafted to attract legendary fish in special locations.","True","item-id","p_finishedragonflylegendary01x.png","assets/items/p_finishedragonflylegendary01x.png"
+"legelkantler","Legendary Elk Antlers","A magnificent set of antlers from a legendary elk","True","item-id","legelkantler.png","assets/items/legelkantler.png"
+"legelks","Legendary Elk pelt","An impressive pelt from a legendary elk","False","none",,
+"legwolfs1","Legendary Emerald Wolf pelt","A vibrant pelt from a legendary Emerald Wolf","False","none",,
+"p_finisdfishlurelegendary01x","Legendary Fish Lure","A premium fish lure designed to catch elusive legendary fish.","True","item-id","p_finisdfishlurelegendary01x.png","assets/items/p_finisdfishlurelegendary01x.png"
+"legfoxskin","Legendary Fox skin","A valuable and versatile skin from a legendary fox","True","item-id","legfoxskin.png","assets/items/legfoxskin.png"
+"legrams1","Legendary Gabbro Horn Ram pelt","A rare and valuable pelt from a legendary Gabbro Horn Ram","False","none",,
+"legpanthers2","Legendary Ghost Panther pelt","An ethereal pelt from a legendary Ghost Panther","False","none",,
+"legbears4","Legendary Golden Spirit Bear pelt","A legendary pelt from a Golden Spirit Bear","False","none",,
+"legrams4","Legendary GreatHorn Ram pelt","An impressive pelt from a legendary GreatHorn Ram","False","none",,
+"legbeavers1","Legendary Grey Beaver pelt","A legendary pelt from a Grey Beaver","False","none",,
+"legboars3","Legendary Icahi Boar pelt","A rare pelt from a legendary Icahi Boar","False","none",,
+"legcougars1","Legendary Iguga Cougar pelt","A striking pelt from a legendary Iguga Cougar","False","none",,
+"legelks3","Legendary Inahme Elk pelt","An exquisite pelt from a legendary Inahme Elk","False","none",,
+"legpanthers3","Legendary Iwakta Panther pelt","A rare and valuable pelt from a legendary Iwakta Panther","False","none",,
+"legelks1","Legendary Katata Elk pelt","An exceptional pelt from a legendary Katata Elk","False","none",,
+"legmooses2","Legendary Knight Moose pelt","An impressive pelt from a legendary Knight Moose","False","none",,
+"legfoxs2","Legendary Marble Fox pelt","A beautiful pelt from a legendary Marble Fox","False","none",,
+"legcougars2","Legendary Maza Cougar pelt","An exceptional pelt from a legendary Maza Cougar","False","none",,
+"legcoyotes2","Legendary Midnight Paw Coyote pelt","A dark and mysterious pelt from a legendary Midnight Paw Coyote","False","none",,
+"legcoyotes3","Legendary Milk Coyote pelt","A rare pelt from a legendary Milk Coyote","False","none",,
+"legwolfs3","Legendary Moonstone Wolf pelt","A magnificent pelt from a legendary Moonstone Wolf","False","none",,
+"legmooseantler","Legendary Moose Antlers","A massive set of antlers from a legendary moose","True","item-id","legmooseantler.png","assets/items/legmooseantler.png"
+"legmooses","Legendary Moose pelt","A majestic pelt from a legendary moose","False","none",,
+"legbucks2","Legendary Mudrunner Buck pelt","A distinct pelt from a legendary Mudrunner Buck","False","none",,
+"legpanthers1","Legendary Nightwalker Panther pelt","A dark and elusive pelt from a legendary Nightwalker Panther","False","none",,
+"legwolfs2","Legendary Onyx Wolf pelt","nice item","False","none",,
+"legbears2","Legendary Owiza Bear pelt","A legendary pelt from an Owiza Bear","False","none",,
+"legelks2","Legendary Ozula Elk pelt","A rare pelt from a legendary Ozula Elk","False","none",,
+"legbisons3","Legendary Payata Bison pelt","A prized pelt from a legendary Payata Bison","False","none",,
+"legprongs","Legendary Pronghorn skin","A sleek and coveted skin from a legendary pronghorn","False","none",,
+"legramhorn","Legendary Ram Horns","Impressive horns from a legendary ram","True","item-id","legramhorn.png","assets/items/legramhorn.png"
+"legrams","Legendary Ram pelt","A distinctive pelt from a legendary ram","False","none",,
+"legcoyotes1","Legendary Red Streak Coyote pelt","A vibrant pelt from a legendary Red Streak Coyote","False","none",,
+"legbears3","Legendary Ridgeback Spirit Bear pelt","A legendary pelt from a Ridgeback Spirit Bear","False","none",,
+"legmooses3","Legendary Rudy Moose pelt","A distinctive pelt from a legendary Rudy Moose","False","none",,
+"legrams3","Legendary Rutile Horn Ram pelt","An exquisite pelt from a legendary Rutile Horn Ram","False","none",,
+"legcougars3","Legendary Sapa Cougar pelt","A majestic pelt from a legendary Sapa Cougar","False","none",,
+"legbucks4","Legendary Shadow Buck pelt","A mysterious pelt from a legendary Shadow Buck","False","none",,
+"legbucks3","Legendary Snow Buck pelt","A pristine pelt from a legendary Snow Buck","False","none",,
+"legmooses1","Legendary Snowflake Moose pelt","A pristine pelt from a legendary Snowflake Moose","False","none",,
+"legaligators2","Legendary Sun Alligator pelt","A legendary pelt from a Sun Alligator","False","none",,
+"legbisonstak","Legendary Takanta Bison pelt","An exceptional pelt from a legendary Takanta Bison","False","none",,
+"legbisons1","Legendary Tatanka Bison pelt","An exquisite pelt from a legendary Tatanka Bison","False","none",,
+"legaligators1","Legendary Teca Alligator pelt","A legendary pelt from a Teca Alligator","False","none",,
+"legboars2","Legendary Wakpa Boar pelt","A formidable pelt from a legendary Wakpa Boar","False","none",,
+"legbeavers2","Legendary White Beaver pelt","A legendary pelt from a White Beaver","False","none",,
+"legboars4","Legendary Wildhog pelt","An untamed pelt from a legendary Wildhog","False","none",,
+"legbisons2","Legendary Winyan Bison pelt","A beautiful pelt from a legendary Winyan Bison","False","none",,
+"legwolfpelt","Legendary Wolf skin","A prized and valuable skin from a legendary wolf","True","item-id","legwolfpelt.png","assets/items/legwolfpelt.png"
+"consumable_lemoncake","Lemon Cake","A delicious lemon cake","True","item-id","consumable_lemoncake.png","assets/items/consumable_lemoncake.png"
+"lizardl","Lizard foot","A preserved foot of a lizard","False","none",,
+"lizards","Lizard pelt","A unique and scaly skin from a lizard","False","none",,
+"consumable_lock_breaker","Lock Breaker","A tool for breaking locks.","True","item-id","consumable_lock_breaker.png","assets/items/consumable_lock_breaker.png"
+"lockpick","Lockpick","A handy tool used for picking locks","True","item-id","lockpick.png","assets/items/lockpick.png"
+"lockpickmold","Lockpick Mold","A mold used for crafting lockpicks","True","item-id","lockpickmold.png","assets/items/lockpickmold.png"
+"log_bencha","Log Bench 1","A comfortable log bench for outdoor seating","False","none",,
+"logbench","Log Bench 1","A simple and natural log bench","False","none",,
+"log_benchb","Log Bench 2","A spacious log bench for outdoor gatherings","False","none",,
+"logbechs","Log Bench 2","A sturdy and rustic log bench design","False","none",,
+"loungechair","Lounge Chair","A comfortable and stylish lounge chair","False","none",,
+"loungechair2","Lounge Chair 2","A modern and luxurious lounge chair","False","none",,
+"lumberaxe","Lumber Axe","A sturdy axe designed for cutting lumber","True","item-id","lumberaxe.png","assets/items/lumberaxe.png"
+"mackerel","Mackerel","A small and silvery fish called mackerel","True","item-id","mackerel.png","assets/items/mackerel.png"
+"provision_jewelry_turquoise_ring","Magnate Turquoise Ring","A solid gold ring with an oval of polished turquoise from Persia.","False","none",,
+"marriagebook","Marriage Book","A book containing the guidelines and rituals for marriage","False","none",,
+"marriagecertification","Marriage Certify","A legal document certifying a marriage","False","none",,
+"meat","Meat","Fresh and uncooked meat from various animals","True","item-id","meat.png","assets/items/meat.png"
+"consumable_meat_greavy","Meat Stew","A hearty meat stew.","True","item-id","consumable_meat_greavy.png","assets/items/consumable_meat_greavy.png"
+"provision_hrlm_hairpin_metal","Meatl Hairpin","A beautiful metal hairpin.","False","none",,
+"consumable_medicine","Medicine","Medicinal treatment.","True","item-id","consumable_medicine.png","assets/items/consumable_medicine.png"
+"a_c_fishbluegil_01_ms","Medium Bluegil","A medium-sized Bluegil fish.","True","item-id","a_c_fishbluegil_01_ms.png","assets/items/a_c_fishbluegil_01_ms.png"
+"a_c_fishbullheadcat_01_ms","Medium Bullhead","A medium-sized Bullhead fish.","True","item-id","a_c_fishbullheadcat_01_ms.png","assets/items/a_c_fishbullheadcat_01_ms.png"
+"butchertable2","Medium Butcher Table","A medium-sized table used for butchering animals.","False","none",,
+"a_c_fishperch_01_ms","Medium Perch","A medium-sized Perch fish.","True","item-id","a_c_fishperch_01_ms.png","assets/items/a_c_fishperch_01_ms.png"
+"a_c_fishchainpickerel_01_ms","Medium Pickerel","A medium-sized Pickerel fish.","True","item-id","a_c_fishchainpickerel_01_ms.png","assets/items/a_c_fishchainpickerel_01_ms.png"
+"a_c_fishredfinpickerel_01_ms","Medium Redfin Pickerel","A medium-sized Redfin Pickerel fish.","True","item-id","a_c_fishredfinpickerel_01_ms.png","assets/items/a_c_fishredfinpickerel_01_ms.png"
+"a_c_fishrockbass_01_ms","Medium Rockbass","A medium-sized Rockbass fish.","True","item-id","a_c_fishrockbass_01_ms.png","assets/items/a_c_fishrockbass_01_ms.png"
+"metal_gear","Metal gear","A metal gear used in many machines.","True","item-id","metal_gear.png","assets/items/metal_gear.png"
+"provision_asteroid_chunk","Meteorite","A rock that has fallen from space.","False","none",,
+"mexitillas","Mexitillas","A can of mixed mexcian beans.","True","item-id","mexitillas.png","assets/items/mexitillas.png"
+"milk","Milk","A nutritious and creamy dairy product","True","item-id","milk.png","assets/items/milk.png"
+"Milk_Weed","Milk Weed","A plant with milky sap used for medicinal purposes","True","item-id","Milk_Weed.png","assets/items/Milk_Weed.png"
+"Milk_Weed_Seed","Milk Weed Seed","Seeds of the milkweed plant for cultivation","True","item-id","Milk_Weed_Seed.png","assets/items/Milk_Weed_Seed.png"
+"appleCrumbMash","Minty Berry Mash","A mashed mixture of mint and berries used for crafting Moonshine","True","item-id","appleCrumbMash.png","assets/items/appleCrumbMash.png"
+"appleCrumbMoonshine","Minty Berry Moonshine","A strong alcoholic beverage made from mint and berries","True","item-id","appleCrumbMoonshine.png","assets/items/appleCrumbMoonshine.png"
+"provision_ro_flower_moccasin","Moccasin Orchid","Moccasin Flower Orchid can be identified by the yellow pouch like petal, red sepals, and wide leaves. This orchid can be found growing near pines or conifers in woodlands and forests.","False","none",,
+"ammomolotov","Molotov Ammo","A glass bottle filled with flammable liquid, designed to burst into flames upon impact.","True","item-id","ammomolotov.png","assets/items/ammomolotov.png"
+"moonshine","Moonshine","An illegally distilled and potent alcoholic beverage","True","item-id","moonshine.png","assets/items/moonshine.png"
+"mooseantler","Moose Antlers","Impressive antlers shed by a moose","True","item-id","mooseantler.png","assets/items/mooseantler.png"
+"mooses","Moose pelt","A large and thick fur coat from a moose","False","none",,
+"morphine","Morphine","A potent analgesic and narcotic medication","True","item-id","morphine.png","assets/items/morphine.png"
+"morpcert","Morphine Prescription","A medical prescription for morphine medication","False","none",,
+"mountainmen","Mountain Camp Set","A set of equipment and supplies for a mountain camp","False","none",,
+"muskrats","Muskrat skin","The fur skin of a muskrat, commonly used for crafting","True","item-id","muskrats.png","assets/items/muskrats.png"
+"Mutton","Mutton","Meat from mature sheep used in cooking","True","item-id","Mutton.png","assets/items/Mutton.png"
+"nails","Nails","Small metal fasteners used for joining materials","True","item-id","nails.png","assets/items/nails.png"
+"nativebasket1","Native Basket 1","A traditional native basket for carrying items","False","none",,
+"nativebasket2","Native Basket 2","A second variation of a traditional native basket","False","none",,
+"nativeskull","Native Decor 1","A decorative native skull for ornamental purposes","False","none",,
+"nativedecor","Native Decor Set","A set of decorative native items for display","False","none",,
+"nativepot","Native Pot","A traditional native pot for cooking and storage","False","none",,
+"tipi","Native Tipi","A traditional Native American tipi.","False","none",,
+"naturalwagon","Naturalists Wagon Set","A wagon set equipped for naturalists and explorers","False","none",,
+"collector_fossil_neo","Neospirifer Fossil","A common Neospirifer fossil, millions of years old. Good condition.","False","none",,
+"provision_hrlm_brush_rosewood_ng","New Guinea Rosewood Hairbrush","An exotic new guinea rosewood hairbrush.","False","none",,
+"newspaper","Newspaper","A printed publication containing news and articles","False","none",,
+"provision_ro_flower_night_scented","Night Scented Orchid","Night Scented Orchid can be identified by the alternate stems, the long sepals, and white petal flowers. This orchid can be found growing upon another plant, often draping down from trees.","False","none",,
+"nightstand","Nightstand","A small bedside table for holding personal items","False","none",,
+"nitrite","Nitrite","A chemical compound used in various industrial processes","True","item-id","nitrite.png","assets/items/nitrite.png"
+"nitroglyserolia","Nitroglycerol","A highly explosive liquid compound used in explosives","True","item-id","nitroglyserolia.png","assets/items/nitroglyserolia.png"
+"notebook","Notebook","A small book with blank pages for writing or drawing","True","item-id","notebook.png","assets/items/notebook.png"
+"provision_arrowhead_obsidian","Obsidian Arrowhead","A valuable arrowhead of smooth, gleaming obsidian.","False","none",,
+"provision_jewelry_gld_bngle_bracelet","Ojeda Rose Gold Bangle Bracelet","A large bracelet of rose gold with elaborate cameo detailing.","False","none",,
+"obed","Old bed","An old bed that has seen better days.","False","none",,
+"Oleander_Sage","Oleander Sage","A herb known for its medicinal properties.","True","item-id","Oleander_Sage.png","assets/items/Oleander_Sage.png"
+"Oleander_Sage_Seed","Oleander Sage Seed","A seed that can be planted to grow Oleander Sage.","True","item-id","Oleander_Sage_Seed.png","assets/items/Oleander_Sage_Seed.png"
+"opossumc","Opossum claws","Sharp claws from an opossum.","False","none",,
+"opossums","Opossum skin","The fur and skin of an opossum.","False","none",,
+"provision_jewelry_dmnd_pendt_earring","Orchid├⌐e Diamond Earrings","Earrings set with clusters of brilliant cut diamonds in a floral pattern.","False","none",,
+"orden_presidente","Order of the President","A prestigious order awarded by the President.","True","item-id","orden_presidente.png","assets/items/orden_presidente.png"
+"consumable_herb_oregano","Oregano","Fragrant oregano leaves.","True","item-id","consumable_herb_oregano.png","assets/items/consumable_herb_oregano.png"
+"Oregano","Oregano","A fragrant herb commonly used in cooking.","True","item-id","oregano.png","assets/items/oregano.png"
+"Oregano_Seed","Oregano Seed","A seed that can be planted to grow Oregano.","True","item-id","Oregano_Seed.png","assets/items/Oregano_Seed.png"
+"oriole_c","Oriole","Vibrant feathers from an Oriole bird.","False","none",,
+"owlt","Owl claws","Sharp claws from an owl.","True","item-id","owlt.png","assets/items/owlt.png"
+"owlf","Owl feather","Feathers shed by an owl.","True","item-id","owlf.png","assets/items/owlf.png"
+"panthere","Panther eyes","Intense and captivating eyes from a panther.","False","none",,
+"panthers","Panther skin","The sleek and supple skin of a panther.","False","none",,
+"paper","Paper","Sheets of paper for writing or drawing.","True","item-id","paper.png","assets/items/paper.png"
+"parasol","Parasol","A stylish and functional parasol to shield from the sun.","False","none",,
+"Parasol_Mushroom","Parasol Mushroom","A mushroom with a wide, umbrella-like cap.","True","item-id","Parasol_Mushroom.png","assets/items/Parasol_Mushroom.png"
+"Parasol_Mushroom_Seed","Parasol Mushroom Seed","A seed that can be planted to grow parasol mushrooms.","True","item-id","Parasol_Mushroom_Seed.png","assets/items/Parasol_Mushroom_Seed.png"
+"bparrotb","Parrot beak","A beak obtained from a parrot.","False","none",,
+"bparrotf","Parrot feather","A feather obtained from a parrot.","False","none",,
+"consumable_peach","Peach","Juicy and ripe peach.","True","item-id","consumable_peach.png","assets/items/consumable_peach.png"
+"consumable_peachcobbler","Peach Cobbler","A tasty peach cobbler.","True","item-id","consumable_peachcobbler.png","assets/items/consumable_peachcobbler.png"
+"consumable_peachjelly","Peach Jelly","Peach flavored jelly.","True","item-id","consumable_peachjelly.png","assets/items/consumable_peachjelly.png"
+"mashpeach","Peach Mash","A mashed mixture of peaches used in culinary preparations","True","item-id","mashpeach.png","assets/items/mashpeach.png"
+"peachseeds","Peach Seeds","Seeds that can be planted to grow peach trees.","True","item-id","peachseeds.png","assets/items/peachseeds.png"
+"consumable_pear","Pear","A sweet and juicy pear.","True","item-id","consumable_pear.png","assets/items/consumable_pear.png"
+"pearl","Pearl","A hard, glistening object produced within the soft tissue of a living shelled mollusk.","True","item-id","pearl.png","assets/items/pearl.png"
+"provision_earring_pearl","Pearl Earring","A gold earring.","False","none",,
+"peasantb","Peasant beak","The beak of a peasant bird.","True","item-id","peasantb.png","assets/items/peasantb.png"
+"peasantf","Peasant feather","A feather from a peasant bird.","True","item-id","peasantf.png","assets/items/peasantf.png"
+"pecaris","Peccary pelt","The fur of a peccary, a pig-like mammal.","False","none",,
+"pelicanb","Pelican beak","The beak of a pelican bird.","True","item-id","pelicanb.png","assets/items/pelicanb.png"
+"pelicanf","Pelican feather","A feather from a pelican bird.","True","item-id","pelicanf.png","assets/items/pelicanf.png"
+"provision_jewelry_mthr_pearl_necklace","Pell├⌐ Pearl Necklace","A beaded chain necklace with a fashionable mother of pearl pendant.","False","none",,
+"pen","Pen","A writing instrument used to apply ink.","True","item-id","pen.png","assets/items/pen.png"
+"consumable_peppermint","Peppermint","Peppermint flavored candy.","True","item-id","consumable_peppermint.png","assets/items/consumable_peppermint.png"
+"consumable_horsepeppermints","Peppermint Stick","Peppermint flavored candy stick.","True","item-id","consumable_horsepeppermints.png","assets/items/consumable_horsepeppermints.png"
+"Health_For_Dog","Pet Bandages","Bandages designed for treating injuries in pets.","True","item-id","Health_For_Dog.png","assets/items/Health_For_Dog.png"
+"Drink_For_Dog","Pet Water","A refreshing drink specially made for pets to keep them hydrated.","True","item-id","Drink_For_Dog.png","assets/items/Drink_For_Dog.png"
+"collector_fossil_stone","Petoskey Stone Fossil","A common rock made of fossilized coral. Unpolished.","False","none",,
+"pheasant_taxidermy","Pheasant Taxidermy","A preserved mount of a pheasant bird for display.","False","none",,
+"phestaxi","Pheasant Taxidermy","A preserved mount of a pheasant bird for display.","False","none",,
+"pickaxe","Pickaxe","A tool with a pointed end and a handle, used for breaking up rocks and mining.","True","item-id","pickaxe.png","assets/items/pickaxe.png"
+"porkfat","Pig fat","The fat obtained from a pig, often used in cooking and making lard.","True","item-id","porkfat.png","assets/items/porkfat.png"
+"pigs","Pig pelt","The skin and fur of a pig.","False","none",,
+"pigeon_c","Pigeon","A pigeon bird.","False","none",,
+"provision_jewelry_moon_ring","Pilgrim Moonstone Ring","A thick gold band with a single claw set moonstone.","False","none",,
+"pipe","Pipe","A tubular device used for smoking tobacco or other substances.","True","item-id","pipe.png","assets/items/pipe.png"
+"dynamite","Pipe charge dynamite","An explosive device consisting of a tube filled with explosive material, used for various purposes including mining and demolition.","True","item-id","dynamite.png","assets/items/dynamite.png"
+"ammopistolexplosive","Pistol Ammo Explosive","Ammunition for a pistol with explosive properties, causing significant damage upon impact.","True","item-id","ammopistolexplosive.png","assets/items/ammopistolexplosive.png"
+"ammopistolexpress","Pistol Ammo Express","High-velocity ammunition specifically designed for pistols, providing increased range and damage.","True","item-id","ammopistolexpress.png","assets/items/ammopistolexpress.png"
+"ammopistolnormal","Pistol Ammo Normal","Standard ammunition used with pistols for self-defense and combat.","True","item-id","ammopistolnormal.png","assets/items/ammopistolnormal.png"
+"ammopistolsplitpoint","Pistol Ammo Splitpoint","Ammunition with a split point tip, designed to cause more damage and improve accuracy.","True","item-id","ammopistolsplitpoint.png","assets/items/ammopistolsplitpoint.png"
+"ammopistolvelocity","Pistol Ammo Velocity","Ammunition designed to enhance the velocity and accuracy of pistol shots.","True","item-id","ammopistolvelocity.png","assets/items/ammopistolvelocity.png"
+"planttrimmer","Plant Trimmer","A set plant trimmers to keep the weeds in check.","True","item-id","planttrimmer.png","assets/items/planttrimmer.png"
+"provision_bracelet_platinum","Platinum Bracelet","A platinum bracelet","False","none",,
+"provision_buckle_platinum","Platinum Buckle","A platinum belt buckle.","False","none",,
+"provision_earring_platinum","Platinum Earring","A beautiful pearl earring.","False","none",,
+"provision_ring_platinum","Platinum Ring","A finely crafted platinum ring.","False","none",,
+"mashplum","Plum Mash","A mashed mixture of plums used in cooking and distilling","True","item-id","mashplum.png","assets/items/mashplum.png"
+"pocket_watch","Pocket Watch","A small timepiece designed to be carried in a pocket.","True","item-id","pocket_watch.png","assets/items/pocket_watch.png"
+"ammopoisonbottle","Poison Bottle Ammo","A glass bottle filled with a poisonous substance, used to coat weapons and inflict additional damage.","True","item-id","ammopoisonbottle.png","assets/items/ammopoisonbottle.png"
+"frogbull2_c","Poisoned Frogbull","A toxic variant of a frogbull.","False","none",,
+"toadpoison_c","Poisoned Toad","A toad that carries poison.","False","none",,
+"pokerset","Poker Table Set","A complete set for playing poker, including a table and cards.","False","none",,
+"pork","Pork","The meat from a pig, commonly used for cooking and eating.","True","item-id","pork.png","assets/items/pork.png"
+"potato","Potato","An edible starchy tuber that is commonly used in cooking.","True","item-id","potato.png","assets/items/potato.png"
+"potatoseed","Potato Seed","A seed that can be planted to grow potato plants.","True","item-id","potatoseed.png","assets/items/potatoseed.png"
+"potion","Potion","A potion with magical healing properties.","True","item-id","potion.png","assets/items/potion.png"
+"consumable_poundcake","Pound Cake","A delicious pound cake.","True","item-id","consumable_poundcake.png","assets/items/consumable_poundcake.png"
+"prairib","Prairie Chicken Beak","The beak of a prairie chicken, a bird species found in grassland habitats.","True","item-id","prairib.png","assets/items/prairib.png"
+"prairif","Prairie Chicken Feather","A feather from a prairie chicken bird, often used in crafts and decorations.","True","item-id","prairif.png","assets/items/prairif.png"
+"Prairie_Poppy","Prairie Poppy","A type of poppy flower that is native to prairie regions.","True","item-id","Prairie_Poppy.png","assets/items/Prairie_Poppy.png"
+"Prairie_Poppy_Seed","Prairie Poppy Seed","A seed that can be planted to grow prairie poppy flowers.","True","item-id","Prairie_Poppy_Seed.png","assets/items/Prairie_Poppy_Seed.png"
+"premium_beefjerky","Premium Beef Jerky","nice item","True","item-id","premium_beefjerky.png","assets/items/premium_beefjerky.png"
+"consumable_pretzel","Pretzel","A tasty pretzel with salt.","True","item-id","consumable_pretzel.png","assets/items/consumable_pretzel.png"
+"pronghornh","Pronghorn Horn","The horn of a pronghorn, a mammal native to North America.","True","item-id","pronghornh.png","assets/items/pronghornh.png"
+"prongs","Pronghorn Skin","The skin of a pronghorn, known for its soft and durable fur.","False","none",,
+"pulp","Pulp","A soft and moist mass of plant fibers, typically obtained from crushing or processing plant materials.","True","item-id","pulp.png","assets/items/pulp.png"
+"quailb","Quail Beak","The beak of a quail bird, often used for crafts and decorative purposes.","True","item-id","quailb.png","assets/items/quailb.png"
+"quailf","Quail Feather","A feather from a quail bird, known for its small size and distinctive patterns.","True","item-id","quailf.png","assets/items/quailf.png"
+"quartz","Quartz","A hard mineral often used in jewelry and decorative items.","True","item-id","quartz.png","assets/items/quartz.png"
+"provision_arrowhead_quartz","Quartz Arrowhead","An eye-catching arrowhead of cut quartz, in good condition.","False","none",,
+"provision_ro_flower_queens","Queens Orchid","The Queens Orchid can be identified by the white sepals, and purple and white curled petal.","False","none",,
+"rabbits","Rabbit Skin","The skin of a rabbit, commonly used in making fur garments and accessories.","False","none",,
+"rabbitpaw","Rabbitfoot","The foot of a rabbit, sometimes considered a good luck charm.","True","item-id","rabbitpaw.png","assets/items/rabbitpaw.png"
+"raccoons","Raccoon Skin","The skin of a raccoon, known for its distinctive ringed tail and soft fur.","False","none",,
+"raccoont","Raccoon Tooth","A tooth from a raccoon, often used in crafts and jewelry.","True","item-id","raccoont.png","assets/items/raccoont.png"
+"collector_fossil_pet_wood_rainbow","Rainbow Petrified Wood Fossil","An uncommon piece of petrified wood filled with multicolored crystals.","False","none",,
+"a_c_fishrainbowtrout_01_ms","Rainbow Trout","A Rainbow Trout fish.","True","item-id","a_c_fishrainbowtrout_01_ms.png","assets/items/a_c_fishrainbowtrout_01_ms.png"
+"raisin","Raisin","A dried grape that makes good eating.","True","item-id","raisin.png","assets/items/raisin.png"
+"ramhorn","Ram Horn","The horn of a ram, a male sheep, often used in crafting and decoration.","True","item-id","ramhorn.png","assets/items/ramhorn.png"
+"rams","Ram Pelt","The fur and skin of a ram, known for its warmth and durability.","False","none",,
+"Rams_Head","Rams Head","The preserved head of a ram, often used as a hunting trophy or decorative item.","True","item-id","Rams_Head.png","assets/items/Rams_Head.png"
+"Rams_Head_Seed","Rams Head Seed","A seed that can be planted to grow plants resembling a rams head.","True","item-id","Rams_Head_Seed.png","assets/items/Rams_Head_Seed.png"
+"raspberryale","Raspberry Ale","A type of ale infused with the flavor of raspberries.","True","item-id","raspberryale.png","assets/items/raspberryale.png"
+"consumable_raspberryjelly","Raspberry Jelly","Raspberry flavored jelly.","True","item-id","consumable_raspberryjelly.png","assets/items/consumable_raspberryjelly.png"
+"mashraspberry","Raspberry Mash","A mashed mixture of raspberries used for culinary purposes","True","item-id","mashraspberry.png","assets/items/mashraspberry.png"
+"mashraspberry90p","Raspberry Mash 90p","A concentrated raspberry mash used for crafting potent beverages","True","item-id","mashraspberry90p.png","assets/items/mashraspberry90p.png"
+"rat_c","Rat","A small rodent known for its agility and ability to adapt to various environments.","False","none",,
+"provision_ro_flower_rat_tail","Rat Tail Orchid","The Rat Tail Orchid has long, thin hanging stems, pencil-like leaves and rigid flowering stems bearing up to twelve crowded white to cream-coloured flowers.","False","none",,
+"ravenc","Raven Claws","The claws of a raven bird, often used for crafts and jewelry.","True","item-id","ravenc.png","assets/items/ravenc.png"
+"ravenf","Raven Feather","A feather from a raven bird, known for its glossy black color and sleek appearance.","True","item-id","ravenf.png","assets/items/ravenf.png"
+"provision_arrowhead_raw","Raw Arrowhead","A roughly hacked arrowhead made from pale stone.","False","none",,
+"raw_bacon","Raw Bacon","Raw uncooked bacon.","True","item-id","raw_bacon.png","assets/items/raw_bacon.png"
+"rectable","Rectangle Table","A rectangular-shaped table, suitable for various purposes such as dining or work.","False","none",,
+"rectangle_table","Rectangle Table","A table with a rectangular shape, often used for dining or as a work surface.","False","none",,
+"Red_Raspberry","Red Raspberry","A type of raspberry with a red color, commonly used in desserts and preserves.","True","item-id","Red_Raspberry.png","assets/items/Red_Raspberry.png"
+"Red_Raspberry_Seed","Red Raspberry Seed","A seed that can be planted to grow red raspberry plants.","True","item-id","Red_Raspberry_Seed.png","assets/items/Red_Raspberry_Seed.png"
+"Red_Sage","Red Sage","A type of sage plant with red-colored flowers, often used in herbal remedies and smudging ceremonies.","True","item-id","Red_Sage.png","assets/items/Red_Sage.png"
+"Red_Sage_Seed","Red Sage Seed","A seed that can be planted to grow red sage plants.","True","item-id","Red_Sage_Seed.png","assets/items/Red_Sage_Seed.png"
+"squirrel_red_c","Red Squirrel","A Red squirrel","False","none",,
+"boobyb","Red-footed booby beak","A beak obtained from a red-footed booby bird.","False","none",,
+"boobyf","Red-footed booby feather","A feather obtained from a red-footed booby bird.","False","none",,
+"ammorepeaterexplosive","Repeater Ammo Explosive","Ammunition for a repeater rifle with explosive properties, causing significant damage upon impact.","True","item-id","ammorepeaterexplosive.png","assets/items/ammorepeaterexplosive.png"
+"ammorepeaterexpress","Repeater Ammo Express","High-velocity ammunition specifically designed for repeater rifles, providing increased range and damage.","True","item-id","ammorepeaterexpress.png","assets/items/ammorepeaterexpress.png"
+"ammorepeaternormal","Repeater Ammo Normal","Standard ammunition used with repeater rifles for self-defense and combat.","True","item-id","ammorepeaternormal.png","assets/items/ammorepeaternormal.png"
+"ammorepeatersplitpoint","Repeater Ammo Splitpoint","Ammunition with a split point tip, designed to cause more damage and improve accuracy when used with repeater rifles.","True","item-id","ammorepeatersplitpoint.png","assets/items/ammorepeatersplitpoint.png"
+"ammorepeatervelocity","Repeater Ammo Velocity","Ammunition designed to enhance the velocity and accuracy of repeater rifle shots.","True","item-id","ammorepeatervelocity.png","assets/items/ammorepeatervelocity.png"
+"repeaterbarrel","Repeater Barrel","A replacement barrel for a repeater firearm, used for improving accuracy and performance.","False","none",,
+"repeatermold","Repeater Mold","A mold used for casting the components of a repeater firearm.","True","item-id","repeatermold.png","assets/items/repeatermold.png"
+"repeaterreceiver","Repeater Receiver","A replacement receiver for a repeater firearm, which houses the firing mechanism.","True","item-id","repeaterreceiver.png","assets/items/repeaterreceiver.png"
+"repeaterrecmold","Repeater Receiver Mold","A mold used for casting the receiver of a repeater firearm.","True","item-id","repeaterrecmold.png","assets/items/repeaterrecmold.png"
+"repeaterstock","Repeater Stock","A replacement stock for a repeater firearm, providing stability and control.","True","item-id","repeaterstock.png","assets/items/repeaterstock.png"
+"ammorevolverexplosive","Revolver Ammo Explosive","Ammunition for a revolver with explosive properties, causing significant damage upon impact.","True","item-id","ammorevolverexplosive.png","assets/items/ammorevolverexplosive.png"
+"ammorevolverexpress","Revolver Ammo Express","High-velocity ammunition specifically designed for revolvers, providing increased range and damage.","True","item-id","ammorevolverexpress.png","assets/items/ammorevolverexpress.png"
+"ammorevolvernormal","Revolver Ammo Normal","Standard ammunition used with revolvers for self-defense and combat.","True","item-id","ammorevolvernormal.png","assets/items/ammorevolvernormal.png"
+"ammorevolversplitpoint","Revolver Ammo Splitpoint","Ammunition with a split point tip, designed to cause more damage and improve accuracy when used with revolvers.","True","item-id","ammorevolversplitpoint.png","assets/items/ammorevolversplitpoint.png"
+"ammorevolvervelocity","Revolver Ammo Velocity","Ammunition designed to enhance the velocity and accuracy of revolver shots.","True","item-id","ammorevolvervelocity.png","assets/items/ammorevolvervelocity.png"
+"revolverbarrel","Revolver Barrel","A replacement barrel for a revolver firearm, used for improving accuracy and performance.","False","none",,
+"revolvercylinder","Revolver Cylinder","A replacement cylinder for a revolver firearm, which holds the ammunition.","True","item-id","revolvercylinder.png","assets/items/revolvercylinder.png"
+"revolverhandle","Revolver Handle","A replacement handle for a revolver firearm, providing grip and control.","True","item-id","revolverhandle.png","assets/items/revolverhandle.png"
+"revolvermold","Revolver Mold","A mold used for casting the components of a revolver firearm.","True","item-id","revolvermold.png","assets/items/revolvermold.png"
+"provision_jewelry_amethyst_necklace","Richelieu Amethyst Necklace","A delicate necklace featuring a duo of purple amethyst and silver pearl.","False","none",,
+"ammorifleexplosive","Rifle Ammo Explosive","Ammunition for a rifle with explosive properties, causing significant damage upon impact.","True","item-id","ammorifleexplosive.png","assets/items/ammorifleexplosive.png"
+"ammorifleexpress","Rifle Ammo Express","High-velocity ammunition specifically designed for rifles, providing increased range and damage.","True","item-id","ammorifleexpress.png","assets/items/ammorifleexpress.png"
+"ammoriflenormal","Rifle Ammo Normal","Standard ammunition used with rifles for self-defense and combat.","True","item-id","ammoriflenormal.png","assets/items/ammoriflenormal.png"
+"ammoriflesplitpoint","Rifle Ammo Splitpoint","Ammunition with a split point tip, designed to cause more damage and improve accuracy when used with rifles.","True","item-id","ammoriflesplitpoint.png","assets/items/ammoriflesplitpoint.png"
+"ammoriflevelocity","Rifle Ammo Velocity","Ammunition designed to enhance the velocity and accuracy of rifle shots.","True","item-id","ammoriflevelocity.png","assets/items/ammoriflevelocity.png"
+"riflebarrel","Rifle Barrel","A replacement barrel for a rifle firearm, used for improving accuracy and performance.","False","none",,
+"riflemold","Rifle Mold","A mold used for casting the components of a rifle firearm.","True","item-id","riflemold.png","assets/items/riflemold.png"
+"riflereceiver","Rifle Receiver","A replacement receiver for a rifle firearm, which houses the firing mechanism.","True","item-id","riflereceiver.png","assets/items/riflereceiver.png"
+"riflerecmold","Rifle Receiver Mold","A mold used for casting the receiver of a rifle firearm.","True","item-id","riflerecmold.png","assets/items/riflerecmold.png"
+"riflestock","Rifle Stock","A replacement stock for a rifle firearm, providing stability and control.","True","item-id","riflestock.png","assets/items/riflestock.png"
+"roach","Roach","A small insect commonly found in households and other environments.","True","item-id","roach.png","assets/items/roach.png"
+"robberyplanning","Robbery Planning Set","A set of tools and materials used for planning a robbery or heist.","False","none",,
+"robin_c","Robin","A small songbird known for its red breast and melodious voice.","True","item-id","robin_c.png","assets/items/robin_c.png"
+"rock","Rock","A solid mineral material that forms the Earths crust, commonly found in various shapes and sizes.","True","item-id","rock.png","assets/items/rock.png"
+"rollingpaper","Rolling paper","A thin, lightweight paper used for rolling cigarettes or other smoking materials.","True","item-id","rollingpaper.png","assets/items/rollingpaper.png"
+"cockc","Rooster claws","Claws from a rooster.","False","none",,
+"cockf","Rooster feather","Feathers from a rooster.","False","none",,
+"rspoonb","Roseta Spoonbill beak","The long, slender beak of a Roseta Spoonbill bird, known for its distinctive shape and color.","True","item-id","rspoonb.png","assets/items/rspoonb.png"
+"rspoonf","Roseta Spoonbill feather","A feather from a Roseta Spoonbill bird, often used in crafts and decorative items.","True","item-id","rspoonf.png","assets/items/rspoonf.png"
+"provision_hrlm_brush_rosewood","Rosewood Hairbrush","A hand carved rosewood brush.","False","none",,
+"provision_jewelry_gld_pearl_necklace","Rou Pearl Necklace","A necklace made of fine rose gold featuring a single pearl from the Orient.","False","none",,
+"provision_arrowhead_rough","Rough Arrowhead","A stone arrowhead, badly weathered over time.","False","none",,
+"round_table","Round Table","A table with a round top surface, typically used for dining or meetings.","False","none",,
+"roundtable","Round Table","A circular table with a flat top surface, often used for dining or discussions.","False","none",,
+"provision_jewelry_qn_dmnd_earring","Royal Victoria Diamond Earrings","A series of small diamonds claw set in a floral cluster on a white gold band.","False","none",,
+"rubber","Rubber","A flexible, elastic material derived from the sap of certain plants or synthesized chemically.","True","item-id","rubber.png","assets/items/rubber.png"
+"rubbertube","Rubber Tube","A cylindrical tube made of rubber, commonly used for various applications such as plumbing or medical procedures.","True","item-id","rubbertube.png","assets/items/rubbertube.png"
+"provision_jewelry_whtgld_dmnd_ring","Sackville Diamond Ring","A series of small diamonds claw set in a floral cluster on a white gold band.","False","none",,
+"salmon","Salmon","Fresh salmon","True","item-id","salmon.png","assets/items/salmon.png"
+"consumable_salmon_can","Salmon Can","Canned salmon.","True","item-id","consumable_salmon_can.png","assets/items/consumable_salmon_can.png"
+"salt","Salt","Common salt","True","item-id","salt.png","assets/items/salt.png"
+"Saltbush","Saltbush","Saltbush plant","True","item-id","Saltbush.png","assets/items/Saltbush.png"
+"Saltbush_Seed","Saltbush Seed","Seed of Saltbush plant","True","item-id","Saltbush_Seed.png","assets/items/Saltbush_Seed.png"
+"sandbag","Sandbag","A bag of sand. often used in construction.","False","none",,
+"sandpaper","Sandpaper","A sheet of sandpaper used for smoothing wood.","True","item-id","sandpaper.png","assets/items/sandpaper.png"
+"sap","Sap","Sticky sap","True","item-id","sap.png","assets/items/sap.png"
+"sarsaparilla","Sarsaparilla","Medicinal sarsaparilla","True","item-id","sarsaparilla.png","assets/items/sarsaparilla.png"
+"scale","Scale","Measuring scale","True","item-id","scale.png","assets/items/scale.png"
+"songbird2_c","Scarlet songbird","A beautiful scarlet songbird","False","none",,
+"scentg","Scent glad","Scented glad","True","item-id","scentg.png","assets/items/scentg.png"
+"collector_fossil_sea_lily","Sea Lily Fossil","An uncommon fossilized crinoid, a marine animal millions of years old.","False","none",,
+"collector_fossil_sea_scorpion","Sea Scorpion Fossil","An uncommon eurypterid fossil in good condition.","False","none",,
+"seagullb","Seagull beak","Beak of a seagull","True","item-id","seagullb.png","assets/items/seagullb.png"
+"seagullf","Seagull feather","Feather from a seagull","True","item-id","seagullf.png","assets/items/seagullf.png"
+"SaltedCookedBigGameMeat","Seasoned Big Game","nice item","False","none",,
+"cookedpork","Seasoned Pork","nice item","True","item-id","cookedpork.png","assets/items/cookedpork.png"
+"secondchance","Second Chance","Opportunity for a second chance","True","item-id","secondchance.png","assets/items/secondchance.png"
+"collector_fossil_tooth_serrated","Serrated Tooth Fossil","A rare and jagged fossilized tooth, once belonging to an Allosaurus.","False","none",,
+"trayoffood","Serving Table","A table used for serving food.","False","none",,
+"sheephead","Sheep head","Head of a sheep","True","item-id","sheephead.png","assets/items/sheephead.png"
+"shellcasing","Shell Casing","Empty shell casing","True","item-id","shellcasing.png","assets/items/shellcasing.png"
+"shootingtarget","Shooting Target","Target for shooting practice","False","none",,
+"ammoshotgunexplosive","Shotgun Ammo Explosive","Ammunition for a shotgun with explosive properties, causing significant damage upon impact.","True","item-id","ammoshotgunexplosive.png","assets/items/ammoshotgunexplosive.png"
+"ammoshotgunincendiary","Shotgun Ammo Incendiary","Ammunition designed to ignite targets, causing them to burst into flames.","True","item-id","ammoshotgunincendiary.png","assets/items/ammoshotgunincendiary.png"
+"ammoshotgunnormal","Shotgun Ammo Normal","Standard ammunition used with shotguns for self-defense and combat.","True","item-id","ammoshotgunnormal.png","assets/items/ammoshotgunnormal.png"
+"ammoshotgunslug","Shotgun Ammo Slug","Ammunition with a single solid projectile, offering increased accuracy and range for shotguns.","True","item-id","ammo_shotgun_slug.png","assets/items/ammo_shotgun_slug.png"
+"shotgunbarrel","Shotgun Barrel","Barrel for a shotgun","False","none",,
+"shotgunmold","Shotgun Mold","Mold for a shotgun","True","item-id","shotgunmold.png","assets/items/shotgunmold.png"
+"shotgunstock","Shotgun Stock","Stock for a shotgun","True","item-id","shotgunstock.png","assets/items/shotgunstock.png"
+"shrimps","Shrimp Stew","Delicious shrimp stew","True","item-id","shrimps.png","assets/items/shrimps.png"
+"provision_disco_shrunken_head","Shrunken Head","A shurken head. possibly used in vodoo.","False","none",,
+"side_table","side table 1","A stylish side table","False","none",,
+"sidetable","side table 1","Functional side table","False","none",,
+"side_tablea","side table 2","An elegant side table","False","none",,
+"sidetablea","side table 2","Stylish side table","False","none",,
+"side_tableb","side table 3","A modern side table","False","none",,
+"sidetableb","side table 3","A beautiful side table","False","none",,
+"provision_bracelet_silver","Silver Bracelet","A silver bracelet.","False","none",,
+"provision_buckle_silver","Silver Buckle","A silver belt buckle.","False","none",,
+"provision_earring_silver","Silver Earring","A silver earring.","False","none",,
+"provision_jewelry_slvr_pearl_necklace","Silver Pearl Necklace","A necklace made of fine silver and pearls.","False","none",,
+"tent3","Simple Tent","A basic tent for camping.","False","none",,
+"singlebed","single bed","A comfortable single bed","False","none",,
+"skullpost","Skull Post","A decorative skull post","False","none",,
+"provision_arrowhead_slate","Slate Arrowhead","A carefully made, well-preserved slate arrowhead.","False","none",,
+"a_c_fishbluegil_01_sm","Small Bluegil","A small Bluegil fish.","True","item-id","a_c_fishbluegil_01_sm.png","assets/items/a_c_fishbluegil_01_sm.png"
+"a_c_fishbullheadcat_01_sm","Small Bullhead","A small Bullhead fish.","True","item-id","a_c_fishbullheadcat_01_sm.png","assets/items/a_c_fishbullheadcat_01_sm.png"
+"butchertable1","Small Butcher Table","A small table used for butchering animals.","False","none",,
+"smallchest","Small Chest","A small storage chest","False","none",,
+"Small_Leather","Small Leather","A small piece of leather","True","item-id","Small_Leather.png","assets/items/Small_Leather.png"
+"smallmcandle","Small Melted Candle","A small melted candle","False","none",,
+"a_c_fishperch_01_sm","Small Perch","A small Perch fish.","True","item-id","a_c_fishperch_01_sm.png","assets/items/a_c_fishperch_01_sm.png"
+"a_c_fishchainpickerel_01_sm","Small Pickerel","A small Pickerel fish.","True","item-id","a_c_fishchainpickerel_01_sm.png","assets/items/a_c_fishchainpickerel_01_sm.png"
+"a_c_fishredfinpickerel_01_sm","Small Redfin Pickerel","A small Redfin Pickerel fish.","True","item-id","a_c_fishredfinpickerel_01_sm.png","assets/items/a_c_fishredfinpickerel_01_sm.png"
+"a_c_fishrockbass_01_sm","Small Rockbass","A small Rockbass fish.","True","item-id","a_c_fishrockbass_01_sm.png","assets/items/a_c_fishrockbass_01_sm.png"
+"a_c_fishsmallmouthbass_01_ms","Smallmouth Bass","A small and tasty bass fish.","True","item-id","a_c_fishsmallmouthbass_01_ms.png","assets/items/a_c_fishsmallmouthbass_01_ms.png"
+"Snake_Poison","Snake Poison","Poison extracted from a snake","True","item-id","Snake_Poison.png","assets/items/Snake_Poison.png"
+"SnakeSkin","Snake Skin","A snake skin","True","item-id","SnakeSkin.png","assets/items/SnakeSkin.png"
+"snaket","Snake tooth","A tooth from a snake","True","item-id","snaket.png","assets/items/snaket.png"
+"egretb","Snowy Egret beak","The beak of a Snowy Egret, commonly used for crafting and trading.","True","item-id","egretb.png","assets/items/egretb.png"
+"egretf","Snowy Egret feather","A feather obtained from a Snowy Egret, often used for decorative purposes and in crafting.","True","item-id","egretf.png","assets/items/egretf.png"
+"soborno","Soborno Alcohol","A bottle of Soborno alcohol","True","item-id","soborno.png","assets/items/soborno.png"
+"a_c_fishsalmonsockeye_01_ms","Sockeye Salmon","A Sockeye Salmon fish.","True","item-id","a_c_fishsalmonsockeye_01_ms.png","assets/items/a_c_fishsalmonsockeye_01_ms.png"
+"wood","Soft Wood","A type of wood that is soft and easy to work with.","True","item-id","wood.png","assets/items/wood.png"
+"songbird_c","Songbird","A lovely songbird","False","none",,
+"sparrow1_c","Sparrow","A sparrow","False","none",,
+"provision_ro_flower_sparrows","Sparrows Orchid","The Sparrows Orchid usually has 3 to 7 oval or lance-shaped leaves arranged alternately on the stem.","False","none",,
+"provision_ro_flower_spider","Spider Orchid","The Spider Orchid is Characterised by five long spreading petals and sepals around a broad down-curled lip.","False","none",,
+"p_lgoc_spinner_v4","Spinner V4","A high-speed spinner lure, perfect for attracting aggressive, fast-moving fish.","True","item-id","p_lgoc_spinner_v4.png","assets/items/p_lgoc_spinner_v4.png"
+"p_lgoc_spinner_v6","Spinner V6","An advanced spinner lure with enhanced spinning action, ideal for large, deep-water fish.","True","item-id","p_lgoc_spinner_v6.png","assets/items/p_lgoc_spinner_v6.png"
+"provision_arrowhead_splintered","Splintered Arrowhead","A partially damaged, jagged arrowhead made of chert.","False","none",,
+"consumable_spongecake","Sponge Cake","A soft and delicious spong cake.","True","item-id","consumable_spongecake.png","assets/items/consumable_spongecake.png"
+"spool","Spool","A empty spool. often used to wrap wire around.","True","item-id","spool.png","assets/items/spool.png"
+"standingtorch","Standing Torch","A standing torch to provide light.","False","none",,
+"steak","Steak","A delicious steak for a hearty meal.","True","item-id","steak.png","assets/items/steak.png"
+"consumable_steakpie","Steak Pie","A delicious pie made with beef.","True","item-id","consumable_steakpie.png","assets/items/consumable_steakpie.png"
+"steakveg","Steak with Veggies","A balanced meal with steak and vegetables.","True","item-id","steakveg.png","assets/items/steakveg.png"
+"provision_jewelry_elk_tooth_earring","Sterling Tooth Earrings","A striking pair of elk teeth set into silver.","False","none",,
+"stillkit","Still Kit","A kit for setting up a still to make distilled spirits.","False","none",,
+"stolenmerch","Stolen Items","Various stolen items of questionable origin.","False","none",,
+"stonehammer","Stone Hammer","A durable hammer made of stone.","True","item-id","stonehammer.png","assets/items/stonehammer.png"
+"string","String","A bundle of string with many uses.","True","item-id","string.png","assets/items/string.png"
+"stringy","Stringy Meat","Tough and chewy meat that requires thorough cooking.","True","item-id","stringy.png","assets/items/stringy.png"
+"mashstrong","Strong Mash Batch","A powerful and highly concentrated mash batch for advanced recipes","True","item-id","mashstrong.png","assets/items/mashstrong.png"
+"sugar","Sugar","A sweet and granulated substance used for sweetening.","True","item-id","sugar.png","assets/items/sugar.png"
+"sugarcube","Sugar Cube","A compact form of sugar for easy use.","True","item-id","sugarcube.png","assets/items/sugarcube.png"
+"sugarcaneseed","Sugarcane Seed","Seeds for growing sugarcane.","True","item-id","sugarcaneseed.png","assets/items/sugarcaneseed.png"
+"sulfur","Sulfur","A yellow chemical element often used in manufacturing.","True","item-id","sulfur.png","assets/items/sulfur.png"
+"syn","Syn","A synthetic substance used for various purposes.","True","item-id","syn.png","assets/items/syn.png"
+"synpackage","Syn Package","A package containing synthetic substances.","True","item-id","synpackage.png","assets/items/synpackage.png"
+"fertilizersyn","Synful Fertilizer","A potent and forbidden fertilizer concocted from mystical ingredients, known to produce extraordinary growth in plants.","True","item-id","fertilizersyn.png","assets/items/fertilizersyn.png"
+"syringe","Syringe","A medical instrument used for injecting fluids.","True","item-id","syringe.png","assets/items/syringe.png"
+"syringe_2","Syringe","A medical instrument used for injecting fluids.","True","item-id","syringe_2.png","assets/items/syringe_2.png"
+"syringecert","Syringe Cert","A certification for the proper use of syringes.","True","item-id","syringecert.png","assets/items/syringecert.png"
+"normaltable","Table","A standard table for dining or work purposes","False","none",,
+"standard_table","Table","A standard table for various uses.","False","none",,
+"mexitillastaco","Taco","A delicous taco.","True","item-id","mexitillastaco.png","assets/items/mexitillastaco.png"
+"collector_fossil_tail_spike","Tail Spike Fossil","A rare fossilized tail spike, thought to have belonged to a Stegosaurus.","False","none",,
+"teabag","Teabag","A teabag for making that perfect cup.","True","item-id","teabag.png","assets/items/teabag.png"
+"tealeaf","Tealeaf","Used to make tea or teabags.","True","item-id","tealeaf.png","assets/items/tealeaf.png"
+"tent","Tent","A portable shelter for camping or temporary use.","True","item-id","tent.png","assets/items/tent.png"
+"tequila","Tequila","A bottle of tequila.","True","item-id","tequila.png","assets/items/tequila.png"
+"Texas_Bonnet","Texas Bonnet","A traditional Texas bonnet.","True","item-id","Texas_Bonnet.png","assets/items/Texas_Bonnet.png"
+"Texas_Bonnet_Seed","Texas Bonnet Seed","Seeds to grow Texas Bonnet flowers.","True","item-id","Texas_Bonnet_Seed.png","assets/items/Texas_Bonnet_Seed.png"
+"provision_jewelry_pers_turq_ring","Thorburn Turquoise Ring","A delicately crafted rose gold ring with turquoise beads.","False","none",,
+"cinematicket","Ticket","A ticket for a movie or event.","False","none",,
+"timber","Timber","A sturdy chunck of timber.","True","item-id","timber.png","assets/items/timber.png"
+"timber_table","Timber Table","A table made of timber.","False","none",,
+"timbertable","Timber Table","A sturdy table made of timber.","False","none",,
+"toad_c","Toad","A common toad.","False","none",,
+"collector_fossil_toe_claw","Toe Sickle Claw Fossil","A rare fossilized claw. Still sharp, it belonged to a genus of Dromaeosauridae.","False","none",,
+"ammotomahawk","Tomahawk Ammo","Ammo used for Tomahawk throwing weapons","True","item-id","ammo_tomahawk.png","assets/items/ammo_tomahawk.png"
+"tool_barrel","Tool Barrel","A barrel used for storing tools.","False","none",,
+"toolbarrel","Tool Barrel","A barrel for storing tools.","False","none",,
+"provision_hrlm_comb_tortoiseshell","Tortoiseshell Comb","A beautiful tortoiseshell comb.","False","none",,
+"tent2","Trader Tent","A tent specifically designed for trading purposes.","False","none",,
+"trainkey","Train Key","A key to unlock a train.","True","item-id","trainkey.png","assets/items/trainkey.png"
+"trout","Trout","A fish of the trout family.","True","item-id","trout.png","assets/items/trout.png"
+"provision_jewelry_blck_pearl_necklace","Tuamotu Pearl Necklace","A silk strung necklace of magnificent black Tahitian pearls.","False","none",,
+"collector_fossil_tully_monster","Tully Monster Fossil","An uncommon Tullimonstrum fossil, nicely preserved.","False","none",,
+"turkeyb","Turkey beak","The beak of a turkey.","True","item-id","turkeyb.png","assets/items/turkeyb.png"
+"turkeyf","Turkey feather","A feather from a turkey.","True","item-id","turkeyf.png","assets/items/turkeyf.png"
+"TurtleShell","Turtle Shell","The shell of a turtle.","True","item-id","turtleshell.png","assets/items/turtleshell.png"
+"turtlet","Turtle tooth","A tooth extracted from a turtle.","True","item-id","turtlet.png","assets/items/turtlet.png"
+"tylenol","Tylenol","A medication called Tylenol.","True","item-id","tylenol.png","assets/items/tylenol.png"
+"collector_fossil_tooth_mega","Upper Tooth Fossil","A rare fossilized tooth from a Megalodon.","False","none",,
+"provision_disco_urn","Urn","A simple urn often used to hold things.","False","none",,
+"vanillacake","Vanilla Cake","A tasty vanilla flavored cake.","True","item-id","vanillacake.png","assets/items/vanillacake.png"
+"consumable_herb_vanilla_flower","Vanilla Flower","A delicate vanilla flower.","True","item-id","consumable_herb_vanilla_flower.png","assets/items/consumable_herb_vanilla_flower.png"
+"vanillaFlower","Vanille Flower","A flower known as Vanille.","True","item-id","vanillaFlower.png","assets/items/vanillaFlower.png"
+"ammovarmint","Varmint Ammo","Ammo used for Varmint rifles","True","item-id","ammovarmint.png","assets/items/ammovarmint.png"
+"ammovarminttranq","Varmint Tranquilizer Ammo","Ammo used for tranquilizing animals with Varmint rifles","True","item-id","ammovarminttranq.png","assets/items/ammovarminttranq.png"
+"varnish","Varnish","A typical wood finish made from oils and resins.","True","item-id","varnish.png","assets/items/varnish.png"
+"venison","Venison","Lean meat obtained from deer.","True","item-id","venison.png","assets/items/venison.png"
+"provision_disco_viking_comb","Viking Comb","A old viking comb.","False","none",,
+"Violet_Snowdrop","Violet Snowdrop","A delicate flower called Violet Snowdrop.","True","item-id","Violet_Snowdrop.png","assets/items/Violet_Snowdrop.png"
+"Violet_Snowdrop_Seed","Violet Snowdrop Seed","Seeds to grow Violet Snowdrop flowers.","True","item-id","Violet_Snowdrop_Seed.png","assets/items/Violet_Snowdrop_Seed.png"
+"vodka","Vodka","A strong alcoholic beverage known as Vodka.","True","item-id","vodka.png","assets/items/vodka.png"
+"ammovoldynamite","Volatile Dynamite Ammo","Ammo used for crafting Volatile Dynamite","True","item-id","ammovoldynamite.png","assets/items/ammovoldynamite.png"
+"ammovolmolotov","Volatile Molotov Ammo","Ammo used for crafting Volatile Molotovs","True","item-id","ammovolmolotov.png","assets/items/ammovolmolotov.png"
+"Volture_Egg","Volture Egg","An egg laid by a Volture bird.","True","item-id","Volture_Egg.png","assets/items/Volture_Egg.png"
+"vulture_taxidermy","Vulture Taxidermy","A preserved vulture bird for display.","False","none",,
+"vulturetaxi","Vulture Taxidermy","A taxidermy of a vulture bird.","False","none",,
+"washtub","Wash Tub","A tub used for washing clothes or other items.","False","none",,
+"water","Water","Clean drinking water.","True","item-id","water.png","assets/items/water.png"
+"waterbarrel","Water Barrel","A large barrel used for storing water.","False","none",,
+"wateringcan","Water Jug","A jug-shaped container used for watering plants.","True","item-id","wateringcan.png","assets/items/wateringcan.png"
+"water_pump","Water Pump","A pump designed to move water.","False","none",,
+"waterpump","Water Pump","A device used for pumping water.","False","none",,
+"wsnakeskin","Watersnake pelt","The skin of a watersnake.","True","item-id","wsnakeskin.png","assets/items/wsnakeskin.png"
+"wedding_ring","Wedding Ring","A beautiful wedding ring.","False","none",,
+"wedding_chain_ring","Wedding Ring on chain","A wedding ring on chain. usally worn this way so they dont get lost.","False","none",,
+"wsnakes","Western rattlesnake pelt","The skin of a western rattlesnake.","False","none",,
+"wheat","Wheat","Often ground up into flour to used in cooking and baking","True","item-id","wheat.png","assets/items/wheat.png"
+"wheatseed","Wheat Seed","When planted will grow into wheat.","True","item-id","wheatseed.png","assets/items/wheatseed.png"
+"whisky","Whisky","An alcoholic beverage known as whisky.","True","item-id","whisky.png","assets/items/whisky.png"
+"wicker","Wicker","A natural material made from woven branches or reeds","True","item-id","wicker.png","assets/items/wicker.png"
+"wicker_bench","Wicker Bench","A bench constructed with wicker material.","False","none",,
+"wickerbench","Wicker Bench","A bench made from wicker material.","False","none",,
+"Wild_Carrot","Wild Carrot","A type of carrot that grows in the wild.","True","item-id","Wild_Carrot.png","assets/items/Wild_Carrot.png"
+"Wild_Carrot_Seed","Wild Carrot Seed","Seeds to cultivate wild carrots.","True","item-id","Wild_Carrot_Seed.png","assets/items/Wild_Carrot_Seed.png"
+"Wild_Feverfew","Wild Feverfew","A wild plant known as Feverfew.","True","item-id","Wild_Feverfew.png","assets/items/Wild_Feverfew.png"
+"Wild_Feverfew_Seed","Wild Feverfew Seed","Seeds to grow Feverfew plants.","True","item-id","Wild_Feverfew_Seed.png","assets/items/Wild_Feverfew_Seed.png"
+"Wild_Mint","Wild Mint","A type of mint that grows in the wild.","True","item-id","Wild_Mint.png","assets/items/Wild_Mint.png"
+"Wild_Mint_Seed","Wild Mint Seed","Seeds to cultivate wild mint.","True","item-id","Wild_Mint_Seed.png","assets/items/Wild_Mint_Seed.png"
+"Wild_Rhubarb","Wild Rhubarb","A rhubarb plant that grows in the wild.","True","item-id","Wild_Rhubarb.png","assets/items/Wild_Rhubarb.png"
+"Wild_Rhubarb_Seed","Wild Rhubarb Seed","Seeds to grow wild rhubarb.","True","item-id","Wild_Rhubarb_Seed.png","assets/items/Wild_Rhubarb_Seed.png"
+"wine","Wine","An alcoholic beverage made from fermented grapes.","True","item-id","wine.png","assets/items/wine.png"
+"consumable_herb_wintergreen_berry","Wintergreen Berry","Tart and refreshing Wintergreen Berries.","True","item-id","consumable_herb_wintergreen_berry.png","assets/items/consumable_herb_wintergreen_berry.png"
+"Wintergreen_Berry","Wintergreen Berry","Berries from the wintergreen plant.","True","item-id","Wintergreen_Berry.png","assets/items/Wintergreen_Berry.png"
+"Wintergreen_Berry_Seed","Wintergreen Berry Seed","Seeds to cultivate wintergreen berries.","True","item-id","Wintergreen_Berry_Seed.png","assets/items/Wintergreen_Berry_Seed.png"
+"Wisteria","Wisteria","A flowering plant called Wisteria.","True","item-id","Wisteria.png","assets/items/Wisteria.png"
+"Wisteria_Seed","Wisteria Seed","Seeds to grow Wisteria plants.","True","item-id","Wisteria_Seed.png","assets/items/Wisteria_Seed.png"
+"wojape","Wojape","A traditional Native American sauce made from berries.","True","item-id","wojape.png","assets/items/wojape.png"
+"wolfheart","Wolf heart","The heart of a wolf.","True","item-id","wolfheart.png","assets/items/wolfheart.png"
+"wolfpelt","Wolf skin","The skin of a wolf.","True","item-id","wolfpelt.png","assets/items/wolfpelt.png"
+"wolftooth","Wolf tooth","A tooth extracted from a wolf.","True","item-id","wolftooth.png","assets/items/wolftooth.png"
+"wood_chair","Wood Chair","A chair made from wood material.","False","none",,
+"woodchair","Wood Chair","A chair made from wood material.","False","none",,
+"wood_plane","Wood Plane","A wood plane used for shaping wood.","True","item-id","wood_plane.png","assets/items/wood_plane.png"
+"woodbench","Wooden Bench","A bench made from wood material.","False","none",,
+"wooden_bench","Wooden Bench","A bench constructed with wooden material.","False","none",,
+"wooden_boards","Wooden Boards","Boards made from wood material.","True","item-id","wooden_boards.png","assets/items/wooden_boards.png"
+"provision_calderon_cross","Wooden Cross","A simple wooden cross. Often used by preists and clergymen.","False","none",,
+"provision_hrlm_hairpin_wooden","Wooden Hairpin","A hand carved wooden hairpin.","False","none",,
+"woodpeck01_c","Woodpecker","The skin and feathers of a woodpecker.","False","none",,
+"woodpeck02_c","Woodpecker 2","The skin and feathers of a woodpecker.","False","none",,
+"woodsaw","Woodsaw","Used to cut wood.","True","item-id","woodsaw.png","assets/items/woodsaw.png"
+"wool","Wool","Fiber obtained from the fleece of sheep.","True","item-id","wool.png","assets/items/wool.png"
+"p_baitWorm01x","Worm Bait","A classic bait made from worms, ideal for catching a wide variety of fish species.","True","item-id","p_baitWorm01x.png","assets/items/p_baitWorm01x.png"
+"wrench","Wrench","A wrech used to tighten bolts and other things.","True","item-id","wrench.png","assets/items/wrench.png"
+"Yarrow","Yarrow","A flowering plant known as Yarrow.","True","item-id","Yarrow.png","assets/items/Yarrow.png"
+"Yarrow_Seed","Yarrow Seed","Seeds to grow Yarrow plants.","True","item-id","Yarrow_Seed.png","assets/items/Yarrow_Seed.png"
+"provision_jewelry_ylwgld_dmnd_ring","Yates Diamond Ring","An intricate gold band with one cushion cut diamond.","False","none",,
+"collector_fossil_pet_wood_yellow_cat","Yellow Cat Petrified Wood Fossil","An uncommon lump of petrified wood featuring bright red and yellow colors.","False","none",,

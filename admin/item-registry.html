@@ -1,48 +1,101 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Complete Item Registry | RDR2PF Western Dead</title>
-    <link rel="stylesheet" href="../assets/style.css">
-    <style>
-        .registry-controls {
-            display: grid;
-            gap: .75rem;
-            margin: 1rem 0;
-        }
-
-        .registry-controls input {
-            box-sizing: border-box;
-            width: 100%;
-            padding: .8rem;
-        }
-
-        .registry-table-wrap {
-            overflow-x: auto;
-        }
-
-        .registry-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .registry-table th,
-        .registry-table td {
-            padding: .65rem;
-            text-align: left;
-            vertical-align: top;
-            border-bottom: 1px solid rgba(255, 255, 255, .12);
-        }
-
-        .registry-table code {
-            white-space: nowrap;
-        }
-    </style>
-</head>
-<body>
-    <main class="page-shell">
-        <header class="page-header">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Complete Item Registry | RDR2PF: Western Dead Compendium</title>
+<meta name="description" content="Official RDR2PF: Western Dead Compendium page.">
+<link rel="stylesheet" href="../assets/style.css"></head><body>
+<a class="mobile-home-button" href="../index.html">RDR2PF Compendium</a>
+<header class="top"><div class="brand">RDR2PF: WESTERN DEAD</div><div class="sub">Official Game Compendium</div></header>
+<div class="layout"><aside class="side"><h4>Main</h4>
+<a href="../index.html">Home</a>
+<a href="../database/search.html">Frontier Search</a>
+<a href="../changelog.html">News &amp; Changelog</a>
+<h4>Getting Started</h4>
+<a href="../player/getting-started.html">Introduction</a>
+<a href="../player/beginner-guide.html">Beginner Guide</a>
+<a href="../player/survival-basics.html">Survival Basics</a>
+<a href="../player/controls.html">Controls</a>
+<a href="../player/faq.html">FAQ</a>
+<h4>Character</h4>
+<a href="../player/progression.html">Character Progression</a>
+<a href="../player/mastery.html">Living Mastery</a>
+<a href="../player/jobs.html">Jobs &amp; Professions</a>
+<a href="../player/statistics.html">Statistics</a>
+<a href="../player/titles.html">Titles</a>
+<a href="../player/achievements.html">Achievements</a>
+<a href="../player/reputation.html">Reputation</a>
+<h4>The Frontier</h4>
+<a href="../world/index.html">World Guide</a>
+<a href="../world/territories.html">Territories</a>
+<a href="../world/towns.html">Towns &amp; Settlements</a>
+<a href="../world/locations.html">Locations</a>
+<a href="../world/merchants.html">Merchants</a>
+<a href="../world/travel.html">Travel</a>
+<a href="../world/safe-zones.html">Safe Zones</a>
+<a href="../world/camps.html">Camps</a>
+<a href="../admin/factions.html">Factions</a>
+<a href="../admin/encounters.html">Encounters</a>
+<h4>Western Dead</h4>
+<a href="../western-dead/index.html">The Infected</a>
+<a href="../western-dead/infected-types.html">Infected Types</a>
+<a href="../western-dead/infection.html">Infection Mechanics</a>
+<a href="../western-dead/hordes.html">Hordes &amp; Events</a>
+<a href="../western-dead/strategies.html">Survival Strategies</a>
+<h4>Professions</h4>
+<a href="../professions/index.html">Profession Index</a>
+<a href="../professions/cooking.html">Cooking</a>
+<a href="../professions/crafting.html">Crafting</a>
+<a href="../professions/hunting.html">Hunting</a>
+<a href="../professions/fishing.html">Fishing</a>
+<a href="../professions/farming.html">Farming</a>
+<a href="../professions/mining.html">Mining</a>
+<a href="../professions/lumberjack.html">Lumberjack</a>
+<a href="../professions/moonshiner.html">Moonshiner</a>
+<a href="../professions/trader.html">Trader</a>
+<a href="../professions/herbalist.html">Herbalist</a>
+<h4>Game Database</h4>
+<a href="../database/index.html">Database Home</a>
+<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/recipes.html">Recipes</a>
+<a href="../database/consumables.html">Consumables</a>
+<a href="../database/food.html">Food</a>
+<a href="../database/drinks.html">Drinks</a>
+<a href="../database/herbs.html">Herbs</a>
+<a href="../database/seeds.html">Seeds</a>
+<a href="../database/plants.html">Plants</a>
+<a href="../database/fish.html">Fish</a>
+<a href="../database/animals.html">Animals</a>
+<a href="../database/medicines.html">Medicines</a>
+<a href="../database/materials.html">Materials</a>
+<a href="../database/weapons.html">Weapons</a>
+<a href="../database/ammunition.html">Ammunition</a>
+<a href="../database/clothing.html">Clothing</a>
+<a href="../database/valuables.html">Valuables</a>
+<a href="../database/tools.html">Tools</a>
+<a href="../database/equipment.html">Equipment</a>
+<a href="../database/camp-items.html">Camp Items</a>
+<a href="../database/farming-items.html">Farming Items</a>
+<a href="../database/moonshine.html">Moonshine</a>
+<h4>Economy</h4>
+<a href="../economy/index.html">Economy Guide</a>
+<a href="../economy/currency.html">Currency</a>
+<a href="../economy/trading.html">Trading</a>
+<a href="../economy/stores.html">Stores</a>
+<a href="../economy/banking.html">Banking</a>
+<a href="../economy/values.html">Values &amp; Prices</a>
+<h4>Administration</h4>
+<a href="../admin/index.html">Admin Home</a>
+<a href="../admin/items.html">Item Database</a>
+<a class="active" href="../admin/item-registry.html">Item Registry</a>
+<a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
+<a href="../admin/commands.html">Server Commands</a>
+<a href="../admin/binds.html">Bind Command Reference</a>
+<a href="../admin/coordinates.html">Coordinates</a>
+<a href="../admin/resources.html">Resources</a>
+<a href="../admin/sql.html">SQL Database</a>
+<a href="../admin/bugs.html">Known Bugs</a>
+<a href="../admin/testing-log.html">Testing Log</a>
+<a href="../admin/devlog.html">Development Log</a>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main><header class="page-header">
             <p class="eyebrow">Inventory and crafting reference</p>
             <h1>Complete Item Registry</h1>
             <p>
@@ -6063,31 +6116,5 @@
                 </table>
             </div>
         </section>
-    </main>
-
-    <script>
-        const input = document.getElementById("item-search");
-        const rows = Array.from(document.querySelectorAll("#item-rows tr"));
-        const count = document.getElementById("item-count");
-        const total = rows.length;
-
-        function filterItems() {
-            const query = input.value.trim().toLowerCase();
-            let visible = 0;
-
-            for (const row of rows) {
-                const matches = !query || row.dataset.search.includes(query);
-                row.hidden = !matches;
-
-                if (matches) {
-                    visible += 1;
-                }
-            }
-
-            count.textContent = "Showing " + visible + " of " + total + " items.";
-        }
-
-        input.addEventListener("input", filterItems);
-    </script>
-</body>
-</html>
+<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

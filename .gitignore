@@ -1,0 +1,17 @@
+# Generated reports
+build-reports/
+
+# Local backups
+backups/
+wiki-update-backups/
+
+# Builder backup files
+builder/modules/*.bak
+*.before-*.bak
+*.backup-*
+*.tmp
+*.ps1.bak
+
+# Windows files
+Thumbs.db
+Desktop.ini

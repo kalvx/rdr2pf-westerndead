@@ -1,0 +1,1346 @@
+﻿[
+    {
+        "id":  "seasoned_small_game",
+        "name":  "Seasoned Small Game",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1 x SGM, 1 x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "knifecooking",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "consumable_game",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cookedsmallgame",
+                            "count":  2,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  1
+                   }
+    },
+    {
+        "id":  "apple_pie",
+        "name":  "Apple Pie",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Apple, 1x Water, 1x Sugar, 1x Egg, 1x Flour",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "apple",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "water",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "sugar",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "flour",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "eggs",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "consumable_applepie",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  2
+                   }
+    },
+    {
+        "id":  "steak",
+        "name":  "Steak",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Meat",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "spindlecook",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "meat",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "steak",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  3
+                   }
+    },
+    {
+        "id":  "beef_jerky",
+        "name":  "Beef Jerky",
+        "subtext":  "InvMax = 20",
+        "description":  "Recipe: 1x Meat, 1x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "knifecooking",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "meat",
+                                "count":  1,
+                                "take":  true,
+                                "can_use_decay":  10
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  1,
+                                "take":  true,
+                                "can_use_decay":  10
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "beefjerky",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  4
+                   }
+    },
+    {
+        "id":  "breakfast",
+        "name":  "Breakfast",
+        "subtext":  "InvMax = 5",
+        "description":  "Recipe: 1x Pork, 2x Eggs",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "pork",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "eggs",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "consumable_breakfast",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  5
+                   }
+    },
+    {
+        "id":  "blueberry_pie",
+        "name":  "Blueberry Pie",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 6x BlueBerry, 1 x Water, 1x Sugar, 1x Egg, 1x Flour",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "blueberry",
+                                "count":  6,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "water",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "sugar",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "eggs",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "flour",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "consumable_blueberrypie",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  6
+                   }
+    },
+    {
+        "id":  "seasoned_porkchop",
+        "name":  "Seasoned Porkchop",
+        "subtext":  "InvMax = 10 ",
+        "description":  "Recipe: 1x Pork, 1x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "spindlecook",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "pork",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cookedpork",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  7
+                   }
+    },
+    {
+        "id":  "seasoned_big_game",
+        "name":  "Seasoned Big Game",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe 1x Big Game Meat, 1x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "spindlecook",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "biggame",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "SaltedCookedBigGameMeat",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  8
+                   }
+    },
+    {
+        "id":  "plain_big_game_meat",
+        "name":  "Plain Big Game Meat",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Big Game Meat",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "spindlecook",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "biggame",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "CookedBigGameMeat",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  9
+                   }
+    },
+    {
+        "id":  "porkchop",
+        "name":  "PorkChop",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Pork",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "knifecooking",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "pork",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cookedpork",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  10
+                   }
+    },
+    {
+        "id":  "pickaxe",
+        "name":  "PickAxe",
+        "subtext":  "InvMax = 5",
+        "description":  "Recipe: 10x Iron, 2x Wood",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "iron",
+                                "count":  10,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "pickaxe",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  11
+                   }
+    },
+    {
+        "id":  "axe",
+        "name":  "Axe",
+        "subtext":  "InvMax = 5",
+        "description":  "Recipe: 10x Iron, 2x Wood",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "iron",
+                                "count":  10,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "lumberaxe",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  12
+                   }
+    },
+    {
+        "id":  "campfire",
+        "name":  "Campfire",
+        "subtext":  "InvMax = 5",
+        "description":  "Recipe: 10x Rock, 5x Wood, 4x Coal",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "rock",
+                                "count":  10,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  5,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "coal",
+                                "count":  4,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "campfire",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  13
+                   }
+    },
+    {
+        "id":  "plain_cooked_bird",
+        "name":  "Plain Cooked Bird",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Raw Bird Meat",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "bird",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cookedbird",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  14
+                   }
+    },
+    {
+        "id":  "refined_gold_ore",
+        "name":  "Refined Gold Ore",
+        "subtext":  "InvMax = 15",
+        "description":  "Recipe: 1x Gold Ore",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  true,
+        "currency_type":  1,
+        "currency_reward":  1,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "gold_nugget",
+                                "count":  14,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  15
+                   }
+    },
+    {
+        "id":  "plain_small_game",
+        "name":  "Plain Small Game",
+        "subtext":  "InvMax = 10 ",
+        "description":  "Recipe: 1x Small Game Meat",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "consumable_game",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "plainsmallgame",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  16
+                   }
+    },
+    {
+        "id":  "rope",
+        "name":  "Rope",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 10x Fibers",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "fibers",
+                                "count":  10,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "rope",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  17
+                   }
+    },
+    {
+        "id":  "cloth",
+        "name":  "Cloth",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 10x Wool",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "wool",
+                                "count":  10,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cloth",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  18
+                   }
+    },
+    {
+        "id":  "tent",
+        "name":  "Tent",
+        "subtext":  "InvMax = 5 ",
+        "description":  "Recipe: 4x Cloth, 3x Rope, 2x Wood",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "cloth",
+                                "count":  4,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "rope",
+                                "count":  3,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "tent",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  19
+                   }
+    },
+    {
+        "id":  "bedroll",
+        "name":  "Bedroll",
+        "subtext":  "InvMax = 5",
+        "description":  "Recipe: 4x Pelt, 1x Cloth, 2x Wood",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "pelt",
+                                "count":  4,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "cloth",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "bedroll",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  20
+                   }
+    },
+    {
+        "id":  "cigar",
+        "name":  "Cigar",
+        "subtext":  "InvMax = 20",
+        "description":  "Recipe: 1x Indian Tobacco, 1x Fiber",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "Indian_Tobbaco",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "fibers",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cigar",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  21
+                   }
+    },
+    {
+        "id":  "cigarette",
+        "name":  "Cigarette",
+        "subtext":  "InvMax = 20",
+        "description":  "Recipe: 1x Indian Tobacco, 1x Fiber",
+        "type":  "item",
+        "category":  "items",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "Indian_Tobbaco",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "fibers",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "cigarette",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  22
+                   }
+    },
+    {
+        "id":  "steak_n_eggs",
+        "name":  "Steak n\u0027 Eggs",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 2x Meat, 2x Eggs, 2x potatoes",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "meat",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "eggs",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "potato",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "steakeggs",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  23
+                   }
+    },
+    {
+        "id":  "veggie_stew",
+        "name":  "Veggie Stew",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 2x Carrots, 2x Corn, 2x Potatoes, 1xwater, 2x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "carrots",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "corn",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "potato",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "water",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "vegstew",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  24
+                   }
+    },
+    {
+        "id":  "porkchops_and_applesauce",
+        "name":  "Porkchops and Applesauce",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 1x Pork, 2x Apples",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "pork",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "apple",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "porknapples",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  25
+                   }
+    },
+    {
+        "id":  "bird_stew",
+        "name":  "Bird Stew",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "bird",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "carrots",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "corn",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "water",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "birdstew",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  26
+                   }
+    },
+    {
+        "id":  "bird_stew_2",
+        "name":  "Bird Stew",
+        "subtext":  "InvMax = 10",
+        "description":  "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  null,
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "bird",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "carrots",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "corn",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "water",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "birdstew",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  27
+                   }
+    },
+    {
+        "id":  "bow",
+        "name":  "Bow",
+        "subtext":  "InvMax = 1",
+        "description":  "Recipe: 2x Hard wood, 4x Fibers",
+        "type":  "weapon",
+        "category":  "weapons",
+        "job":  0,
+        "location":  0,
+        "animation":  "craft",
+        "use_currency_mode":  null,
+        "currency_type":  null,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "hwood",
+                                "count":  2,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "fibers",
+                                "count":  4,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "WEAPON_BOW_IMPROVED",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  28
+                   }
+    },
+    {
+        "id":  "revolver_navy",
+        "name":  "Revolver Navy",
+        "subtext":  "InvMax = 1",
+        "description":  "Recipe 1x Revolver barrel, 1x Revolver cylinder, 1x Revolver handle",
+        "type":  "weapon",
+        "category":  "weapons",
+        "job":  0,
+        "location":  0,
+        "animation":  "craft",
+        "use_currency_mode":  null,
+        "currency_type":  null,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "revolverbarrel",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "revolvercylinder",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "revolverhandle",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "WEAPON_REVOLVER_NAVY",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  29
+                   }
+    },
+    {
+        "id":  "knife",
+        "name":  "Knife",
+        "subtext":  "InvMax = 1",
+        "description":  "Recipe 1x Iron, 1x Soft wood",
+        "type":  "weapon",
+        "category":  "meleeweapons",
+        "job":  0,
+        "location":  0,
+        "animation":  "craft",
+        "use_currency_mode":  null,
+        "currency_type":  null,
+        "currency_reward":  null,
+        "take_items":  null,
+        "ingredients":  [
+                            {
+                                "item":  "iron",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            },
+                            {
+                                "item":  "wood",
+                                "count":  1,
+                                "take":  null,
+                                "can_use_decay":  null
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "WEAPON_MELEE_KNIFE",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  30
+                   }
+    },
+    {
+        "id":  "premium_beef_jerky",
+        "name":  "Premium Beef Jerky",
+        "subtext":  "InvMax = 20",
+        "description":  "Recipe: 2x Beef Jerky, 1x Salt, 1x Water",
+        "type":  "item",
+        "category":  "food",
+        "job":  0,
+        "location":  0,
+        "animation":  "knifecooking",
+        "use_currency_mode":  false,
+        "currency_type":  0,
+        "currency_reward":  null,
+        "take_items":  true,
+        "ingredients":  [
+                            {
+                                "item":  "beefjerky",
+                                "count":  2,
+                                "take":  true,
+                                "can_use_decay":  10
+                            },
+                            {
+                                "item":  "salt",
+                                "count":  1,
+                                "take":  true,
+                                "can_use_decay":  10
+                            },
+                            {
+                                "item":  "water",
+                                "count":  1,
+                                "take":  true,
+                                "can_use_decay":  10
+                            }
+                        ],
+        "rewards":  [
+                        {
+                            "item":  "premium_beefjerky",
+                            "count":  1,
+                            "take":  null,
+                            "can_use_decay":  null
+                        }
+                    ],
+        "source":  {
+                       "file":  "H:\\games\\pc\\RedMServer\\server-data\\resources\\[VORP]\\vorp_crafting\\config.lua",
+                       "recipe_index":  31
+                   }
+    }
+]
