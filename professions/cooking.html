@@ -95,7 +95,214 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Professions</div><h1>Cooking</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+<section class="hero compact-hero">
+    <div class="eyebrow">Professions</div>
+    <h1>Cooking</h1>
+    <p class="lede">
+        Verified cooking and crafting recipes gathered directly from the RDR2PF server configuration.
+    </p>
+</section>
+
+<section>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
+        <input
+            id="recipe-search"
+            type="search"
+            placeholder="Search recipes, ingredients, or rewards..."
+            style="flex:1;min-width:260px;padding:12px 14px;"
+        >
+
+        <select id="recipe-category" style="padding:12px 14px;">
+            <option value="all">All categories</option>
+        </select>
+    </div>
+
+    <p id="recipe-status">Loading recipe database...</p>
+
+    <div id="recipe-results" style="display:grid;gap:16px;"></div>
+</section>
+
+<div class="footer">RDR2PF: Western Dead Compendium</div>
+
+<script>
+(function () {
+    const searchInput = document.getElementById("recipe-search");
+    const categorySelect = document.getElementById("recipe-category");
+    const status = document.getElementById("recipe-status");
+    const results = document.getElementById("recipe-results");
+
+    let allRecipes = [];
+
+    function clean(value) {
+        if (value === null || value === undefined || value === "NULL") {
+            return "";
+        }
+
+        return String(value);
+    }
+
+    function formatEntries(entries) {
+        if (!Array.isArray(entries) || entries.length === 0) {
+            return "None recorded";
+        }
+
+        return entries.map(function (entry) {
+            const item = clean(entry.item) || "Unknown item";
+            const count = clean(entry.count) || "1";
+            return count + " x " + item;
+        }).join(", ");
+    }
+
+    function makeLine(label, value) {
+        const line = document.createElement("p");
+        line.style.margin = "6px 0";
+
+        const strong = document.createElement("strong");
+        strong.textContent = label + ": ";
+
+        line.appendChild(strong);
+        line.appendChild(document.createTextNode(value));
+
+        return line;
+    }
+
+    function renderRecipes() {
+        const search = searchInput.value.trim().toLowerCase();
+        const category = categorySelect.value;
+
+        const filtered = allRecipes.filter(function (recipe) {
+            const ingredients = formatEntries(recipe.ingredients);
+            const rewards = formatEntries(recipe.rewards);
+
+            const searchable = [
+                recipe.name,
+                recipe.id,
+                recipe.description,
+                recipe.category,
+                recipe.animation,
+                ingredients,
+                rewards
+            ].map(clean).join(" ").toLowerCase();
+
+            const matchesSearch =
+                !search || searchable.includes(search);
+
+            const matchesCategory =
+                category === "all" || clean(recipe.category) === category;
+
+            return matchesSearch && matchesCategory;
+        });
+
+        results.replaceChildren();
+
+        const fragment = document.createDocumentFragment();
+
+        filtered.forEach(function (recipe) {
+            const card = document.createElement("article");
+            card.className = "card";
+            card.style.padding = "18px";
+
+            const heading = document.createElement("h2");
+            heading.textContent = clean(recipe.name) || clean(recipe.id);
+            heading.style.marginTop = "0";
+
+            const internalId = document.createElement("div");
+            internalId.className = "eyebrow";
+            internalId.textContent = clean(recipe.id);
+
+            card.appendChild(internalId);
+            card.appendChild(heading);
+
+            if (clean(recipe.description)) {
+                const description = document.createElement("p");
+                description.textContent = clean(recipe.description);
+                card.appendChild(description);
+            }
+
+            card.appendChild(
+                makeLine("Ingredients", formatEntries(recipe.ingredients))
+            );
+
+            card.appendChild(
+                makeLine("Produces", formatEntries(recipe.rewards))
+            );
+
+            card.appendChild(
+                makeLine("Category", clean(recipe.category) || "Uncategorized")
+            );
+
+            if (clean(recipe.animation)) {
+                card.appendChild(
+                    makeLine("Animation", clean(recipe.animation))
+                );
+            }
+
+            fragment.appendChild(card);
+        });
+
+        results.appendChild(fragment);
+
+        status.textContent =
+            "Showing " +
+            filtered.length.toLocaleString() +
+            " of " +
+            allRecipes.length.toLocaleString() +
+            " gathered recipes.";
+    }
+
+    fetch("../database/recipes.json", { cache: "no-store" })
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error(
+                    "HTTP " + response.status + " while loading recipes.json"
+                );
+            }
+
+            return response.json();
+        })
+        .then(function (recipes) {
+            if (!Array.isArray(recipes)) {
+                throw new Error(
+                    "recipes.json does not contain a recipe array."
+                );
+            }
+
+            allRecipes = recipes.slice().sort(function (a, b) {
+                return clean(a.name || a.id).localeCompare(
+                    clean(b.name || b.id)
+                );
+            });
+
+            const categories = Array.from(
+                new Set(
+                    allRecipes
+                        .map(function (recipe) {
+                            return clean(recipe.category);
+                        })
+                        .filter(Boolean)
+                )
+            ).sort();
+
+            categories.forEach(function (category) {
+                const option = document.createElement("option");
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
+
+            renderRecipes();
+        })
+        .catch(function (error) {
+            status.textContent =
+                "Recipe database failed to load: " + error.message;
+
+            console.error(error);
+        });
+
+    searchInput.addEventListener("input", renderRecipes);
+    categorySelect.addEventListener("change", renderRecipes);
+})();
+</script>
+</main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

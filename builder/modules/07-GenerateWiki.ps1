@@ -186,6 +186,113 @@ function Get-RecipeLink {
     return "$Label *(missing recipe definition)*"
 }
 
+
+
+function Escape-Html {
+    param(
+        [AllowNull()]
+        [object]$Value
+    )
+
+    if ($null -eq $Value) {
+        return ""
+    }
+
+    return [System.Net.WebUtility]::HtmlEncode([string]$Value)
+}
+
+function Get-ItemHtmlLink {
+    param(
+        [string]$ItemId,
+        [string]$Prefix = "../items"
+    )
+
+    $Label = Get-ItemLabel -ItemId $ItemId
+    $Safe  = Get-SafeFileName -Value $ItemId
+
+    if ($ItemIndex.ContainsKey($ItemId)) {
+        return '<a href="' + $Prefix + '/' + $Safe + '.html">' + (Escape-Html $Label) + '</a>'
+    }
+
+    return (Escape-Html $Label) + ' <span class="missing">(missing item definition)</span>'
+}
+
+function Get-RecipeHtmlLink {
+    param(
+        [string]$RecipeId,
+        [string]$Prefix = "../recipes"
+    )
+
+    $Label = Get-RecipeLabel -RecipeId $RecipeId
+    $Safe  = Get-SafeFileName -Value $RecipeId
+
+    if ($RecipeIndex.ContainsKey($RecipeId)) {
+        return '<a href="' + $Prefix + '/' + $Safe + '.html">' + (Escape-Html $Label) + '</a>'
+    }
+
+    return (Escape-Html $Label) + ' <span class="missing">(missing recipe definition)</span>'
+}
+
+function Get-HtmlDocument {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Title,
+
+        [Parameter(Mandatory)]
+        [string]$Body,
+
+        [string]$RootPrefix = ".."
+    )
+
+    $SafeTitle = Escape-Html $Title
+
+    return @"
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>$SafeTitle | RDR2PF Compendium</title>
+    <style>
+        :root { color-scheme: dark; --bg:#110f0d; --panel:#1b1713; --line:#514234; --text:#eee5d8; --muted:#bcae9b; --link:#e0aa62; --danger:#e7786d; }
+        * { box-sizing:border-box; }
+        body { margin:0; background:var(--bg); color:var(--text); font-family:Georgia, "Times New Roman", serif; line-height:1.55; }
+        header { border-bottom:1px solid var(--line); background:#0c0a09; padding:16px 24px; position:sticky; top:0; z-index:2; }
+        nav { display:flex; gap:18px; flex-wrap:wrap; }
+        a { color:var(--link); text-decoration:none; }
+        a:hover { text-decoration:underline; }
+        main { width:min(1100px, calc(100% - 32px)); margin:28px auto 64px; }
+        h1,h2 { line-height:1.15; }
+        h1 { margin-bottom:8px; }
+        h2 { margin-top:32px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+        .subtitle,.muted { color:var(--muted); }
+        .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; margin:16px 0; }
+        table { width:100%; border-collapse:collapse; background:var(--panel); }
+        th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
+        th { background:#251f19; }
+        code { color:#f0c98c; }
+        ul { padding-left:22px; }
+        .missing { color:var(--danger); }
+        .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; }
+        .search { width:100%; padding:12px; margin:12px 0 18px; background:#0d0b0a; color:var(--text); border:1px solid var(--line); border-radius:6px; }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="$RootPrefix/index.html">Compendium Home</a>
+        <a href="$RootPrefix/items.html">Every Item A–Z</a>
+        <a href="$RootPrefix/recipes.html">Recipes</a>
+    </nav>
+</header>
+<main>
+$Body
+</main>
+</body>
+</html>
+"@
+}
+
 # ------------------------------------------------------------
 # Build indexes
 # ------------------------------------------------------------
@@ -748,6 +855,234 @@ Write-Utf8File `
     -Path (Join-Path $WikiRoot "index.md") `
     -Content ($HomeLines -join "`r`n")
 
+
+
+# ------------------------------------------------------------
+# Generate clickable HTML Compendium pages
+# Markdown generation above is intentionally preserved.
+# ------------------------------------------------------------
+
+$GeneratedHtmlItemPages   = 0
+$GeneratedHtmlRecipePages = 0
+
+Get-ChildItem -LiteralPath $ItemPages -Filter "*.html" -File -ErrorAction SilentlyContinue |
+    Remove-Item -Force
+
+Get-ChildItem -LiteralPath $RecipePages -Filter "*.html" -File -ErrorAction SilentlyContinue |
+    Remove-Item -Force
+
+foreach ($Item in ($Items | Sort-Object label, id)) {
+    $ItemId = [string]$Item.id
+
+    if ([string]::IsNullOrWhiteSpace($ItemId)) {
+        continue
+    }
+
+    $Label = [string]$Item.label
+    if ([string]::IsNullOrWhiteSpace($Label)) { $Label = $ItemId }
+
+    $Description = [string]$Item.description
+    if ([string]::IsNullOrWhiteSpace($Description)) {
+        $Description = "No description is currently available."
+    }
+
+    $Relationship = $null
+    if ($RelationshipIndex.ContainsKey($ItemId)) {
+        $Relationship = $RelationshipIndex[$ItemId]
+    }
+
+    $UsedIn      = @()
+    $CraftedFrom = @()
+    $CraftedInto = @()
+
+    if ($null -ne $Relationship) {
+        $UsedIn      = @($Relationship.used_in)
+        $CraftedFrom = @($Relationship.crafted_from)
+        $CraftedInto = @($Relationship.crafted_into)
+    }
+
+    $Properties = [System.Collections.Generic.List[string]]::new()
+    $Properties.Add('<tr><th>Item ID</th><td><code>' + (Escape-Html $ItemId) + '</code></td></tr>')
+
+    foreach ($PropertyName in @('limit','type','can_use','can_remove','weight','category','group','job','metadata')) {
+        if ($Item.PSObject.Properties.Name -contains $PropertyName) {
+            $Value = $Item.$PropertyName
+            if ($null -ne $Value -and -not [string]::IsNullOrWhiteSpace([string]$Value)) {
+                $Properties.Add('<tr><th>' + (Escape-Html $PropertyName) + '</th><td>' + (Escape-Html $Value) + '</td></tr>')
+            }
+        }
+    }
+
+    $UsedInHtml = if ($UsedIn.Count -gt 0) {
+        '<ul>' + (($UsedIn | Sort-Object -Unique | ForEach-Object { '<li>' + (Get-RecipeHtmlLink -RecipeId ([string]$_)) + '</li>' }) -join '') + '</ul>'
+    } else {
+        '<p class="muted">This item is not currently used as an ingredient in an imported recipe.</p>'
+    }
+
+    $ProducedByHtml = if ($CraftedFrom.Count -gt 0) {
+        '<ul>' + (($CraftedFrom | Sort-Object -Unique | ForEach-Object { '<li>' + (Get-RecipeHtmlLink -RecipeId ([string]$_)) + '</li>' }) -join '') + '</ul>'
+    } else {
+        '<p class="muted">This item is not currently produced by an imported recipe.</p>'
+    }
+
+    $CraftedIntoHtml = if ($CraftedInto.Count -gt 0) {
+        '<ul>' + (($CraftedInto | Sort-Object -Unique | ForEach-Object { '<li>' + (Get-ItemHtmlLink -ItemId ([string]$_)) + '</li>' }) -join '') + '</ul>'
+    } else {
+        '<p class="muted">No linked crafted item is currently recorded.</p>'
+    }
+
+    $MarkdownName = "$(Get-SafeFileName -Value $ItemId).md"
+
+    $Body = @"
+<h1>$(Escape-Html $Label)</h1>
+<p class="subtitle">RDR2PF: Western Dead Compendium item page</p>
+<div class="card"><p>$(Escape-Html $Description)</p></div>
+<h2>Item Data</h2>
+<table><tbody>$($Properties -join "")</tbody></table>
+<h2>Used in Recipes</h2>
+$UsedInHtml
+<h2>Produced by Recipes</h2>
+$ProducedByHtml
+<h2>Can Craft Into</h2>
+$CraftedIntoHtml
+<p class="muted">Expanded source: <a href="./$MarkdownName">view generated Markdown page</a></p>
+"@
+
+    $FileName = "$(Get-SafeFileName -Value $ItemId).html"
+    Write-Utf8File -Path (Join-Path $ItemPages $FileName) -Content (Get-HtmlDocument -Title $Label -Body $Body -RootPrefix "..")
+    $GeneratedHtmlItemPages++
+}
+
+foreach ($Recipe in ($Recipes | Sort-Object name, id)) {
+    $RecipeId = [string]$Recipe.id
+    if ([string]::IsNullOrWhiteSpace($RecipeId)) { continue }
+
+    $RecipeName = [string]$Recipe.name
+    if ([string]::IsNullOrWhiteSpace($RecipeName)) { $RecipeName = $RecipeId }
+
+    $RecipeType = [string]$Recipe.type
+    if ([string]::IsNullOrWhiteSpace($RecipeType)) { $RecipeType = "standard" }
+
+    $IngredientRows = [System.Collections.Generic.List[string]]::new()
+    foreach ($Ingredient in @($Recipe.ingredients)) {
+        $IngredientId = [string]$Ingredient.item
+        $IngredientRows.Add(
+            '<tr><td>' + (Get-ItemHtmlLink -ItemId $IngredientId) + '</td><td><code>' +
+            (Escape-Html $IngredientId) + '</code></td><td>' + (Escape-Html $Ingredient.count) + '</td></tr>'
+        )
+    }
+
+    if ($IngredientRows.Count -eq 0) {
+        $IngredientRows.Add('<tr><td colspan="3" class="muted">No ingredients were recorded.</td></tr>')
+    }
+
+    $RewardRows = [System.Collections.Generic.List[string]]::new()
+    if ($Recipe.use_currency_mode -eq $true) {
+        $RewardRows.Add('<tr><td>Currency</td><td>' + (Escape-Html $Recipe.currency_type) + '</td><td>' + (Escape-Html $Recipe.currency_reward) + '</td></tr>')
+    }
+    else {
+        foreach ($Reward in @($Recipe.rewards)) {
+            $RewardId = [string]$Reward.item
+            $Display = if ([string]$Recipe.type -eq 'weapon') {
+                Escape-Html $RewardId
+            } else {
+                Get-ItemHtmlLink -ItemId $RewardId
+            }
+            $RewardRows.Add('<tr><td>' + $Display + '</td><td><code>' + (Escape-Html $RewardId) + '</code></td><td>' + (Escape-Html $Reward.count) + '</td></tr>')
+        }
+    }
+
+    if ($RewardRows.Count -eq 0) {
+        $RewardRows.Add('<tr><td colspan="3" class="muted">No reward was recorded.</td></tr>')
+    }
+
+    $MarkdownName = "$(Get-SafeFileName -Value $RecipeId).md"
+
+    $Body = @"
+<h1>$(Escape-Html $RecipeName)</h1>
+<p class="subtitle">RDR2PF recipe page</p>
+<table><tbody>
+<tr><th>Recipe ID</th><td><code>$(Escape-Html $RecipeId)</code></td></tr>
+<tr><th>Recipe type</th><td>$(Escape-Html $RecipeType)</td></tr>
+<tr><th>Currency mode</th><td>$(Escape-Html ([bool]$Recipe.use_currency_mode))</td></tr>
+</tbody></table>
+<h2>Ingredients</h2>
+<table><thead><tr><th>Item</th><th>Item ID</th><th>Count</th></tr></thead><tbody>$($IngredientRows -join "")</tbody></table>
+<h2>Reward</h2>
+<table><thead><tr><th>Reward</th><th>ID / Type</th><th>Count / Amount</th></tr></thead><tbody>$($RewardRows -join "")</tbody></table>
+<p class="muted">Expanded source: <a href="./$MarkdownName">view generated Markdown page</a></p>
+"@
+
+    $FileName = "$(Get-SafeFileName -Value $RecipeId).html"
+    Write-Utf8File -Path (Join-Path $RecipePages $FileName) -Content (Get-HtmlDocument -Title $RecipeName -Body $Body -RootPrefix "..")
+    $GeneratedHtmlRecipePages++
+}
+
+$ItemCards = [System.Collections.Generic.List[string]]::new()
+foreach ($Item in ($Items | Sort-Object label, id)) {
+    $ItemId = [string]$Item.id
+    if ([string]::IsNullOrWhiteSpace($ItemId)) { continue }
+    $Label = [string]$Item.label
+    if ([string]::IsNullOrWhiteSpace($Label)) { $Label = $ItemId }
+    $Safe = Get-SafeFileName -Value $ItemId
+    $Description = [string]$Item.description
+    if ([string]::IsNullOrWhiteSpace($Description)) { $Description = "No description available." }
+    $ItemCards.Add('<article class="card entry" data-search="' + (Escape-Html ($Label + ' ' + $ItemId + ' ' + $Description)) + '"><h2><a href="items/' + $Safe + '.html">' + (Escape-Html $Label) + '</a></h2><p><code>' + (Escape-Html $ItemId) + '</code></p><p>' + (Escape-Html $Description) + '</p></article>')
+}
+
+$ItemsBody = @"
+<h1>Every Item A–Z</h1>
+<p class="subtitle">$($Items.Count) parsed items. Click any item to open its full page.</p>
+<input class="search" id="filter" type="search" placeholder="Search items..." aria-label="Search items">
+<div class="grid" id="entries">$($ItemCards -join "`r`n")</div>
+<script>
+const filter = document.getElementById('filter');
+const entries = [...document.querySelectorAll('.entry')];
+filter.addEventListener('input', () => {
+  const q = filter.value.toLowerCase().trim();
+  entries.forEach(entry => entry.hidden = !entry.dataset.search.toLowerCase().includes(q));
+});
+</script>
+"@
+Write-Utf8File -Path (Join-Path $WikiRoot 'items.html') -Content (Get-HtmlDocument -Title 'Every Item A–Z' -Body $ItemsBody -RootPrefix '.')
+
+$RecipeCards = [System.Collections.Generic.List[string]]::new()
+foreach ($Recipe in ($Recipes | Sort-Object name, id)) {
+    $RecipeId = [string]$Recipe.id
+    if ([string]::IsNullOrWhiteSpace($RecipeId)) { continue }
+    $RecipeName = [string]$Recipe.name
+    if ([string]::IsNullOrWhiteSpace($RecipeName)) { $RecipeName = $RecipeId }
+    $Safe = Get-SafeFileName -Value $RecipeId
+    $RecipeCards.Add('<article class="card entry" data-search="' + (Escape-Html ($RecipeName + ' ' + $RecipeId + ' ' + [string]$Recipe.type)) + '"><h2><a href="recipes/' + $Safe + '.html">' + (Escape-Html $RecipeName) + '</a></h2><p><code>' + (Escape-Html $RecipeId) + '</code></p><p>' + (Escape-Html ([string]$Recipe.type)) + ' · ' + @($Recipe.ingredients).Count + ' ingredient(s)</p></article>')
+}
+
+$RecipesBody = @"
+<h1>Recipes</h1>
+<p class="subtitle">$($Recipes.Count) parsed recipes. Click any recipe to open its full page.</p>
+<input class="search" id="filter" type="search" placeholder="Search recipes..." aria-label="Search recipes">
+<div class="grid" id="entries">$($RecipeCards -join "`r`n")</div>
+<script>
+const filter = document.getElementById('filter');
+const entries = [...document.querySelectorAll('.entry')];
+filter.addEventListener('input', () => {
+  const q = filter.value.toLowerCase().trim();
+  entries.forEach(entry => entry.hidden = !entry.dataset.search.toLowerCase().includes(q));
+});
+</script>
+"@
+Write-Utf8File -Path (Join-Path $WikiRoot 'recipes.html') -Content (Get-HtmlDocument -Title 'Recipes' -Body $RecipesBody -RootPrefix '.')
+
+$HomeBody = @"
+<h1>RDR2PF: Western Dead Compendium</h1>
+<div class="grid">
+<article class="card"><h2><a href="items.html">Every Item A–Z</a></h2><p>$($Items.Count) clickable item pages generated from the parsed Markdown/database content.</p></article>
+<article class="card"><h2><a href="recipes.html">Recipes</a></h2><p>$($Recipes.Count) clickable recipe pages with linked ingredients and rewards.</p></article>
+</div>
+<p class="muted">The existing Markdown pages are preserved and linked from every HTML detail page.</p>
+"@
+Write-Utf8File -Path (Join-Path $WikiRoot 'index.html') -Content (Get-HtmlDocument -Title 'RDR2PF Compendium' -Body $HomeBody -RootPrefix '.')
+
+
 # ------------------------------------------------------------
 # Final output
 # ------------------------------------------------------------
@@ -755,9 +1090,12 @@ Write-Utf8File `
 Write-Host ""
 Write-Host ("Item pages generated   : {0}" -f $GeneratedItemPages)
 Write-Host ("Recipe pages generated : {0}" -f $GeneratedRecipePages)
+Write-Host ("HTML item pages generated   : {0}" -f $GeneratedHtmlItemPages)
+Write-Host ("HTML recipe pages generated : {0}" -f $GeneratedHtmlRecipePages)
 Write-Host ("Missing ingredients    : {0}" -f $MissingIngredientRows.Count)
 Write-Host ("Missing rewards        : {0}" -f $MissingRewardRows.Count)
 
 Write-Host ""
 Write-Host "Wiki root: $WikiRoot" -ForegroundColor Green
-Write-Host "Wiki home: $(Join-Path $WikiRoot 'index.md')" -ForegroundColor Green
+Write-Host "Markdown home: $(Join-Path $WikiRoot 'index.md')" -ForegroundColor Green
+Write-Host "HTML home    : $(Join-Path $WikiRoot 'index.html')" -ForegroundColor Green
