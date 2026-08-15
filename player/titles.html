@@ -59,7 +59,7 @@
 <a href="../professions/herbalist.html">Herbalist</a>
 <h4>Game Database</h4>
 <a href="../database/index.html">Database Home</a>
-<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/items.html">Every Item Aâ€“Z</a>
 <a href="../database/recipes.html">Recipes</a>
 <a href="../database/consumables.html">Consumables</a>
 <a href="../database/food.html">Food</a>
@@ -101,7 +101,170 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Character</div><h1>Titles</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+
+<section class="hero compact-hero journal-hero">
+<div class="eyebrow">Character Identity</div>
+<h1>Titles</h1>
+<p class="lede">Your title is not chosen from a menu. It grows out of what your character actually does across their life on the frontier.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Earned Reputation</div>
+<h2>How Titles Work</h2>
+</div>
+</div>
+
+<p>RDR2PF uses your character's saved lifetime statistics to determine which frontier path best represents them.</p>
+
+<p>Selected activities are tracked over time. When the title system evaluates your character, it compares the configured statistics for each supported title. The activity with the greatest qualifying total becomes your displayed title.</p>
+
+<p>This means titles are intended to emerge naturally from play. You do not need to formally select “Hunter,” “Fisherman” or “Bandit” as a permanent job before those identities can develop.</p>
+</section>
+
+<section class="section callout">
+<div class="eyebrow">Starting Title</div>
+<h3>Drifter</h3>
+<p>A character with no qualifying recorded profession activity begins as a <strong>Drifter</strong>.</p>
+<p>Once your lifetime actions begin to build a clear frontier identity, the title system can replace Drifter with the title that best reflects your character's history.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Current Titles</div>
+<h2>What Can Your Character Become?</h2>
+</div>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Path</th>
+<th>Statistic That Drives It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fisherman</strong></td>
+<td>Fishing</td>
+<td>Fish Caught</td>
+</tr>
+<tr>
+<td><strong>Hunter</strong></td>
+<td>Hunting</td>
+<td>Animals Killed</td>
+</tr>
+<tr>
+<td><strong>Cook</strong></td>
+<td>Cooking</td>
+<td>Meals Cooked</td>
+</tr>
+<tr>
+<td><strong>Miner</strong></td>
+<td>Mining</td>
+<td>Ore Mined</td>
+</tr>
+<tr>
+<td><strong>Lumberjack</strong></td>
+<td>Timber Work</td>
+<td>Logs Cut</td>
+</tr>
+<tr>
+<td><strong>Gold Miner</strong></td>
+<td>Gold Prospecting</td>
+<td>Gold Prospected</td>
+</tr>
+<tr>
+<td><strong>The Lyssa Tamer</strong></td>
+<td>Infected Combat</td>
+<td>Infected Killed</td>
+</tr>
+<tr>
+<td><strong>Bandit</strong></td>
+<td>Outlaw Activity</td>
+<td>Successful Robberies</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Dynamic Identity</div>
+<h2>Your Title Can Change</h2>
+</div>
+</div>
+
+<p>Your title is not necessarily permanent.</p>
+
+<p>If another qualifying activity eventually becomes the strongest part of your character's lifetime record, the system can change the displayed title to match that new history.</p>
+
+<p>For example, a character might begin as a Drifter, become a Hunter after spending much of their early life hunting, and later become a Gold Miner if prospecting eventually becomes their strongest qualifying activity.</p>
+
+<p>This allows a character's identity to evolve without deleting or resetting the work they did earlier.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">When Scores Match</div>
+<h2>Ties Do Not Randomly Change Your Title</h2>
+</div>
+</div>
+
+<p>If two qualifying title paths have the same score, RDR2PF keeps your current profession title instead of randomly choosing between them.</p>
+
+<p>This prevents your identity from flipping back and forth simply because two lifetime counters happen to be equal.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Statistics vs. Titles</div>
+<h2>Not Every Statistic Creates a Title</h2>
+</div>
+</div>
+
+<p>Your character can accumulate many statistics without each one becoming a title.</p>
+
+<p>For example, the statistics system can support detailed records such as animals skinned, legendary animals killed, fish weight, coal mined, headshots, deaths, money stolen and other measurements.</p>
+
+<p>Titles use only specific configured statistics to determine the character's primary frontier identity.</p>
+
+<p>For a broader explanation of everything the character progression system can record, see the <a href="../player/statistics.html">Statistics</a> page.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Titles vs. Profession Levels</div>
+<h2>Two Different Systems</h2>
+</div>
+</div>
+
+<p>A title and a profession level are not the same thing.</p>
+
+<p><strong>Titles</strong> are determined from lifetime statistics and describe what your character has become known for.</p>
+
+<p><strong>Profession levels</strong> use a separate XP system that can measure progression within individual professions.</p>
+
+<p>A character can therefore have progression in several different activities while still displaying only the title associated with their strongest qualifying lifetime statistic.</p>
+</section>
+
+<section class="section callout">
+<div class="eyebrow">Living Character History</div>
+<h3>Your Actions Write the Title</h3>
+<p>RDR2PF titles are intended to tell part of your character's story. The frontier does not ask what you claimed to be. It remembers what you actually did.</p>
+</section>
+
+<div class="footer">RDR2PF: Western Dead Compendium · Updated August 2026</div>
+
+</main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

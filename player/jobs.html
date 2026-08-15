@@ -59,7 +59,7 @@
 <a href="../professions/herbalist.html">Herbalist</a>
 <h4>Game Database</h4>
 <a href="../database/index.html">Database Home</a>
-<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/items.html">Every Item AÃ¢â‚¬â€œZ</a>
 <a href="../database/recipes.html">Recipes</a>
 <a href="../database/consumables.html">Consumables</a>
 <a href="../database/food.html">Food</a>
@@ -101,109 +101,144 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero">
-<div class="eyebrow">Player Systems</div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+
+<section class="hero compact-hero journal-hero">
+<div class="eyebrow">Character &amp; Frontier Life</div>
 <h1>Jobs &amp; Professions</h1>
-<p class="lede">The working and currently configured ways a character gathers materials, earns money, produces goods, treats players, or develops a reputation in RDR2PF.</p>
+<p class="lede">Make your living however the frontier allows. Hunt, fish, prospect for gold, work the land, craft goods, practice medicine, trade, or build a reputation outside the law.</p>
 </section>
 
-<section class="wiki-section">
-<h2>How Jobs Connect to the Server</h2>
-<p>RDR2PF does not treat every activity the same way. Some systems are formal jobs with job names and ranks, while others are open-world professions that any character can perform. Living Mastery records repeated behavior separately from the VORP job field.</p>
-<div class="table-wrap"><table>
-<thead><tr><th>System</th><th>Current Role</th><th>Access</th><th>Current Status</th></tr></thead>
-<tbody>
-<tr><td>Hunting &amp; Butcher</td><td>Harvest animals and sell carcasses or animal goods.</td><td>Open-world; butcher job lock is currently disabled.</td><td>Active, with some animal skinning cases still under investigation.</td></tr>
-<tr><td>Fishing</td><td>Catch fish using bait and lures that resolve to inventory items.</td><td>Open-world.</td><td>Enabled resource; item IDs must match MariaDB.</td></tr>
-<tr><td>Herbalism &amp; Farming</td><td>Gather plants, use seeds, and produce agricultural materials.</td><td>Open-world through the herbs/farming item ecosystem.</td><td>Enabled item ecosystem; individual plant loops should be documented as tested.</td></tr>
-<tr><td>Crafting &amp; Cooking</td><td>Turn ingredients into food, tools, medicine, and other goods.</td><td>Location, category, or job restrictions may apply per recipe.</td><td>Enabled, but recipes are currently being audited because some fail despite ingredients being present.</td></tr>
-<tr><td>Lumberjack</td><td>Chop valid trees for wood and supporting materials.</td><td>Open-world outside restricted towns.</td><td>Resource configured; exact required tool is <code>hatchet</code>.</td></tr>
-<tr><td>Mining</td><td>Mine valid rocks for ore and raw materials.</td><td>Configured for Annesburg; other listed towns are restricted.</td><td>Resource configured; reward IDs require database validation.</td></tr>
-<tr><td>Doctor / Medic</td><td>Answer alerts, heal, revive, use stations, storage, and duty tools.</td><td>Formal <code>doctor</code> job with Doctor and Nurse ranks.</td><td>Enabled resource.</td></tr>
-<tr><td>Outlaw / Crook</td><td>Crime, stolen goods, lockpicking, and outlaw behavior.</td><td>Behavior-driven and resource-driven.</td><td>Enabled resource and connected to Crook/Murderer progression.</td></tr>
-<tr><td>NPC Looting</td><td>Recover configured items from defeated NPCs.</td><td>Open-world support system rather than a formal job.</td><td>Enabled resource; rewards must exist in the item registry.</td></tr>
-</tbody></table></div>
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Choose Your Own Path</div>
+<h2>Life on the Frontier</h2>
+</div>
+</div>
+
+<p>RDR2PF does not lock every character into a single career. Many professions are open to anyone willing to obtain the right tools, travel to the right place, and put in the work.</p>
+
+<p>Some occupations, such as medical work, may use formal jobs or ranks. Others are activities you can pursue naturally while exploring the world. Your character can hunt one day, prospect the rivers the next, and spend the evening cooking or crafting the materials you gathered.</p>
 </section>
 
-<section class="wiki-section">
-<h2>Hunting &amp; Butcher</h2>
-<p>The hunting resource can grant configured animal products when animals are skinned, plucked, picked up, or sold. The butcher system is enabled and its job lock is currently disabled, so butcher NPCs are not restricted to characters holding the <code>butcher</code> job.</p>
-<p>Configured butcher locations include Valentine, Strawberry, Blackwater, Annesburg, Van Horn, Rhodes, Armadillo, Tumbleweed, Landing, and Saint Denis.</p>
-<p>Every <code>givenItem</code> entry must exist in MariaDB. Current examples include <code>venison</code>, <code>pork</code>, <code>porkfat</code>, <code>biggame</code>, pelts, antlers, claws, teeth, feathers, and animal-specific carcass items.</p>
-<div class="card"><h3>Known limitation</h3><p>Some Bison, Whitetail Buck, and Wild Turkey interactions have been inconsistent even though the animal hashes are configured. Keep those cases marked as investigating until they are retested successfully.</p></div>
-</section>
+<section class="section feature-grid">
 
-<section class="wiki-section">
+<article class="journal-panel">
+<div class="eyebrow">Wilderness</div>
+<h2>Hunting</h2>
+<p>Track wildlife across the frontier, harvest useful animal products, and bring your haul back to civilization. Hunting can provide meat, pelts, antlers, feathers and other materials used throughout the economy.</p>
+<p><a href="../professions/hunting.html">Read the Hunting guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Rivers &amp; Lakes</div>
 <h2>Fishing</h2>
-<p>The fishing resource is enabled. Fish, bait, and lure rewards are inventory items, so their exact IDs must exist in <code>items.item</code>. Confirmed database examples include fish IDs such as <code>a_c_fishbluegil_01_ms</code>, <code>a_c_fishperch_01_sm</code>, and <code>a_c_fishsalmonsockeye_01_ms</code>, plus bait or lure IDs such as <code>p_baitBread01x</code>, <code>p_baitCheese01x</code>, <code>p_baitCorn01x</code>, <code>p_baitWorm01x</code>, and <code>p_FinisdFishlure01x</code>.</p>
-<p>Do not replace these internal IDs with their display names.</p>
-</section>
+<p>Carry the proper tackle and work the rivers, lakes and shorelines for fish. Your catch can provide food, supplies or goods worth taking back to town.</p>
+<p><a href="../professions/fishing.html">Read the Fishing guide â†’</a></p>
+</article>
 
-<section class="wiki-section">
-<h2>Herbalism &amp; Farming</h2>
-<p>The database contains a large plant-and-seed ecosystem used by herb gathering and farming systems. Many plants have a matching seed item.</p>
-<div class="table-wrap"><table>
-<thead><tr><th>Plant</th><th>Seed</th><th>Notes</th></tr></thead>
-<tbody>
-<tr><td><code>hemp</code></td><td><code>hemp_seed</code></td><td>Supports fiber and hemp product chains.</td></tr>
-<tr><td><code>Indian_Tobbaco</code></td><td><code>Indian_Tobbaco_Seed</code></td><td>Keep the current database spelling and capitalization exactly.</td></tr>
-<tr><td><code>Wild_Mint</code></td><td><code>Wild_Mint_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
-<tr><td><code>Oregano</code></td><td><code>Oregano_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
-<tr><td><code>Yarrow</code></td><td><code>Yarrow_Seed</code></td><td>Plant and seed are separate inventory items.</td></tr>
-<tr><td><code>wheat</code></td><td><code>wheatseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
-<tr><td><code>corn</code></td><td><code>cornseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
-<tr><td><code>potato</code></td><td><code>potatoseed</code></td><td>Uses a different naming pattern than many wild herbs.</td></tr>
-</tbody></table></div>
-<p>The inconsistent naming patterns are why recipes and farming configuration must be checked against MariaDB instead of inferred.</p>
-</section>
+<article class="journal-panel">
+<div class="eyebrow">Gold Country</div>
+<h2>Gold Prospecting</h2>
+<p>Take a gold pan into designated river reaches and search the gravel for Gold Dust. Prospectors can follow Gold Rush rumors for richer opportunities and bring their dust to the Van Horn Assay Office.</p>
+<p>The current assay rate is <strong>250 Gold Dust for 1 Gold Bar</strong>.</p>
+<p><a href="../professions/gold-prospecting.html">Read the Gold Prospecting guide â†’</a></p>
+</article>
 
-<section class="wiki-section">
-<h2>Crafting &amp; Cooking</h2>
-<p>Crafting is the conversion layer between job materials and usable goods. Recipes can require ingredients, produce one or more rewards, belong to a category, use a location restriction, require a job, or charge currency.</p>
-<p>The current breakfast investigation confirms that <code>consumable_breakfast</code>, <code>egg</code>, <code>eggs</code>, and <code>pork</code> all exist as database entries. That does not by itself prove the recipe is correct because <code>egg</code> and <code>eggs</code> are separate internal items.</p>
-<p>Use the <a href="../admin/item-validation.html">Item &amp; Crafting Validation</a> page before changing any recipe.</p>
-</section>
-
-<section class="wiki-section">
-<h2>Lumberjack</h2>
-<p>The lumberjack configuration requires the inventory item <code>hatchet</code>. This corrects the older wiki note that identified <code>lumberaxe</code> as the required tool.</p>
-<p>Tree chopping is blocked in Annesburg, Armadillo, Blackwater, Lagras, Rhodes, Saint Denis, Strawberry, Tumbleweed, Valentine, and Van Horn. The configured cooldown is 60 seconds.</p>
-<p>Configured rewards are:</p>
-<div class="table-wrap"><table><thead><tr><th>Item ID</th><th>Display Purpose</th></tr></thead><tbody>
-<tr><td><code>sap</code></td><td>Sap</td></tr>
-<tr><td><code>honey</code></td><td>Honey</td></tr>
-<tr><td><code>wood</code></td><td>Soft wood</td></tr>
-<tr><td><code>hwood</code></td><td>Hard wood</td></tr>
-<tr><td><code>rubber</code></td><td>Rubber</td></tr>
-<tr><td><code>fibers</code></td><td>Fibers</td></tr>
-<tr><td><code>pulp</code></td><td>Pulp</td></tr>
-</tbody></table></div>
-</section>
-
-<section class="wiki-section">
+<article class="journal-panel">
+<div class="eyebrow">Underground</div>
 <h2>Mining</h2>
-<p>The mining configuration requires <code>pickaxe</code>. Annesburg is currently the only listed town with mining allowed; Armadillo, Blackwater, Lagras, Rhodes, Saint Denis, Strawberry, Tumbleweed, Valentine, and Van Horn are restricted.</p>
-<p>Configured rewards include <code>clay</code>, <code>coal</code>, <code>copper</code>, <code>iron</code>, <code>nitrite</code>, <code>rock</code>, and <code>salt</code>.</p>
-<div class="card"><h3>Database mismatch found</h3><p>The mining configuration references <code>goldnugget</code>, but the current MariaDB registry contains <code>gold_nugget</code>. Do not silently change it in the wiki or resource until the mining repair is approved and tested. This is a confirmed example of why the item validator is necessary.</p></div>
+<p>Use a pickaxe at suitable mining areas to recover stone, coal, metals and other raw materials. Mining feeds directly into crafting and the wider frontier economy.</p>
+<p><a href="../professions/mining.html">Read the Mining guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Timber Country</div>
+<h2>Lumberjack</h2>
+<p>Carry a hatchet into suitable wilderness and harvest timber and related materials. Towns and settlements are protected from indiscriminate chopping, so the real work happens beyond their streets.</p>
+<p><a href="../professions/lumberjack.html">Read the Lumberjack guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Land &amp; Harvest</div>
+<h2>Farming &amp; Herbalism</h2>
+<p>Gather wild plants, collect useful herbs, plant seeds and turn the land into a dependable source of food and materials. What grows in the frontier often becomes an ingredient somewhere else.</p>
+<p><a href="../professions/farming.html">Farming guide â†’</a><br>
+<a href="../professions/herbalist.html">Herbalist guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Camp &amp; Kitchen</div>
+<h2>Cooking</h2>
+<p>Turn raw ingredients into meals and provisions useful for long journeys. Hunters, anglers and farmers can all feed directly into cooking, making it one of the frontier's most practical professions.</p>
+<p><a href="../professions/cooking.html">Read the Cooking guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Workshop</div>
+<h2>Crafting</h2>
+<p>Transform gathered materials into useful equipment, supplies and other goods. Crafting connects much of the frontier economy by giving raw resources a purpose beyond simply selling them.</p>
+<p><a href="../professions/crafting.html">Read the Crafting guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Commerce</div>
+<h2>Trader</h2>
+<p>Make your living through buying, selling and moving valuable goods. Traders benefit from understanding what different towns, professions and players need.</p>
+<p><a href="../professions/trader.html">Read the Trader guide â†’</a></p>
+</article>
+
+
+<article class="journal-panel">
+<div class="eyebrow">Illegal Trade</div>
+<h2>Moonshiner</h2>
+<p>For characters willing to operate outside ordinary commerce, moonshining provides another path through production and illicit trade.</p>
+<p><a href="../professions/moonshiner.html">Read the Moonshiner guide â†’</a></p>
+</article>
+
+<article class="journal-panel">
+<div class="eyebrow">Outside the Law</div>
+<h2>Outlaw</h2>
+<p>Not every frontier career comes with honest wages. Theft, violence and other criminal activity can shape your reputation and create a very different life from that of a hunter, doctor or trader.</p>
+</article>
+
 </section>
 
-<section class="wiki-section">
-<h2>Doctor / Medic</h2>
-<p>The formal job name is <code>doctor</code>. Rank 0 is Doctor and rank 1 is Nurse. Configured doctor stations and shared medical storage exist in Valentine, Strawberry, and Saint Denis.</p>
-<p>Configured commands include <code>/calldoctor</code>, <code>/cancelDoctorAlert</code>, <code>/finishDoctorAlert</code>, and <code>/doctormenu</code>.</p>
-<div class="table-wrap"><table><thead><tr><th>Item ID</th><th>Configured Effect</th><th>Duty Requirement</th></tr></thead><tbody>
-<tr><td><code>bandage</code></td><td>Restores health and stamina.</td><td>No</td></tr>
-<tr><td><code>potion</code></td><td>Restores health.</td><td>No</td></tr>
-<tr><td><code>syringe</code></td><td>Revives a player.</td><td>Yes</td></tr>
-</tbody></table></div>
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Professions Work Together</div>
+<h2>A Connected Frontier Economy</h2>
+</div>
+</div>
+
+<p>Most professions are designed to overlap rather than exist in isolation. A hunter can provide meat for cooking and hides for trade. A miner or lumberjack can supply materials for crafting. A farmer can produce ingredients needed by cooks, traders and other players.</p>
+
+<p>Gold Prospecting has its own frontier loop: obtain the required equipment and license, travel to a productive river reach, recover Gold Dust and bring it to Van Horn for assay into Gold Bars.</p>
 </section>
 
-<section class="wiki-section">
-<h2>Living Mastery Connections</h2>
-<p>Formal jobs and open-world professions are not the same thing as Living Mastery. The implemented progression system can record repeated behavior and calculate titles independently of a character's VORP job.</p>
-<ul>
-            </ul>
-        </section>
-<!-- RDR2PF-GENERATOR: -->
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<section class="section">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Character Progression</div>
+<h2>Your Occupation Does Not Define You</h2>
+</div>
+</div>
+
+<p>A profession is something your character does; it does not have to be everything your character is. You are free to develop several parts of frontier life as your story grows.</p>
+
+<p>Your repeated actions can also contribute to <a href="../player/mastery.html">Living Mastery</a>, allowing the way you actually play to become part of your character's long-term identity.</p>
+</section>
+
+<section class="section callout">
+<div class="eyebrow">Explore Further</div>
+<h3>Profession Guides</h3>
+<p>Detailed profession pages cover individual activities, equipment, locations and gameplay loops as they are documented in the Compendium.</p>
+<p><a href="../professions/index.html">Open the Profession Index â†’</a></p>
+</section>
+
+<div class="footer">RDR2PF: Western Dead Compendium Â· Updated August 2026</div>
+
+</main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
