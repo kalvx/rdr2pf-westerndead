@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mining | RDR2PF: Western Dead Compendium</title>
-<meta name="description" content="Official RDR2PF: Western Dead Compendium page.">
+<title>Gold Prospecting &amp; Assay | RDR2PF: Western Dead Compendium</title>
+<meta name="description" content="Pan designated rivers for Gold Dust, follow Gold Rush rumors, and refine the haul into Gold Bars at the Van Horn Assay Office.">
 <link rel="stylesheet" href="../assets/style.css"></head><body>
 <a class="mobile-home-button" href="../index.html">RDR2PF Compendium</a>
 <header class="top"><div class="brand">RDR2PF: WESTERN DEAD</div><div class="sub">Official Game Compendium</div></header>
@@ -51,7 +51,9 @@
 <a href="../professions/hunting.html">Hunting</a>
 <a href="../professions/fishing.html">Fishing</a>
 <a href="../professions/farming.html">Farming</a>
-<a class="active" href="../professions/mining.html">Mining</a>
+<a href="../professions/mining.html">Mining</a>
+<a href="../professions/gold-prospecting.html">Gold Prospecting</a>
+<a class="active" href="../professions/gold-prospecting.html">Gold Prospecting</a>
 <a href="../professions/lumberjack.html">Lumberjack</a>
 <a href="../professions/moonshiner.html">Moonshiner</a>
 <a href="../professions/trader.html">Trader</a>
@@ -84,6 +86,7 @@
 <a href="../economy/currency.html">Currency</a>
 <a href="../economy/trading.html">Trading</a>
 <a href="../economy/auction-house.html">Auction House</a>
+<a href="../economy/auction-house.html">Auction House</a>
 <a href="../economy/stores.html">Stores</a>
 <a href="../economy/banking.html">Banking</a>
 <a href="../economy/values.html">Values &amp; Prices</a>
@@ -100,7 +103,13 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Professions</div><h1>Mining</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+<section class="hero compact-hero journal-hero"><div class="eyebrow">Profession Guide</div><h1>Gold Prospecting &amp; Assay</h1><p class="lede">Pan designated rivers for Gold Dust, follow Gold Rush rumors, and refine the haul into Gold Bars at the Van Horn Assay Office.</p></section>
+
+<section class="section feature-grid"><article class="journal-panel"><div class="eyebrow">Frontier Profession</div><h2>From River Gravel to Gold Bars</h2><p>Prospecting requires a <code>goldpan</code>, a <code>gold_panning_license</code>, and the character standing in water inside a configured reach. A wash cycle lasts 60 seconds and can repeat for up to 10 cycles before the player confirms again.</p><p>Successful washes produce <strong>Gold Dust</strong>. The current assay economy is <strong>250 Gold Dust = 1 Gold Bar</strong>.</p></article><article class="journal-panel"><div class="eyebrow">Gold Rush Days</div><h2>Richer Color on One Reach</h2><p>Periodic Gold Rush days select a prospecting reach and broadcast frontier-style rumors naming the river. During the rush, successful pans at that chosen reach can uncover an extra pocket of fine gold. Infected-town music has priority over prospecting music so the two soundtracks do not play over one another.</p></article></section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Verified Coordinates</div><h2>Prospecting Reaches</h2></div></div><div class="table-wrap"><table><thead><tr><th>Reach</th><th>Center</th><th>Radius</th></tr></thead><tbody><tr><td><b>Kamassa River Prospecting Reach</b></td><td><code>2330.23, 1256.85, 83.47</code></td><td>115 m</td></tr><tr><td><b>Upper Montana River Prospecting Reach</b></td><td><code>-1536.90, -1055.01, 65.58</code></td><td>115 m</td></tr><tr><td><b>Lower Montana River Prospecting Reach</b></td><td><code>-1529.96, -2204.98, 41.25</code></td><td>60 m</td></tr><tr><td><b>San Luis River Prospecting Reach — East</b></td><td><code>-3546.98, -3893.04, -22.97</code></td><td>60 m</td></tr><tr><td><b>San Luis River Prospecting Reach — West</b></td><td><code>-3996.84, -3915.49, -24.92</code></td><td>115 m</td></tr><tr><td><b>Dakota River Prospecting Reach — West</b></td><td><code>-698.91, 140.28, 41.16</code></td><td>115 m</td></tr><tr><td><b>Dakota River Prospecting Reach — East</b></td><td><code>-496.75, 169.58, 41.47</code></td><td>115 m</td></tr></tbody></table></div></section>
+<section class="section media-section"><div class="media-copy"><div class="eyebrow">Van Horn</div><h2>Gold Assay Office</h2><p>Bring Gold Dust to the Van Horn Assay Office at <code>2936.05, 560.65, 43.93</code>. The office assays up to six bars in one batch. Each bar consumes 250 dust and takes 8 seconds of processing time.</p><p>The station includes a scale, ingot mold, pan fire, ore bucket, and money bag to make the office feel like a working frontier assay room.</p></div><figure class="feature-media"><img src="../assets/screenshots/van-horn-assay.png" alt="Van Horn Assay Office showing the Assay Gold Dust interaction"><figcaption>Van Horn Assay Office — the player-facing assay prompt.</figcaption></figure></section>
+<section class="section callout warning"><div class="eyebrow">Known Cosmetic Issue</div><h3>Panning idle movement</h3><p>The panning sequence currently uses a crouched inspect scenario. Rockstar's ambient scenario can occasionally add a head scratch or fly-swat movement, causing the attached pan to move with the hand. Weapon holstering has been fixed and the pan attachment has been lowered; the remaining ambient hand movement is tracked as a cosmetic bug.</p></section>
+
+<div class="footer">RDR2PF: Western Dead Compendium · Updated August 2026</div></main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

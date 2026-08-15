@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hordes &amp; Events | RDR2PF: Western Dead Compendium</title>
-<meta name="description" content="Official RDR2PF: Western Dead Compendium page.">
+<title>Infected Outbreaks | RDR2PF: Western Dead Compendium</title>
+<meta name="description" content="A rotating nighttime town event with warning reports, evacuation, outbreak combat, corpse searching, rewards, and a gradual return to normal.">
 <link rel="stylesheet" href="../assets/style.css"></head><body>
 <a class="mobile-home-button" href="../index.html">RDR2PF Compendium</a>
 <header class="top"><div class="brand">RDR2PF: WESTERN DEAD</div><div class="sub">Official Game Compendium</div></header>
@@ -29,7 +29,11 @@
 <a href="../world/towns.html">Towns &amp; Settlements</a>
 <a href="../world/locations.html">Locations</a>
 <a href="../world/merchants.html">Merchants</a>
-<a href="../world/travel.html">Travel</a>
+<a href="../world/travel.html">Wayfarer Travel</a>
+<a href="../world/water-sources.html">Water Sources</a>
+<a href="../world/dogs.html">Pack Dogs</a>
+<a href="../world/companions.html">Hired Companions</a>
+<a href="../world/stables.html">Stables &amp; Horses</a>
 <a href="../world/safe-zones.html">Safe Zones</a>
 <a href="../world/camps.html">Camps</a>
 <a href="../admin/factions.html">Factions</a>
@@ -48,6 +52,8 @@
 <a href="../professions/fishing.html">Fishing</a>
 <a href="../professions/farming.html">Farming</a>
 <a href="../professions/mining.html">Mining</a>
+<a href="../professions/gold-prospecting.html">Gold Prospecting</a>
+<a href="../professions/gold-prospecting.html">Gold Prospecting</a>
 <a href="../professions/lumberjack.html">Lumberjack</a>
 <a href="../professions/moonshiner.html">Moonshiner</a>
 <a href="../professions/trader.html">Trader</a>
@@ -79,6 +85,8 @@
 <a href="../economy/index.html">Economy Guide</a>
 <a href="../economy/currency.html">Currency</a>
 <a href="../economy/trading.html">Trading</a>
+<a href="../economy/auction-house.html">Auction House</a>
+<a href="../economy/auction-house.html">Auction House</a>
 <a href="../economy/stores.html">Stores</a>
 <a href="../economy/banking.html">Banking</a>
 <a href="../economy/values.html">Values &amp; Prices</a>
@@ -95,7 +103,13 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Western Dead</div><h1>Hordes &amp; Events</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+<section class="hero compact-hero journal-hero"><div class="eyebrow">Western Dead</div><h1>Infected Outbreaks</h1><p class="lede">A rotating nighttime town event with warning reports, evacuation, outbreak combat, corpse searching, rewards, and a gradual return to normal.</p></section>
+
+<section class="section media-section"><div class="media-copy"><div class="eyebrow">Western Dead World Event</div><h2>Reports Before the Fall</h2><p>Outbreaks begin with ominous reports naming the selected settlement, followed by a warning countdown before the town becomes active. Reports can mention dead telegraph lines, abandoned stagecoaches, screams outside town, or a sheriff asking for deputies.</p><p>The automatic event is built around nighttime outbreaks. The infected phase uses outbreak atmosphere and fog, then transitions through burnout and recovery so the town gradually returns to normal rather than snapping back instantly.</p></div><figure class="feature-media wide"><img src="../assets/screenshots/infected-warning.png" alt="Western Dead infected event warning over a foggy town"><figcaption>Example outbreak warning: the selected town is named in the report and the countdown tells players when the danger becomes active.</figcaption></figure></section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Event Flow</div><h2>Warning → Active → Burnout → Recovery</h2></div></div><div class="timeline"><div><b>Warning</b><span>Telegraph-style report, evacuation behavior, warning banner and countdown.</span></div><div><b>Active</b><span>Infected spawn inside the selected town, local outbreak music can begin, lawmen may remain to defend the settlement, and infected corpses can be searched.</span></div><div><b>Burnout</b><span>Violence begins to subside while the area remains dangerous.</span></div><div><b>Recovery</b><span>Roads reopen and the world population/weather normalize gradually.</span></div></div></section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Eligible Settlements</div><h2>Possible Outbreak Centers</h2></div></div><div class="table-wrap"><table><thead><tr><th>Town</th><th>Configured Center</th></tr></thead><tbody><tr><td><b>Blackwater</b></td><td><code>-875.0, -1328.0, 44.0</code></td></tr><tr><td><b>Strawberry</b></td><td><code>-1801.0, -373.0, 162.0</code></td></tr><tr><td><b>Valentine</b></td><td><code>-283.0, 806.0, 119.0</code></td></tr><tr><td><b>Rhodes</b></td><td><code>1232.0, -1299.0, 76.0</code></td></tr><tr><td><b>Saint Denis</b></td><td><code>2634.0, -1225.0, 53.0</code></td></tr><tr><td><b>Annesburg</b></td><td><code>2935.0, 1282.0, 44.0</code></td></tr><tr><td><b>Van Horn</b></td><td><code>2983.0, 571.0, 44.0</code></td></tr><tr><td><b>Armadillo</b></td><td><code>-3665.0, -2612.0, -14.0</code></td></tr><tr><td><b>Tumbleweed</b></td><td><code>-5515.0, -2930.0, -2.0</code></td></tr></tbody></table></div><p class="note">The scheduler prevents an immediate repeat of the same town when alternatives are available.</p></section>
+<section class="section feature-grid"><article class="journal-panel"><h3>Corpse Search</h3><p>Outbreak-spawned infected can be searched during Active and Burnout. Current loot rolls are intentionally sparse: bandages are uncommon, small cash finds are rarer, and most bodies have nothing useful.</p></article><article class="journal-panel"><h3>Participation Rewards</h3><p>Rewards scale with participation and survival. Late arrival or brief involvement earns less; stronger participation can pay cash and Gold. Death can reduce the outcome.</p></article><article class="journal-panel"><h3>Audio Priority</h3><p>Infected music is town-local rather than server-wide. When the player is inside the active outbreak radius it overrides prospecting music; outside the town, normal activity music is not interrupted.</p></article></section>
+
+<div class="footer">RDR2PF: Western Dead Compendium · Updated August 2026</div></main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

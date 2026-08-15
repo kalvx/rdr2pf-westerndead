@@ -1,0 +1,24 @@
+RDR2PF: WESTERN DEAD COMPENDIUM — AUGUST 2026 UPDATE
+
+This package is intended to be extracted over H:\rdr2pf-westerndead.
+It does not include .git metadata and will not delete existing files.
+
+Major documentation additions:
+- Infected outbreak event guide and eligible town centers
+- Gold Prospecting: seven river reaches, Gold Rush behavior, Van Horn assay office
+- Wayfarer's Post destinations and Valentine corral-fight permit unlock guide
+- Pack Dogs and Van Horn trainer pricing
+- Hired Companion tiers and pricing
+- Physical stable / horse boarding behavior
+- Blackwater Auction House and NPC market economy
+- Replenishable water sources (first Valentine barrel)
+- Updated camps/encounters reference
+- Horse, wagon and tack price reference
+- Updated Known Bugs / resolved issues and coordinate database
+- Mobile navigation retained and expanded
+- Home hero watermark duplication removed; foreground RDR2PF title retained
+
+Included presentation screenshots:
+- assets/screenshots/infected-warning.png
+- assets/screenshots/van-horn-assay.png
+- assets/screenshots/water-barrel.png
