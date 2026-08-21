@@ -1,0 +1,230 @@
+/* RDR2PF Controls - Gold Store inspired interface */
+
+.pf-controls {
+    --pf-gold: #d7b85a;
+    --pf-gold-dark: #9b7633;
+    --pf-red: #8f2119;
+    --pf-text: #eee9df;
+    --pf-muted: #aa9e8c;
+    --pf-panel: #15110d;
+    --pf-line: rgba(184,147,63,.34);
+    margin: 22px 0 36px;
+    color: var(--pf-text);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.pf-control-shell {
+    background:
+        linear-gradient(135deg, rgba(10,8,6,.98), rgba(31,20,13,.96));
+    border: 1px solid rgba(184,147,63,.45);
+    box-shadow: 0 24px 70px rgba(0,0,0,.48);
+    overflow: hidden;
+}
+
+.pf-control-head {
+    padding: 28px 30px 22px;
+    border-bottom: 1px solid var(--pf-line);
+}
+
+.pf-control-kicker {
+    margin: 0 0 7px;
+    color: var(--pf-muted);
+    font-size: 11px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+}
+
+.pf-control-head h2 {
+    margin: 0;
+    color: var(--pf-gold);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.pf-control-head p {
+    max-width: 850px;
+    margin-bottom: 0;
+    color: #bdb1a0;
+    line-height: 1.6;
+}
+
+.pf-control-tabs {
+    display: flex;
+    gap: 8px;
+    padding: 16px 20px;
+    background: #0c0a08;
+    border-bottom: 1px solid var(--pf-line);
+}
+
+.pf-control-tab {
+    padding: 11px 19px;
+    border: 1px solid #39342e;
+    background: linear-gradient(90deg,#292622,#151311);
+    color: #ddd5c9;
+    font: inherit;
+    cursor: pointer;
+    transition: .15s ease;
+}
+
+.pf-control-tab:hover,
+.pf-control-tab.active {
+    border-color: var(--pf-red);
+    background: linear-gradient(90deg,#481b17,#1b1412);
+    color: #fff;
+}
+
+.pf-control-panel {
+    display: none;
+    padding: 25px;
+}
+
+.pf-control-panel.active {
+    display: block;
+}
+
+.pf-device-title {
+    margin: 0 0 6px;
+    color: var(--pf-gold);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pf-device-note {
+    margin: 0 0 22px;
+    color: var(--pf-muted);
+    line-height: 1.55;
+}
+
+.pf-control-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 12px;
+}
+
+.pf-control-card {
+    display: grid;
+    grid-template-columns: 86px 1fr;
+    gap: 15px;
+    align-items: center;
+    min-height: 86px;
+    padding: 14px;
+    border: 1px solid #3a3026;
+    background:
+        linear-gradient(135deg,rgba(40,30,22,.86),rgba(15,12,9,.92));
+    cursor: pointer;
+    transition: .15s ease;
+}
+
+.pf-control-card:hover,
+.pf-control-card.active {
+    transform: translateY(-1px);
+    border-color: var(--pf-gold-dark);
+    background:
+        linear-gradient(135deg,rgba(61,42,27,.92),rgba(19,13,10,.96));
+}
+
+.pf-key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 5px 8px;
+    border: 1px solid #8b7449;
+    border-bottom-width: 4px;
+    background: #171513;
+    color: #fff4cf;
+    box-shadow: inset 0 0 12px rgba(255,220,140,.05);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pf-control-copy h3 {
+    margin: 0 0 4px;
+    color: #eee1bd;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.pf-control-copy p {
+    margin: 0;
+    color: #a99e8e;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.pf-control-detail {
+    margin-top: 18px;
+    padding: 17px 19px;
+    border-left: 3px solid var(--pf-red);
+    background: rgba(0,0,0,.27);
+}
+
+.pf-control-detail strong {
+    color: var(--pf-gold);
+    font-weight: 400;
+}
+
+.pf-control-detail p {
+    margin: 5px 0 0;
+    color: #c4b9a8;
+    line-height: 1.55;
+}
+
+.pf-controller {
+    position: relative;
+    max-width: 640px;
+    min-height: 300px;
+    margin: 22px auto 28px;
+    border: 1px solid #44392c;
+    border-radius: 120px 120px 90px 90px;
+    background:
+        radial-gradient(circle at 50% 40%,#312a23 0,#171411 58%,#0d0b09 100%);
+    box-shadow: inset 0 0 35px rgba(0,0,0,.8);
+}
+
+.pf-controller-label {
+    position: absolute;
+    padding: 6px 9px;
+    border: 1px solid #75613d;
+    background: rgba(10,8,6,.94);
+    color: #eadcae;
+    font-size: 12px;
+}
+
+.pf-controller .lt { left: 12%; top: 8%; }
+.pf-controller .rt { right: 12%; top: 8%; }
+.pf-controller .lb { left: 5%; top: 27%; }
+.pf-controller .rb { right: 5%; top: 27%; }
+.pf-controller .dpad { left: 19%; top: 49%; }
+.pf-controller .leftstick { left: 31%; top: 69%; }
+.pf-controller .rightstick { right: 29%; top: 69%; }
+.pf-controller .face { right: 17%; top: 48%; }
+
+.pf-verified {
+    margin-top: 22px;
+    padding: 13px 16px;
+    border: 1px solid rgba(184,147,63,.24);
+    color: #9f9485;
+    background: rgba(0,0,0,.2);
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+@media (max-width: 800px) {
+    .pf-control-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pf-control-card {
+        grid-template-columns: 70px 1fr;
+    }
+
+    .pf-control-tabs {
+        flex-direction: column;
+    }
+
+    .pf-controller {
+        min-height: 260px;
+    }
+}

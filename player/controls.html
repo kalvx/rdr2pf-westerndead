@@ -2,7 +2,8 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Controls | RDR2PF: Western Dead Compendium</title>
 <meta name="description" content="Official RDR2PF: Western Dead Compendium page.">
-<link rel="stylesheet" href="../assets/style.css"></head><body>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/controls.css"></head><body>
 <a class="mobile-home-button" href="../index.html">RDR2PF Compendium</a>
 <header class="top"><div class="brand">RDR2PF: WESTERN DEAD</div><div class="sub">Official Game Compendium</div></header>
 <div class="layout"><aside class="side"><h4>Main</h4>
@@ -59,7 +60,7 @@
 <a href="../professions/herbalist.html">Herbalist</a>
 <h4>Game Database</h4>
 <a href="../database/index.html">Database Home</a>
-<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/items.html">Every Item AÃ¢â‚¬â€œZ</a>
 <a href="../database/recipes.html">Recipes</a>
 <a href="../database/consumables.html">Consumables</a>
 <a href="../database/food.html">Food</a>
@@ -101,7 +102,232 @@
 <a href="../admin/bugs.html">Known Bugs</a>
 <a href="../admin/testing-log.html">Testing Log</a>
 <a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Getting Started</div><h1>Controls</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
+<a href="../admin/roadmap.html">Roadmap</a></aside><main>
+
+<section class="hero compact-hero">
+<div class="eyebrow">Player Reference</div>
+<h1>Controls</h1>
+<p class="lede">RDR2PF uses normal Red Dead Redemption 2 movement and combat controls alongside additional contextual actions for the Western Dead server.</p>
+</section>
+
+<section class="pf-controls">
+<div class="pf-control-shell">
+
+<div class="pf-control-head">
+<p class="pf-control-kicker">RDR2PF Control Reference</p>
+<h2>Frontier Controls</h2>
+<p>Select your input method, then choose a control to see what it is used for. Standard Rockstar movement, aiming, combat and horse controls follow your own in-game key bindings.</p>
+</div>
+
+<div class="pf-control-tabs">
+<button class="pf-control-tab active" type="button" data-control-panel="keyboard">Keyboard &amp; Mouse</button>
+<button class="pf-control-tab" type="button" data-control-panel="controller">Xbox Controller</button>
+</div>
+
+<div class="pf-control-panel active" id="pf-keyboard">
+
+<h3 class="pf-device-title">Keyboard &amp; Mouse</h3>
+<p class="pf-device-note">These are the important RDR2PF-specific controls confirmed from the live server configuration.</p>
+
+<div class="pf-control-grid">
+
+<div class="pf-control-card" data-title="Open Inventory" data-detail="Opens your VORP inventory. From here you can inspect items, use consumables, manage equipment and interact with supported inventory actions.">
+<div class="pf-key">I</div>
+<div class="pf-control-copy">
+<h3>Inventory</h3>
+<p>Open your satchel and equipment inventory.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Context / Interact" data-detail="The primary RDR2PF interaction key. Used at Gold Store merchants, water barrels, hunting interactions, horse services, Wayfarer-related locations, events and many other world prompts.">
+<div class="pf-key">E</div>
+<div class="pf-control-copy">
+<h3>Interact</h3>
+<p>Primary world and menu interaction.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Animal / Pickup Interaction" data-detail="Used by supported animal, pickup and nearby interaction systems. Some prompts only appear when the correct target is close enough.">
+<div class="pf-key">G</div>
+<div class="pf-control-copy">
+<h3>Pickup / Animal Action</h3>
+<p>Secondary interaction for supported targets.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="RDR2PF Player Menu" data-detail="The custom RDR2PF player menu can always be opened with the /pfmenu command. This menu contains character information and RDR2PF-specific options.">
+<div class="pf-key">/pfmenu</div>
+<div class="pf-control-copy">
+<h3>Player Menu</h3>
+<p>Open the Western Dead player menu.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Standard Movement" data-detail="Walking, sprinting, crouching, jumping and general movement use your normal Red Dead Redemption 2 keyboard bindings. These can be changed in the game's control settings.">
+<div class="pf-key">WASD</div>
+<div class="pf-control-copy">
+<h3>Movement</h3>
+<p>Uses normal Rockstar control settings.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Weapons & Combat" data-detail="Aiming, firing, reloading, weapon selection and Dead Eye use your normal Red Dead Redemption 2 bindings. RDR2PF does not replace the standard combat control scheme.">
+<div class="pf-key">Mouse</div>
+<div class="pf-control-copy">
+<h3>Weapons &amp; Combat</h3>
+<p>Aim, shoot and fight with normal RDR2 controls.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Horse Controls" data-detail="Mounting, riding, calming and horse movement use your normal Red Dead Redemption 2 bindings. RDR2PF adds services and progression around horses without replacing Rockstar's riding controls.">
+<div class="pf-key">Horse</div>
+<div class="pf-control-copy">
+<h3>Horse</h3>
+<p>Standard RDR2 horse controls remain active.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Contextual Prompts" data-detail="When an RDR2PF activity has a special action available, watch the lower-right prompt area. Gold panning, stores, travel, hunting, water, cinema and event systems will tell you what interaction is currently available.">
+<div class="pf-key">Prompt</div>
+<div class="pf-control-copy">
+<h3>Watch the Prompt</h3>
+<p>Activities display the required action when available.</p>
+</div>
+</div>
+
+</div>
+
+<div class="pf-control-detail">
+<strong id="pf-detail-title">Select a control</strong>
+<p id="pf-detail-text">Choose any control card above for a more detailed explanation.</p>
+</div>
+
+</div>
+
+<div class="pf-control-panel" id="pf-controller">
+
+<h3 class="pf-device-title">Xbox Controller</h3>
+<p class="pf-device-note">RDR2PF contextual actions use the controller mapping associated with the corresponding Rockstar input. Your exact button can vary if you have changed controller bindings.</p>
+
+<div class="pf-controller">
+<span class="pf-controller-label lt">LT<br>Aim</span>
+<span class="pf-controller-label rt">RT<br>Fire</span>
+<span class="pf-controller-label lb">LB<br>Weapon Wheel</span>
+<span class="pf-controller-label rb">RB<br>Contextual</span>
+<span class="pf-controller-label dpad">D-Pad<br>Rockstar Actions</span>
+<span class="pf-controller-label leftstick">Left Stick<br>Move</span>
+<span class="pf-controller-label rightstick">Right Stick<br>Look</span>
+<span class="pf-controller-label face">Face Buttons<br>Prompts</span>
+</div>
+
+<div class="pf-control-grid">
+
+<div class="pf-control-card" data-title="Contextual Interaction" data-detail="RDR2PF world interactions use Rockstar contextual inputs. Follow the on-screen prompt rather than relying on one permanently fixed controller button.">
+<div class="pf-key">PROMPT</div>
+<div class="pf-control-copy">
+<h3>Interact</h3>
+<p>Follow the displayed controller prompt.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Inventory" data-detail="Inventory access follows the controller input associated with the Rockstar quick-use/inventory action. If your bindings have been customized, use the button shown by your game settings.">
+<div class="pf-key">Mapped</div>
+<div class="pf-control-copy">
+<h3>Inventory</h3>
+<p>Uses your configured Rockstar mapping.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Weapons & Dead Eye" data-detail="Weapon wheel, aiming, shooting and Dead Eye remain part of the normal Red Dead Redemption 2 controller scheme.">
+<div class="pf-key">RDR2</div>
+<div class="pf-control-copy">
+<h3>Combat</h3>
+<p>Standard Rockstar controller controls.</p>
+</div>
+</div>
+
+<div class="pf-control-card" data-title="Horse Controls" data-detail="Horse riding and mounted controls remain the normal Red Dead Redemption 2 controller mappings. RDR2PF does not replace the underlying riding controls.">
+<div class="pf-key">RDR2</div>
+<div class="pf-control-copy">
+<h3>Horse</h3>
+<p>Standard Rockstar horse controls.</p>
+</div>
+</div>
+
+</div>
+
+<div class="pf-control-detail">
+<strong id="pf-controller-detail-title">Controller prompts are contextual</strong>
+<p id="pf-controller-detail-text">RDR2PF displays the correct interaction prompt when you approach an activity, merchant, service or event.</p>
+</div>
+
+<div class="pf-verified">
+Controller note: keyboard-specific RDR2PF bindings were verified directly from the live server configuration. Controller actions intentionally follow Rockstar mappings so players who rebind their game are not shown an incorrect fixed button.
+</div>
+
+</div>
+
+</div>
+</section>
+
+<script>
+(function () {
+    const tabs = document.querySelectorAll(".pf-control-tab");
+    const keyboard = document.getElementById("pf-keyboard");
+    const controller = document.getElementById("pf-controller");
+
+    tabs.forEach(function (tab) {
+        tab.addEventListener("click", function () {
+            tabs.forEach(function (item) {
+                item.classList.remove("active");
+            });
+
+            document.querySelectorAll(".pf-control-panel").forEach(function (panel) {
+                panel.classList.remove("active");
+            });
+
+            tab.classList.add("active");
+
+            if (tab.dataset.controlPanel === "controller") {
+                controller.classList.add("active");
+            } else {
+                keyboard.classList.add("active");
+            }
+        });
+    });
+
+    document.querySelectorAll("#pf-keyboard .pf-control-card").forEach(function (card) {
+        card.addEventListener("click", function () {
+            document.querySelectorAll("#pf-keyboard .pf-control-card").forEach(function (item) {
+                item.classList.remove("active");
+            });
+
+            card.classList.add("active");
+
+            document.getElementById("pf-detail-title").textContent =
+                card.dataset.title || "Control";
+
+            document.getElementById("pf-detail-text").textContent =
+                card.dataset.detail || "";
+        });
+    });
+
+    document.querySelectorAll("#pf-controller .pf-control-card").forEach(function (card) {
+        card.addEventListener("click", function () {
+            document.querySelectorAll("#pf-controller .pf-control-card").forEach(function (item) {
+                item.classList.remove("active");
+            });
+
+            card.classList.add("active");
+
+            document.getElementById("pf-controller-detail-title").textContent =
+                card.dataset.title || "Control";
+
+            document.getElementById("pf-controller-detail-text").textContent =
+                card.dataset.detail || "";
+        });
+    });
+})();
+</script>
 <div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
