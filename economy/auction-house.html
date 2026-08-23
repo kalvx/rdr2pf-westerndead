@@ -60,7 +60,7 @@
 <a href="../professions/herbalist.html">Herbalist</a>
 <h4>Game Database</h4>
 <a href="../database/index.html">Database Home</a>
-<a href="../database/items.html">Every Item A–Z</a>
+<a href="../database/items.html">Every Item AÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œZ</a>
 <a href="../database/recipes.html">Recipes</a>
 <a href="../database/consumables.html">Consumables</a>
 <a href="../database/food.html">Food</a>
@@ -107,8 +107,108 @@
 <section class="hero compact-hero journal-hero"><div class="eyebrow">Frontier Economy</div><h1>Auction House</h1><p class="lede">A Blackwater player-and-NPC auction economy with rotating lots, market history, bidding, rare firearms, and dynamic price guardrails.</p></section>
 
 <section class="section feature-grid"><article class="journal-panel"><div class="eyebrow">Blackwater</div><h2>Living Auction Market</h2><p>The auction scene is centered near <code>-798.90, -1205.30, 43.29</code> with an auctioneer, seated and standing crowd, clerk, podiums and ambient activity. Players can list eligible goods, set reserve prices, bid on active lots, collect proceeds, and retrieve unsold items.</p></article><article class="journal-panel"><div class="eyebrow">NPC Economy</div><h2>Market That Moves Without Players</h2><p>NPC lots rotate through the market and NPC buyers can bid according to category, price and demand. Recent real sale history gently influences future prices while category guardrails keep values from drifting out of control.</p></article></section>
-<section class="section"><div class="section-heading"><div><div class="eyebrow">Market Features</div><h2>What Can Appear</h2></div></div><div class="grid"><div class="card"><h3>General Goods</h3><p>Food, ammunition, materials, animal goods, herbs, collector items and jewelry rotate as NPC lots.</p></div><div class="card"><h3>Rare Firearms</h3><p>Occasional weapon lots include Cattleman and Double-Action revolvers, Schofield, Volcanic Pistol, Lancaster, Bolt Action, Rolling Block, Double-Barrel and Pump-Action firearms.</p></div><div class="card"><h3>Rare Goods</h3><p>Gold nuggets, Gold Bars, exceptional jewelry and legendary pelts can appear with low spawn chances and higher price bands.</p></div></div></section>
-<section class="section"><div class="section-heading"><div><div class="eyebrow">NPC Price Guardrails</div><h2>Representative Market Bands</h2></div></div><div class="table-wrap"><table><thead><tr><th>Class</th><th>Typical Unit Range</th></tr></thead><tbody><tr><td>Common</td><td>$0.50–$6.00</td></tr><tr><td>Food</td><td>$1.00–$10.00</td></tr><tr><td>Materials</td><td>$2.00–$15.00</td></tr><tr><td>Animal goods</td><td>$4.00–$35.00</td></tr><tr><td>Collector</td><td>$30.00–$160.00</td></tr><tr><td>Jewelry</td><td>$40.00–$180.00</td></tr><tr><td>Gold Bar</td><td>$300.00–$550.00</td></tr><tr><td>Weapon</td><td>$60.00–$1,200.00</td></tr></tbody></table></div></section>
+<section class="section" id="live-auction-market">
+<div class="section-heading">
+<div>
+<div class="eyebrow">Live From Blackwater</div>
+<h2>Current Auction Listings</h2>
+<p>These lots reflect the active RDR2PF Auction House market.</p>
+</div>
+<div id="auction-last-updated"></div>
+</div>
 
-<div class="footer">RDR2PF: Western Dead Compendium · Updated August 2026</div></main></div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Seller</th>
+<th>Category</th>
+<th>Qty</th>
+<th>Reserve</th>
+<th>Current Bid</th>
+<th>High Bidder</th>
+<th>Cycles</th>
+</tr>
+</thead>
+<tbody id="live-auction-body">
+<tr><td colspan="8">Loading live auction listings...</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Market Features</div><h2>What Can Appear</h2></div></div><div class="grid"><div class="card"><h3>General Goods</h3><p>Food, ammunition, materials, animal goods, herbs, collector items and jewelry rotate as NPC lots.</p></div><div class="card"><h3>Rare Firearms</h3><p>Occasional weapon lots include Cattleman and Double-Action revolvers, Schofield, Volcanic Pistol, Lancaster, Bolt Action, Rolling Block, Double-Barrel and Pump-Action firearms.</p></div><div class="card"><h3>Rare Goods</h3><p>Gold nuggets, Gold Bars, exceptional jewelry and legendary pelts can appear with low spawn chances and higher price bands.</p></div></div></section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">NPC Price Guardrails</div><h2>Representative Market Bands</h2></div></div><div class="table-wrap"><table><thead><tr><th>Class</th><th>Typical Unit Range</th></tr></thead><tbody><tr><td>Common</td><td>$0.50ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$6.00</td></tr><tr><td>Food</td><td>$1.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$10.00</td></tr><tr><td>Materials</td><td>$2.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$15.00</td></tr><tr><td>Animal goods</td><td>$4.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$35.00</td></tr><tr><td>Collector</td><td>$30.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$160.00</td></tr><tr><td>Jewelry</td><td>$40.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$180.00</td></tr><tr><td>Gold Bar</td><td>$300.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$550.00</td></tr><tr><td>Weapon</td><td>$60.00ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ$1,200.00</td></tr></tbody></table></div></section>
+
+<div class="footer">RDR2PF: Western Dead Compendium ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Updated August 2026</div></main></div>
+<script>
+(async function () {
+    const body = document.getElementById("live-auction-body");
+    const updated = document.getElementById("auction-last-updated");
+
+    try {
+        const response = await fetch("../data/live-auctions.json?ts=" + Date.now(), {
+            cache: "no-store"
+        });
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const payload = await response.json();
+        const listings = Array.isArray(payload.listings) ? payload.listings : [];
+
+        listings.sort((a, b) => Number(b.id) - Number(a.id));
+
+        if (payload.updated_at) {
+            updated.textContent =
+                listings.length + " active lot" +
+                (listings.length === 1 ? "" : "s") +
+                " Ã‚Â· Updated " + payload.updated_at;
+        }
+
+        if (!listings.length) {
+            body.innerHTML = '<tr><td colspan="8">There are currently no active auction listings.</td></tr>';
+            return;
+        }
+
+        body.innerHTML = listings.map(lot => {
+            const reserve = Number(lot.reserve_price || 0).toFixed(2);
+            const bid = lot.current_bid == null
+                ? "No bids"
+                : "$" + Number(lot.current_bid).toFixed(2);
+
+            return `
+                <tr>
+                    <td><strong>${escapeAuctionText(lot.item_label || lot.item_name)}</strong></td>
+                    <td>${escapeAuctionText(lot.seller_name || "Unknown")}</td>
+                    <td>${escapeAuctionText(lot.category || "General Goods")}</td>
+                    <td>${Number(lot.quantity || 0)}</td>
+                    <td>$${reserve}</td>
+                    <td>${bid}</td>
+                    <td>${escapeAuctionText(lot.buyer_name || "-")}</td>
+                    <td>${Number(lot.cycles_remaining || 0)}</td>
+                </tr>
+            `;
+        }).join("");
+
+
+
+    } catch (error) {
+        body.innerHTML =
+            '<tr><td colspan="8">Live auction data is temporarily unavailable.</td></tr>';
+
+        console.error("RDR2PF live auction load failed:", error);
+    }
+
+    function escapeAuctionText(value) {
+        return String(value ?? "")
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
+    }
+})();
+</script>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>

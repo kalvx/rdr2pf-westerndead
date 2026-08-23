@@ -15,3 +15,5 @@ builder/modules/*.bak
 # Windows files
 Thumbs.db
 Desktop.ini
+# Local live Auction House publisher
+scripts/Update-LiveAuctions.ps1
