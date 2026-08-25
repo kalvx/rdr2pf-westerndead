@@ -87,21 +87,12 @@
 <a href="../economy/auction-house.html">Auction House</a>
 <a href="../economy/stores.html">Stores</a>
 <a href="../economy/banking.html">Banking</a>
-<a href="../economy/values.html">Values &amp; Prices</a>
-<h4>Administration</h4>
-<a href="../admin/index.html">Admin Home</a>
-<a href="../admin/items.html">Item Database</a>
-<a href="../admin/item-registry.html">Item Registry</a>
-<a href="../admin/item-validation.html">Item &amp; Crafting Validation</a>
-<a href="../admin/commands.html">Server Commands</a>
-<a href="../admin/binds.html">Bind Command Reference</a>
-<a href="../admin/coordinates.html">Coordinates</a>
-<a href="../admin/resources.html">Resources</a>
-<a href="../admin/sql.html">SQL Database</a>
-<a href="../admin/bugs.html">Known Bugs</a>
-<a href="../admin/testing-log.html">Testing Log</a>
-<a href="../admin/devlog.html">Development Log</a>
-<a href="../admin/roadmap.html">Roadmap</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Western Dead</div><h1>Infection Mechanics</h1><p class="lede">This section is part of the RDR2PF: Western Dead Compendium. Server data sweeps will populate verified entries and cross-links here.</p></section>
-<section class="empty-state"><h2>Compendium index ready</h2><p>The page structure, navigation, and shared design are in place. Only implemented and verified game information should be added.</p></section>
-<div class="footer">RDR2PF: Western Dead Compendium</div></main></div>
+<a href="../economy/values.html">Values &amp; Prices</a></aside><main><section class="hero compact-hero"><div class="eyebrow">Western Dead</div><h1>Infection Mechanics</h1><p class="lede">How the two current infected systems work, when danger appears, and what the server actually tracks.</p></section>
+<section class="section feature-grid">
+<article class="journal-panel"><div class="eyebrow">INF1 · Town Outbreak</div><h2>Scheduled town emergencies</h2><p>The main outbreak system can select a supported town during the night. Automatic opportunities target 9:00 PM game time, use a 75% roll, avoid immediate town repeats, and enforce a real-time gap between outbreaks. A five-minute warning precedes the active phase.</p></article>
+<article class="journal-panel"><div class="eyebrow">INF2 · Frontier Fog</div><h2>Fog can carry infected beyond towns</h2><p>INF2 is separate from the town event. It is built around fog conditions and frontier spawn patches rather than a announced town siege. The two systems therefore create different kinds of danger: a recognizable event in a settlement and quieter infected encounters out in the world.</p></article>
+</section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Town outbreak cycle</div><h2>Warning → active → burnout → recovery</h2></div></div><p>INF1 currently uses a 300-second warning, 18-minute standard active phase, 10-minute burnout period and 15-minute recovery period. A rare intense outbreak can add 15 minutes to the active combat phase and raises the infected population and durability.</p><p>During an INF1 outbreak, nearby civilian population is evacuated or reduced while protected service NPCs are sheltered by the server-side population controls. Player mounts and dead bodies are specifically preserved by the evacuation system.</p></section>
+<section class="section"><div class="section-heading"><div><div class="eyebrow">Participation</div><h2>Survival is measured by presence</h2></div></div><p>INF1 records presence inside the active outbreak area every few seconds. Reward tiers are based on the percentage of active combat time spent in the town rather than simply being online when the event ends. Searching tracked infected corpses can also roll bandages, small cash finds, gold dust or a rare nugget before the normal corpse-loot action continues.</p></section>
+<div class="footer">RDR2PF: Western Dead Compendium · Source-verified August 2026</div></main></div>
 <script src="../data/wiki-data.js"></script><script src="../assets/app.js"></script></body></html>
